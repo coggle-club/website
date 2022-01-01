@@ -4,7 +4,7 @@
 <!-- <a target="_blank" href="https://www.zhihu.com/people/finlayliu">阿水</a>, <a target="_blank" href="https://www.zhihu.com/people/wang-he-13-93">鱼遇雨欲语与余</a>-->
 <!--  -->
 
-https://www.heywhale.com/home/competition/61b81042902a13001708eb17
+赛题主页：[https://www.heywhale.com/home/competition/61b81042902a13001708eb17](https://www.heywhale.com/home/competition/61b81042902a13001708eb17)
 
 
 ## 赛事背景
@@ -56,6 +56,9 @@ $$ACC\_{reid}=\frac{1}{2}(AP@1+mAP@100)$$
 
 #### 步骤1：读取DAT文件
 ```python
+def read_dat(path):
+    return np.fromfile(path, dtype=np.float32)
+
 test_query_path = glob.glob('./input/test_A/query_feature_A/*.dat')
 test_query_path = np.array(test_query_path)
 test_query = [read_dat(path) for path in tqdm(test_query_path)]
@@ -85,7 +88,8 @@ for idx in range(test_query.shape[0]//1000 + 1):
     idss = np.dot(test_query[idx*1000: (idx+1)*1000], test_gallery.T)
     for ids in idss:
         ids_path = test_gallery_path[ids.argsort()[::-1][:100]]
-        sub[os.path.basename(test_query_path[total_idx])] = [os.path.basename(x) for x in ids_path]
+        sub_name = os.path.basename(test_query_path[total_idx])
+        sub[sub_name] = [os.path.basename(x) for x in ids_path]
         total_idx += 1        
 ```
 
