@@ -64,6 +64,13 @@ $$ACC\_{reid}=\frac{1}{2}(AP@1+mAP@100)$$
 
 #### 步骤1：读取DAT文件
 ```python
+import os
+import glob
+import pandas as pd
+import numpy as np
+from tqdm import tqdm
+from sklearn.preprocessing import normalize
+
 def read_dat(path):
     return np.fromfile(path, dtype=np.float32)
 
