@@ -1,5 +1,5 @@
-<!-- Data-Centric -->
 <!-- 2021人工智能大赛 -->
+<!-- AI+视觉特征编码赛题笔记 -->
 <!-- 2021-12-28 -->
 <!-- <a target="_blank" href="https://www.zhihu.com/people/finlayliu">阿水</a>, <a target="_blank" href="https://www.zhihu.com/people/wang-he-13-93">鱼遇雨欲语与余</a>-->
 <!--  -->
@@ -48,7 +48,7 @@ query包含 20,000 个特征文件，gallery包含 428,794 个特征文件，特
 
 阶段1需要将`query_feature_A`中每个特征在`gallery_feature_A`中检索Top100结果，具体的评价指标如下：
 
-$$ACC\_reid=\frac{1}{2}(AP@1+mAP@100)$$
+$$ACC\_{reid}=\frac{1}{2}(AP@1+mAP@100)$$
 
 ### 入门思路
 
