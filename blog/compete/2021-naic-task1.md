@@ -1,4 +1,8 @@
-2021年人工智能大赛：AI+视觉特征编码
+<!-- Data-Centric -->
+<!-- 2021人工智能大赛 -->
+<!-- 2021-12-28 -->
+<!-- <a target="_blank" href="https://www.zhihu.com/people/finlayliu">阿水</a>, <a target="_blank" href="https://www.zhihu.com/people/wang-he-13-93">鱼遇雨欲语与余</a>-->
+<!--  -->
 
 https://www.heywhale.com/home/competition/61b81042902a13001708eb17
 
