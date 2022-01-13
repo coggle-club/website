@@ -1,7 +1,7 @@
 <!-- 2021人工智能大赛 -->
 <!-- AI+视觉特征编码赛题笔记 -->
 <!-- 2021-12-28 -->
-<!-- <a target="_blank" href="https://www.zhihu.com/people/finlayliu">阿水</a>, <a target="_blank" href="https://www.zhihu.com/people/wang-he-13-93">鱼遇雨欲语与余</a>-->
+<!-- <a target="_blank" href="https://www.zhihu.com/people/ashui233/">阿水</a>, <a target="_blank" href="https://www.zhihu.com/people/wang-he-13-93">鱼遇雨欲语与余</a>-->
 <!--  -->
 
 赛题主页：[https://www.heywhale.com/home/competition/61b81042902a13001708eb17](https://www.heywhale.com/home/competition/61b81042902a13001708eb17)

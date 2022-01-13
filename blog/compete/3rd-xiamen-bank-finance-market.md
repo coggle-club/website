@@ -1,7 +1,7 @@
 <!-- 第三届厦门国际银行比赛 -->
 <!-- 赛题比赛 -->
 <!-- 2021-12-28 -->
-<!-- <a target="_blank" href="https://www.zhihu.com/people/finlayliu">阿水</a>, <a target="_blank" href="https://www.zhihu.com/people/wang-he-13-93">鱼遇雨欲语与余</a>-->
+<!-- <a target="_blank" href="https://www.zhihu.com/people/ashui233/">阿水</a>, <a target="_blank" href="https://www.zhihu.com/people/wang-he-13-93">鱼遇雨欲语与余</a>-->
 <!--  -->
 
 ## 大赛背景
