@@ -7,9 +7,23 @@
 
 ## Part1 名词介绍
 
-### 基础名词
+## Part2 时序Python库
 
-## Part2 相关论文
+|         | Forecasting | Classsification | Anomaly Detection | Segmentation | Time Feature |
+| ------- | ----------- | --------------- | ----------------- | ------------ | ------------ |
+| Prophet | ✅           |                 | ✅                 |              |              |
+| Kats    | ✅           |                 | ✅                 |              | ✅            |
+
+
+
+
+- [Kats](https://facebookresearch.github.io/Kats/)
+    - 主页：[https://facebookresearch.github.io/Kats/](https://facebookresearch.github.io/Kats/)
+    - Github：https://github.com/facebookresearch/Kats
+    - 功能：
+    - 模型：
+
+## Part3 相关论文
 
 ### Anomaly Detection
 
@@ -19,6 +33,6 @@
 
 - [AAAI 2022] TS2Vec: Towards Universal Representation of Time Series
 
-## Part3 领域数据集
+## Part4 领域数据集
 
-## Part4 相关比赛
+## Part5 相关比赛
