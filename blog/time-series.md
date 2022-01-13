@@ -44,7 +44,7 @@
 
 ### Time Series Classification
 
-- LSTM FCN， [LSTM Fully Convolutional Networks for Time Series Classification](https://arxiv.org/pdf/1709.05206v1.pdf)
+- LSTM FCN，[LSTM Fully Convolutional Networks for Time Series Classification](https://arxiv.org/pdf/1709.05206v1.pdf)
 
 ### Anomaly Detection
 
@@ -54,6 +54,14 @@
 
 - [AAAI 2022] TS2Vec: Towards Universal Representation of Time Series
 
-## Part4 领域数据集
+### Data Augmentation
+
+- [IJCAI 2021] Time Series Data Augmentation for Deep Learning: A Survey
+- [arxiv 2020] [An empirical survey of data augmentation for time series classification with neural networks](https://arxiv.org/pdf/2007.15951.pdf)
+
+## Part4 时序数据集
+
+- [UCR Time Series Classification Archive](https://www.cs.ucr.edu/~eamonn/time_series_data_2018/)
+- [UEA & UCR Time Series Classification Repository](http://www.timeseriesclassification.com/index.php)
 
 ## Part5 相关比赛
