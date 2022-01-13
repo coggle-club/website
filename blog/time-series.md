@@ -6,7 +6,10 @@
 
 
 ## Part1 领域介绍
+ 
+### 推荐教材
 
+- Forecasting: Principles and Practice，[第三版（英文）](https://otexts.com/fpp3/)，[第二版（中文）](https://otexts.com/fppcn/)
 
 ### 推荐公开课
 
