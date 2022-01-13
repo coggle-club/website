@@ -10,6 +10,8 @@
 
 ## Part3 领域数据集
 
+## Part4 相关比赛
+
 ### Data-Centric AI Competition
 
 - 比赛主页：[https://https-deeplearning-ai.github.io/data-centric-comp/](https://https-deeplearning-ai.github.io/data-centric-comp/)
