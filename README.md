@@ -14,7 +14,7 @@
 <!-- <a href="https://coggle.club/blog/30days-of-ml-202201">学习资料</a>##<a href="https://shimo.im/forms/vZyk3Pvmc7kvAskG/fill">打卡链接</a> -->
 ```
 
-分别代表的是：文章标题、文章介绍、文章日期、作者、文章目录
+分别代表的是：文章标题、文章介绍、文章日期、作者、其他文章链接
 
 参考案例：
 - [https://gitee.com/coggle/website/raw/master/blog/30days-of-ml-202201.md](https://gitee.com/coggle/website/raw/master/blog/30days-of-ml-202201.md)
