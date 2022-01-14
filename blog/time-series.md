@@ -6,7 +6,19 @@
 
 
 ## Part1 领域介绍
- 
+
+[Time series](https://en.wikipedia.org/wiki/Time_series) is a series of data points indexed in time order. 
+
+时间序列分析具体包括的任务：
+- Indexing (query by content): given a time series and some similarity measure, find the nearest matching time series. 
+- Clustering: find groups (clusters) of similar time series. 
+- Classification: assign a time series to a predefined class. 
+- Segmentation (Summarization): create an accurate approximation of a time series by reducing its dimensionality while retaining its essential features.
+- Forecasting (Prediction): given a time series dataset up to a given time tn, forecast the next values. 
+- Anomaly Detection: find abnormal data points or subsequences. 
+- Motif Discovery: find every subsequence (called motif) that appears recurrently in a time series. 
+- Rules Discovery (Rule Mining): find the rules that may govern associations between sets of time series or subsequences
+
 ### 推荐教材
 
 - Forecasting: Principles and Practice，[第三版（英文）](https://otexts.com/fpp3/)，[第二版（中文）](https://otexts.com/fppcn/)
