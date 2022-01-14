@@ -10,14 +10,13 @@
 [Time series](https://en.wikipedia.org/wiki/Time_series) is a series of data points indexed in time order. 
 
 时间序列分析具体包括的任务：
-- Indexing (query by content): given a time series and some similarity measure, find the nearest matching time series. 
-- Clustering: find groups (clusters) of similar time series. 
-- Classification: assign a time series to a predefined class. 
-- Segmentation (Summarization): create an accurate approximation of a time series by reducing its dimensionality while retaining its essential features.
-- Forecasting (Prediction): given a time series dataset up to a given time tn, forecast the next values. 
-- Anomaly Detection: find abnormal data points or subsequences. 
-- Motif Discovery: find every subsequence (called motif) that appears recurrently in a time series. 
-- Rules Discovery (Rule Mining): find the rules that may govern associations between sets of time series or subsequences
+- `检索Indexing (query by content)`: given a time series and some similarity measure, find the nearest matching time series. 
+- `聚类Clustering`: find groups (clusters) of similar time series. 
+- `分类Classification`: assign a time series to a predefined class. 
+- `分割Segmentation (Summarization)`: create an accurate approximation of a time series by reducing its dimensionality while retaining its essential features.
+- `预测Forecasting (Prediction)`: given a time series dataset up to a given time tn, forecast the next values. 
+- `异常检测Anomaly Detection`: find abnormal data points or subsequences. 
+- `因果分析Rules Discovery`: find the rules that may govern associations between sets of time series or subsequences
 
 ### 推荐教材
 
@@ -40,20 +39,29 @@
 | Kats    | ✅           |                 | ✅                 |              | ✅            |
 | GluonTS    | ✅           |                 | ✅                 |              | ✅            |
 | NeuralProphet    | ✅           |                 | ✅                 |              | ✅            |
-
-
+| arch| ✅           |                 |                  |              |             |
+| AtsPy| ✅           |                 |                  |              |             |
+| banpei|            |                 | ✅                 |              |             |
 
 - Kats，推荐指数：⭐⭐
     - 主页：[https://facebookresearch.github.io/Kats/](https://facebookresearch.github.io/Kats/)
     - Github：[https://github.com/facebookresearch/Kats](https://github.com/facebookresearch/Kats)
-    <!-- - 功能：
-    - 模型： -->
 - GluonTS，推荐指数：⭐⭐⭐⭐
     - 主页：[https://ts.gluon.ai/index.html](https://ts.gluon.ai/index.html)
     - Github：[https://github.com/awslabs/gluon-ts/](https://github.com/awslabs/gluon-ts/)
 - NeuralProphet，推荐指数：⭐⭐⭐⭐
     - 主页：[https://neuralprophet.com/](https://neuralprophet.com/)
     - Github：[https://github.com/ourownstory/neural_prophet](https://github.com/ourownstory/neural_prophet)
+- arch
+    - 介绍：Autoregressive Conditional Heteroskedasticity (ARCH) and other tools for financial econometrics, written in Python.
+    - 主页：[https://arch.readthedocs.io/en/latest/](https://arch.readthedocs.io/en/latest/)
+    - Github：[https://github.com/bashtage/arch](https://github.com/bashtage/arch)
+- AtsPy
+    - 介绍：Automated Time Series Models in Python
+    - Github：[https://github.com/firmai/atspy](https://github.com/firmai/atspy)
+- banpei
+    - 介绍：Anomaly detection library based on singular spectrum transformation
+    - Github：[https://github.com/tsurubee/banpei](https://github.com/tsurubee/banpei)
 
 ## Part3 相关论文
 
