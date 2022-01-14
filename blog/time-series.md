@@ -33,19 +33,25 @@
 
 ## Part2 时序Python库
 
-|         | Forecasting | Classsification | Anomaly Detection | Segmentation | TSFeature |
-| ------- | ----------- | --------------- | ----------------- | ------------ | ------------ |
-| Prophet | ✅           |                 | ✅                 |              |              |
-| Kats    | ✅           |                 | ✅                 |              | ✅            |
-| GluonTS    | ✅           |                 | ✅                 |              | ✅            |
-| NeuralProphet    | ✅           |                 | ✅                 |              | ✅            |
-| arch| ✅           |                 |                  |              |             |
-| AtsPy| ✅           |                 |                  |              |             |
-| banpei|            |                 | ✅                 |              |             |
+|               | Forecasting | Classsification | Anomaly Detection | Segmentation | TSFeature |
+| ------------- | ----------- | --------------- | ----------------- | ------------ | --------- |
+| Prophet       | ✅           |                 |                   |              |           |
+| Kats          | ✅           |                 | ✅                 |              | ✅         |
+| GluonTS       | ✅           |                 | ✅                 |              | ✅         |
+| NeuralProphet | ✅           |                 | ✅                 |              | ✅         |
+| arch          | ✅           |                 |                   |              |           |
+| AtsPy         | ✅           |                 |                   |              |           |
+| banpei        |             |                 | ✅                 |              |           |
+| cesium        |             |                 |                   |              | ✅         |
+| darts         | ✅           |                 |                   |              |           |
 
 - Kats，推荐指数：⭐⭐
     - 主页：[https://facebookresearch.github.io/Kats/](https://facebookresearch.github.io/Kats/)
     - Github：[https://github.com/facebookresearch/Kats](https://github.com/facebookresearch/Kats)
+- darts，推荐指数：⭐⭐
+    - 介绍：a Python library for easy manipulation and forecasting of time series. It contains a variety of models, from classics such as ARIMA to deep neural networks.
+    - 主页：[https://unit8co.github.io/darts/](https://unit8co.github.io/darts/)
+    - Github：https://github.com/unit8co/darts
 - GluonTS，推荐指数：⭐⭐⭐⭐
     - 主页：[https://ts.gluon.ai/index.html](https://ts.gluon.ai/index.html)
     - Github：[https://github.com/awslabs/gluon-ts/](https://github.com/awslabs/gluon-ts/)
@@ -62,8 +68,34 @@
 - banpei
     - 介绍：Anomaly detection library based on singular spectrum transformation
     - Github：[https://github.com/tsurubee/banpei](https://github.com/tsurubee/banpei)
+- cesium
+    - 介绍：end-to-end machine learning platform for time-series, from calculation of features to model-building to predictions.
+    - 主页：[https://cesium-ml.org/](https://cesium-ml.org/)
+    - Github：[https://github.com/cesium-ml/cesium](https://github.com/cesium-ml/cesium)
 
-## Part3 相关论文
+
+
+## Part3 相关模型
+
+### Time Series Forecasting 
+
+Model | Univariate | Multivariate | Probabilistic | Multiple-series training | Past-observed covariates support | Future-known covariates support | Reference
+--- | --- | --- | --- | --- | --- | --- | ---
+`ARIMA` | ✅ | | ✅ | | | ✅ |
+`VARIMA` | ✅ | ✅ | | | | ✅ |
+`AutoARIMA` | ✅ | | | | | ✅ |
+`ExponentialSmoothing` | ✅ | | ✅ | | | |
+`Theta` and `FourTheta` | ✅ | | | | | | [Theta](https://robjhyndman.com/papers/Theta.pdf) & [4 Theta](https://github.com/Mcompetitions/M4-methods/blob/master/4Theta%20method.R)
+`Prophet` | ✅ | | ✅ | | | ✅ | [Prophet repo](https://github.com/facebook/prophet)
+`FFT` (Fast Fourier Transform) | ✅ | | | | | |
+`RegressionModel` (incl `RandomForest`, `LinearRegressionModel` and `LightGBMModel`) | ✅ | ✅ | | ✅ | ✅ | ✅ |
+`RNNModel` (incl. LSTM and GRU); equivalent to DeepAR in its probabilistic version | ✅ | ✅ | ✅ | ✅ | | ✅ | [DeepAR paper](https://arxiv.org/abs/1704.04110)
+`BlockRNNModel` (incl. LSTM and GRU) | ✅ | ✅ | ✅ | ✅ | ✅ | |
+`NBEATSModel` | ✅ | ✅ | ✅ | ✅ | ✅ | | [N-BEATS paper](https://arxiv.org/abs/1905.10437)
+`TCNModel` | ✅ | ✅ | ✅ | ✅ | ✅ | | [TCN paper](https://arxiv.org/abs/1803.01271), [DeepTCN paper](https://arxiv.org/abs/1906.04397), [blog post](https://medium.com/unit8-machine-learning-publication/temporal-convolutional-networks-and-forecasting-5ce1b6e97ce4)
+`TransformerModel` | ✅ | ✅ | ✅ | ✅ | ✅ | | 
+`TFTModel` (Temporal Fusion Transformer) | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | [TFT paper](https://arxiv.org/pdf/1912.09363.pdf), [PyTorch Forecasting](https://pytorch-forecasting.readthedocs.io/en/latest/models.html)
+Naive Baselines | ✅ | | | | | |
 
 ### Time Series Classification
 
