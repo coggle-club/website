@@ -74,6 +74,8 @@
     - Github：[https://github.com/cesium-ml/cesium](https://github.com/cesium-ml/cesium)
 
 
+更多的模型介绍可以查阅论文[[arxiv 2021]A systematic review of Python packages for time series analysis](https://arxiv.org/abs/2104.07406).
+
 
 ## Part3 相关模型
 
