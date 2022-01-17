@@ -72,7 +72,8 @@
     - 介绍：end-to-end machine learning platform for time-series, from calculation of features to model-building to predictions.
     - 主页：[https://cesium-ml.org/](https://cesium-ml.org/)
     - Github：[https://github.com/cesium-ml/cesium](https://github.com/cesium-ml/cesium)
-
+- pyfbad
+    - Github：[https://github.com/Teknasyon-Teknoloji/pyfbad](https://github.com/Teknasyon-Teknoloji/pyfbad)
 
 更多的模型介绍可以查阅论文[[arxiv 2021]A systematic review of Python packages for time series analysis](https://arxiv.org/abs/2104.07406).
 
