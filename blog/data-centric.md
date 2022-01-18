@@ -39,3 +39,5 @@
 DataCLUE是一个以数据为中心的AI测评。它基于CLUE benchmark，结合Data-centric的AI的典型特征，进一步将Data-centric的AI应用于 NLP领域，融入文本领域的特定并创造性丰富和发展了Data-centric的AI。
 
 - 比赛主页：[https://www.CLUEbenchmarks.com/dataclue.html](https://www.CLUEbenchmarks.com/dataclue.html)
+- Github地址：[https://github.com/CLUEbenchmark/DataCLUE](https://github.com/CLUEbenchmark/DataCLUE)
+- 评测论文：[https://arxiv.org/pdf/2111.08647.pdf](https://arxiv.org/pdf/2111.08647.pdf)
