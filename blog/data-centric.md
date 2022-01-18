@@ -6,6 +6,9 @@
 
 ## Part1 名词介绍
 
+添加👇微信，拉你进入学习群。
+![](https://cdn.coggle.club/coggle666_qrcode.png)
+
 ## Part2 相关论文
 
 ## Part3 领域数据集
