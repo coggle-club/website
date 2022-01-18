@@ -12,6 +12,8 @@
 
 ## Part2 相关论文
 
+- [A Data-Centric Framework for Composable NLP Workflows](https://arxiv.org/pdf/2103.01834.pdf)
+
 ## Part3 领域数据集
 
 ## Part4 相关比赛
