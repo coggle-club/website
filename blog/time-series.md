@@ -31,6 +31,11 @@
     - 用于时间序列分析的深度学习架构和方法
 
 
+添加👇微信，拉你进入学习群。
+
+![](https://cdn.coggle.club/coggle666_qrcode.png)
+
+
 ## Part2 时序Python库
 
 |               | Forecasting | Classsification | Anomaly Detection | Segmentation | TSFeature |

@@ -4,6 +4,11 @@
 <!-- <a target="_blank" href="https://www.zhihu.com/people/ashui233/">阿水</a>, <a target="_blank" href="https://www.zhihu.com/people/wang-he-13-93">鱼遇雨欲语与余</a>-->
 <!--  -->
 
+
+添加👇微信，拉你进入学习群。
+
+![](https://cdn.coggle.club/coggle666_qrcode.png)
+
 ## 常见Python库
 
 - Auto-Sklearn
