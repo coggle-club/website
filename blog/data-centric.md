@@ -10,13 +10,7 @@
 
 ![](https://cdn.coggle.club/coggle666_qrcode.png)
 
-## Part2 相关论文
-
-- [A Data-Centric Framework for Composable NLP Workflows](https://arxiv.org/pdf/2103.01834.pdf)
-
-## Part3 领域数据集
-
-## Part4 相关比赛
+## Part2 相关比赛
 
 ### Data-Centric AI Competition
 
@@ -47,10 +41,23 @@ DataCLUE是一个以数据为中心的AI测评。它基于CLUE benchmark，结�
 - 比赛主页：https://tianchi.aliyun.com/competition/entrance/531939/introduction
 
 
-## Part5 视频讲座
+## Part3 视频讲座
 
 - [Youtube-DeepLearingAI A Chat with Andrew on MLOps: From Model-centric to Data-centric AI](https://www.youtube.com/watch?v=06-AZXmwHjo&t=1592s)
 - [Youtube-DeepLearingAI Data-centric AI: Real World Approaches](https://www.youtube.com/watch?v=Yqj7Kyjznh4)
 - [Youtube-Intel Business History of Data-Centric Architecture](https://www.youtube.com/watch?v=SZyyG2AGM6g)
 - [bilibili-二次元的Datawhale Data Centric vs Model Centric](https://www.bilibili.com/video/BV1uh411H71B)
+
+<iframe src="//player.bilibili.com/player.html?aid=208284242&bvid=BV1uh411H71B&cid=415917368&page=1&high_quality=1&danmaku=0&as_wide=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="100%" height="430"> </iframe>
+
+
 - [bilibili-二次元的Datawhale 企业对于数据人才的能力需求](https://www.bilibili.com/video/BV1e64y187CD)
+
+<iframe src="//player.bilibili.com/player.html?aid=763240042&bvid=BV1e64y187CD&cid=412574933&page=1&high_quality=1&danmaku=0&as_wide=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="100%" height="430"> </iframe>
+
+## Part4 相关论文
+
+- [A Data-Centric Framework for Composable NLP Workflows](https://arxiv.org/pdf/2103.01834.pdf)
+- [https://arxiv.org/abs/2103.14749](Pervasive Label Errors in Test Sets Destabilize Machine Learning Benchmarks)
+
+## Part5 领域数据集
