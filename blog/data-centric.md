@@ -17,9 +17,9 @@
 - 比赛主页：[https://https-deeplearning-ai.github.io/data-centric-comp/](https://https-deeplearning-ai.github.io/data-centric-comp/)
 - 比赛提交：[https://worksheets.codalab.org/worksheets/0x7a8721f11e61436e93ac8f76da83f0e6](https://worksheets.codalab.org/worksheets/0x7a8721f11e61436e93ac8f76da83f0e6)
 - 优胜选手分享
-    - https://www.deeplearning.ai/data-centric-ai-competition-synaptic-ann/
-    - https://www.deeplearning.ai/data-centric-ai-competition-innotescus/
-    - https://www.deeplearning.ai/data-centric-ai-competition-kaist-aiprlab/
+    - [https://www.deeplearning.ai/data-centric-ai-competition-synaptic-ann/](https://www.deeplearning.ai/data-centric-ai-competition-synaptic-ann/)
+    - [https://www.deeplearning.ai/data-centric-ai-competition-innotescus/](https://www.deeplearning.ai/data-centric-ai-competition-innotescus/)
+    - [https://www.deeplearning.ai/data-centric-ai-competition-kaist-aiprlab/](https://www.deeplearning.ai/data-centric-ai-competition-kaist-aiprlab/)
     - https://www.deeplearning.ai/data-centric-ai-competition-johnson-kuan/
     - https://www.deeplearning.ai/data-centric-ai-competition-divakar-roy/
     - https://www.deeplearning.ai/data-centric-ai-competition-mohammad-motamedi/
