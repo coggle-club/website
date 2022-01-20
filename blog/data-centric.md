@@ -20,8 +20,8 @@
     - [https://www.deeplearning.ai/data-centric-ai-competition-synaptic-ann/](https://www.deeplearning.ai/data-centric-ai-competition-synaptic-ann/)
     - [https://www.deeplearning.ai/data-centric-ai-competition-innotescus/](https://www.deeplearning.ai/data-centric-ai-competition-innotescus/)
     - [https://www.deeplearning.ai/data-centric-ai-competition-kaist-aiprlab/](https://www.deeplearning.ai/data-centric-ai-competition-kaist-aiprlab/)
-    - https://www.deeplearning.ai/data-centric-ai-competition-johnson-kuan/
-    - https://www.deeplearning.ai/data-centric-ai-competition-divakar-roy/
+    - [https://www.deeplearning.ai/data-centric-ai-competition-johnson-kuan/](https://www.deeplearning.ai/data-centric-ai-competition-johnson-kuan/)
+    - [https://www.deeplearning.ai/data-centric-ai-competition-divakar-roy/](https://www.deeplearning.ai/data-centric-ai-competition-divakar-roy/)
     - https://www.deeplearning.ai/data-centric-ai-competition-mohammad-motamedi/
     - https://www.deeplearning.ai/data-centric-ai-competition-pierre-louis-bescond/
     - https://www.deeplearning.ai/data-centric-ai-competition-godatadriven/
