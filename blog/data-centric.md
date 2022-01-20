@@ -58,6 +58,6 @@ DataCLUE是一个以数据为中心的AI测评。它基于CLUE benchmark，结�
 ## Part4 相关论文
 
 - [A Data-Centric Framework for Composable NLP Workflows](https://arxiv.org/pdf/2103.01834.pdf)
-- [https://arxiv.org/abs/2103.14749](Pervasive Label Errors in Test Sets Destabilize Machine Learning Benchmarks)
+- [Pervasive Label Errors in Test Sets Destabilize Machine Learning Benchmarks](https://arxiv.org/abs/2103.14749)
 
 ## Part5 领域数据集
