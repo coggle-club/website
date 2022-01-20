@@ -22,9 +22,9 @@
     - [https://www.deeplearning.ai/data-centric-ai-competition-kaist-aiprlab/](https://www.deeplearning.ai/data-centric-ai-competition-kaist-aiprlab/)
     - [https://www.deeplearning.ai/data-centric-ai-competition-johnson-kuan/](https://www.deeplearning.ai/data-centric-ai-competition-johnson-kuan/)
     - [https://www.deeplearning.ai/data-centric-ai-competition-divakar-roy/](https://www.deeplearning.ai/data-centric-ai-competition-divakar-roy/)
-    - https://www.deeplearning.ai/data-centric-ai-competition-mohammad-motamedi/
-    - https://www.deeplearning.ai/data-centric-ai-competition-pierre-louis-bescond/
-    - https://www.deeplearning.ai/data-centric-ai-competition-godatadriven/
+    - [https://www.deeplearning.ai/data-centric-ai-competition-mohammad-motamedi/](https://www.deeplearning.ai/data-centric-ai-competition-mohammad-motamedi/)
+    - [https://www.deeplearning.ai/data-centric-ai-competition-pierre-louis-bescond/](https://www.deeplearning.ai/data-centric-ai-competition-pierre-louis-bescond/)
+    - [https://www.deeplearning.ai/data-centric-ai-competition-godatadriven/](https://www.deeplearning.ai/data-centric-ai-competition-godatadriven/)
 
 ### DataClue
 
@@ -38,7 +38,7 @@ DataCLUE是一个以数据为中心的AI测评。它基于CLUE benchmark，结�
 
 在图像分类的对抗鲁棒性研究中，为了加快以数据为中心的相关的技术研究，我们组织了本次比赛，目的是开发新的以数据为中心的算法，例如数据增强、标签细化、制造对抗性数据，甚至设计来自其他领域的知识融合算法。鼓励参与者自由开发新颖的想法，找到有效的以数据为中心的技术，以促进训练更加鲁棒的机器学习模型。
 
-- 比赛主页：https://tianchi.aliyun.com/competition/entrance/531939/introduction
+- 比赛主页：[https://tianchi.aliyun.com/competition/entrance/531939/introduction](https://tianchi.aliyun.com/competition/entrance/531939/introduction)
 
 
 ## Part3 视频讲座
