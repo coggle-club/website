@@ -32,3 +32,10 @@
 
 [https://mermaid-js.github.io/mermaid-live-editor/](https://mermaid-js.github.io/mermaid-live-editor/)
 
+### B站视频
+
+具体插入的src字段根据具体视频设置，直接当作文本插入。
+
+```
+<iframe src="//player.bilibili.com/player.html?aid=763240042&bvid=BV1e64y187CD&cid=412574933&page=1&high_quality=1&danmaku=0&as_wide=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="100%" height="430"> </iframe>
+```
