@@ -20,9 +20,15 @@
 
 ### 常见NLP库
 
+- [https://github.com/UKPLab/sentence-transformers](https://github.com/UKPLab/sentence-transformers)
+
 ## Part2 任务数据集
 
+### 模型评测评测
 
+- CLUE：中文语言理解测评基准，包括代表性的数据集、基准(预训练)模型、语料库、排行榜。我们会选择一系列有一定代表性的任务对应的数据集，做为我们测试基准的数据集。这些数据集会覆盖不同的任务、数据量、任务难度。
+    - 主页：[https://www.cluebenchmarks.com/](https://www.cluebenchmarks.com/)
+    - Github：[https://github.com/CLUEbenchmark/CLUE](https://github.com/CLUEbenchmark/CLUE)
 
 ## Part3 任务模型
 
