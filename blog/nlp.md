@@ -24,11 +24,19 @@
 
 ## Part2 任务数据集
 
-### 模型评测评测
+### 文本评测基准
 
 - CLUE：中文语言理解测评基准，包括代表性的数据集、基准(预训练)模型、语料库、排行榜。我们会选择一系列有一定代表性的任务对应的数据集，做为我们测试基准的数据集。这些数据集会覆盖不同的任务、数据量、任务难度。
     - 主页：[https://www.cluebenchmarks.com/](https://www.cluebenchmarks.com/)
     - Github：[https://github.com/CLUEbenchmark/CLUE](https://github.com/CLUEbenchmark/CLUE)
+
+- DataCLUE：数据为中心的NLP基准与工具包
+    - 主页：[https://www.cluebenchmarks.com/dataclue.html](https://www.cluebenchmarks.com/dataclue.html)
+    - Github：[https://github.com/CLUEbenchmark/DataCLUE](https://github.com/CLUEbenchmark/DataCLUE)
+
+- FewCLUE：预训练模型的中文小样本学习
+    - 主页：[https://www.cluebenchmarks.com/NLPCC.html](https://www.cluebenchmarks.com/NLPCC.html)
+    - Github：[https://github.com/CLUEbenchmark/FewCLUE](https://github.com/CLUEbenchmark/FewCLUE)
 
 ## Part3 任务模型
 
