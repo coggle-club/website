@@ -2,6 +2,5 @@
 
 ### 爬虫
 
-- [Puppeteer](https://github.com/puppeteer/puppeteer)
+- [pyppeteer](https://github.com/pyppeteer/pyppeteer): Unofficial Python port of puppeteer JavaScript (headless) chrome/chromium browser automation library.
 
-> Puppeteer is a Node library which provides a high-level API to control Chrome or Chromium over the DevTools Protocol. Puppeteer runs headless by default, but can be configured to run full (non-headless) Chrome or Chromium.
