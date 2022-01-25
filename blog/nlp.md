@@ -6,7 +6,7 @@
 
 ## Part1 NLP介绍
 
-### 任务介绍
+### 常见任务
 
 - 文本分类：
 - 文本匹配：
@@ -38,6 +38,40 @@
     - 主页：[https://www.cluebenchmarks.com/NLPCC.html](https://www.cluebenchmarks.com/NLPCC.html)
     - Github：[https://github.com/CLUEbenchmark/FewCLUE](https://github.com/CLUEbenchmark/FewCLUE)
 
-## Part3 任务模型
+## Part3 领域模型介绍
 
+### Unsupervised Sentence Embeddings
+
+[【ICLR 2016, SIF Embedding】A Simple but Tough-to-Beat Baseline for Sentence Embeddings](https://openreview.net/pdf?id=SyK00v5xx), [代码](https://github.com/PrincetonML/SIF/blob/master/src/SIF_embedding.py#L30)
+- 实现过程：
+    1. 对Word Embedding组成的句子词向量列表，通过IDF进行加权聚合得到Sentence Embeddings临时结果。
+    2. 计算Sentence Embeddings临时结果的SVD，减去在主成分上的投影。
+
+
+[【ICLR 2018】All-but-the-Top: Simple and Effective Postprocessing for Word Representations](https://arxiv.org/abs/1702.01417), [代码](https://gist.github.com/lgalke/febaaa1313d9c11f3bc8240defed8390)
+- 实现过程：
+    1. 对Word Embedding组成的句子词向量列表，通过IDF进行加权聚合得到Sentence Embeddings临时结果。
+    2. 对Sentence Embeddings临时结果减去句子维度的均值。
+    2. 计算Sentence Embeddings临时结果的SVD，减去在主成分上的投影。
+
+
+[Unsupervised Random Walk Sentence Embeddings: A Strong but Simple Baseline](https://aclanthology.org/W18-3012.pdf)，[代码](https://github.com/kawine/usif/blob/master/usif.py)
+- 实现过程：
+    1. 对Word Embedding组成的句子词向量列表，通过IDF进行加权聚合得到Sentence Embeddings临时结果。
+    2. 计算Sentence Embeddings临时结果的SVD，进去在每个主成分进行归一化上的投影。
+
+
+[【arXiv2018 p-means】Concatenated Power Mean Word Embeddings as Universal Cross-Lingual Sentence Representations](https://arxiv.org/abs/1803.01400), [代码](https://github.com/UKPLab/arxiv2018-xling-sentence-embeddings/blob/master/model/sentence_embeddings.py)
+- 实现过程：
+    1. 对Word Embedding组成的句子词向量列表。
+    2. 对词向量列表分别计算：max-pooling、mean-pooling、min-pooling和Gem-pooling，然后拼接。
+
+
+[【arXiv2020 S3E】Efficient Sentence Embedding via Semantic Subspace Analysis](https://arxiv.org/pdf/2002.09620.pdf), [代码](https://github.com/BinWang28/Sentence-Embedding-S3E/blob/master/utils.py)
+- 实现过程：
+    1. 对Word Embedding组成的句子词向量列表。
+    2. 对Word Embedding进行聚类，然后对词向量列表进行VLAD编码。
+
+
+### Supervised Sentence Embeddings
 
