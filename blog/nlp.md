@@ -40,7 +40,22 @@
 
 ## Part3 领域模型介绍
 
-### Unsupervised Sentence Embeddings
+### Sentence Embeddings
+
+#### 数据集
+
+- 英文数据集：STS-B、STS-12、STS-13、STS-14、STS-15、STS-16和SICK-R
+- 中文数据集：ATEC、BQ、LCQMC、PAWSX和STS-B
+
+[数据集类型：](https://kexue.fm/archives/8541#%E5%88%86%E9%97%A8%E5%88%AB%E7%B1%BB)
+
+1. 是非类型：这种是比较常见的类型，主要格式是“(句子1, 句子2, 是否相似)”，这里收集到的ATEC、BQ、LCQMC、PAWSX都是这种类型；
+
+2. NLI类型：NLI的全称是Natrual Language Inference（自然语言推理），样本格式是“(句子1, 句子2, 蕴涵/中立/矛盾)”，可以视为更为精细一点的相似度数据集，当前可以找到的中文NLI数据集是英文版翻译过来的，链接位于CNSD；
+
+3. 打分类型：这算是最精细的相似度语料，格式为“(句子1, 句子2, 相似程度)”，这个相似程度一般是比0/1更细颗粒度的等级，目前可以找到的中文数据集是STS-B，也是由对应的英文数据集翻译过来的。
+
+#### Unsupervised Sentence Embeddings
 
 Word Mover's Embedding，http://proceedings.mlr.press/v37/kusnerb15.pdf
 
@@ -75,5 +90,5 @@ Word Mover's Embedding，http://proceedings.mlr.press/v37/kusnerb15.pdf
 2. 对Word Embedding进行聚类，然后对词向量列表进行VLAD编码。
 
 
-### Supervised Sentence Embeddings
+#### Supervised Sentence Embeddings
 
