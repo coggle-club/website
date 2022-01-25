@@ -65,7 +65,10 @@
 | Sentence-BERT-NLI-large       | 72.27  | 78.46 | 74.90 | 80.99 | 76.25 | 79.23 | 73.75  | 76.55 |
 | Sentence-RoBERTa-NLI-base     | 71.54  | 72.49 | 70.80 | 78.74 | 73.69 | 77.77 | 74.46  | 74.21 |
 | Sentence-RoBERTa-NLI-large    | 74.53  | 77.00 | 73.18 | 81.85 | 76.82 | 79.10 | 74.29  | 76.68 |
-
+| Unsupervised-SimCSE-BERT-base |68.40 |82.41 |  74.38 |80.91 |78.56 |76.85 |72.23 |76.25 |
+| Unsupervised-SimCSE-RoBERTa-base    | 70.16  | 81.77 | 73.24 | 81.36 | 80.65 | 80.22 | 68.56  | 76.57 |
+| Supervised-SimCSE-BERT0base     | 75.30  | 84.67 | 80.19 | 85.40 | 80.82 | 84.25 | 80.39  | 81.57 |
+| Supervised-SimCSE-RoBERTa-base  | 76.53  | 85.21 | 80.95 | 86.03 | 82.57 | 85.83 | 80.50  | 82.52 |
 
 #### Unsupervised Sentence Embeddings
 
