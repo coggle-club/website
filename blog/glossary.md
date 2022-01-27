@@ -281,3 +281,38 @@ Data Management Platform，数据管理平台。是把分散的多方数据进�
 
 ### RTB
 Real Time Bidding，实时竞价。即在每个广告展示曝光的基础上进行实时竞价的新兴广告类型。
+
+### PDB
+Programmatic Direct Buying，私有程序化购买。简单来说就是广告主通过PDB私有采买媒体后，就可以通过DSP进行投放，当然PDB也不是谁都合适，本身体量及市场都比较大的品牌可能更适合这种方式。
+
+### ROI
+Return on Investment ，投资回报率。投资回报率（ROI）= （税前年利润/投资总额）*100%。在电商行业中，ROI一般指投入产出比。
+
+
+### ARPU
+Average Revenue Per User，平均每用户收入。即统计某时间区间内，活跃用户对产品产生的平均收入，一般以月计。
+
+
+### ARPPU
+Average Revenue Per Paying User，每付费用户平均收益。这个指标考核的是某时间段内平均每个付费用户为应用创造的收入。在用户数量上，ARPPU只考虑某一时间段内的付费用户，而非该时间段内所有的活跃用户。
+
+### DAU
+Daily Active User，日活跃用户数量。常用于反映网站、互联网应用或网络游戏的运营情况。
+
+### WAU
+Weekly Active Users，周活跃用户数量。表示一周之内（统计日），登录或使用了某个产品的用户数（去除重复登录的用户）。
+
+### MAU
+Monthly Active User，月活跃用户数量。一般指某App月活跃用户数量（去除重复用户数）。
+
+### KOL
+Key Opinion Leader，关键意见领袖。是营销学上的概念，通常被定义为：拥有更多、更准确的产品信息，且为相关群体所接受或信任，并对该群体的购买行为有较大影响力的人。
+
+### UGC
+User Generated Content，用户生成内容，即用户原创内容。UGC的概念最早起源于互联网领域，即用户将自己原创的内容通过互联网平台进行展示或者提供给其他用户。
+
+### PGC
+Professional Generated Content，专业生产内容。用来泛指内容个性化、视角多元化、传播民主化、社会关系虚拟化。也称为PPC(Professionally-produced Content）。
+
+### CTR
+Click-Through-Rate，即点击通过率，是互联网广告常用的术语，指网络广告（图片广告/文字广告/关键词广告/排名广告/视频广告等）的点击到达率，即该广告的实际点击次数（严格的来说，可以是到达目标页面的数量）除以广告的展现量（Show content）。
