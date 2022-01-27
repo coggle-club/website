@@ -1,4 +1,4 @@
-<!-- 数据科学术语 -->
+<!-- 互联网&数据科学术语 -->
 <!-- 术语解释 -->
 <!-- 2022-01-28 -->
 <!-- <a target="_blank" href="https://www.zhihu.com/people/ashui233/">阿水</a>, <a target="_blank" href="https://www.zhihu.com/people/wang-he-13-93">鱼遇雨欲语与余</a>-->
