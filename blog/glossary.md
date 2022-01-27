@@ -128,3 +128,23 @@ O2O是online to offline，网上与网下相结合，又细分为四种运营模
 - offline to online是线下营销到线上交易
 - offline to online to offline是线下营销到线上交易再到线下消费体验
 - online to offline to online是线上交易或营销到线下消费体验再到线上消费体验
+
+### C2C
+C2C，consumer to consumer，个人对个人，消费者对消费者，比如淘宝的小店铺。
+
+### B2B
+B2B, business to business，企业之间，经济组织对经济组织，比如阿里巴巴。
+
+### B2C
+B2C, business to consumer，商家对个人，经济组织对消费者，比如当当、京东。
+
+### SaaS
+SaaS, Software-as-a-Service，软件服务
+
+### M-B
+MB, Mobile-Business，移动电子商务
+
+### ABC
+Agents Business Consume是由代理商（Agents)、商家（Business）和消费者（Consumer）共同搭建的集生产、经营、消费为一体的电子商务平台，被誉为继阿里巴巴B2B模式、京东商B2C模式、淘宝C2C模式之后电子商务界的第四大模式。
+
+## 运营模型
