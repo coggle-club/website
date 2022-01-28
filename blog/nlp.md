@@ -38,6 +38,10 @@
     - 主页：[https://www.cluebenchmarks.com/NLPCC.html](https://www.cluebenchmarks.com/NLPCC.html)
     - Github：[https://github.com/CLUEbenchmark/FewCLUE](https://github.com/CLUEbenchmark/FewCLUE)
 
+- CBLUE：医学信息处理任务
+    - 主页：[https://tianchi.aliyun.com/cblue](https://tianchi.aliyun.com/cblue)
+    - Github：[https://github.com/CBLUEbenchmark/CBLUE](https://github.com/CBLUEbenchmark/CBLUE)
+
 ## Part3 领域模型介绍
 
 ### Sentence Embeddings
