@@ -4,6 +4,9 @@
 <!-- <a target="_blank" href="https://www.zhihu.com/people/ashui233/">阿水</a>, <a target="_blank" href="https://www.zhihu.com/people/wang-he-13-93">鱼遇雨欲语与余</a>-->
 <!-- <a href="https://tianchi.aliyun.com/competition/entrance/531946/introduction">比赛官网</a> -->
 
+
+![](https://tianchi-public.oss-cn-hangzhou.aliyuncs.com/public/files/forum/164611999657774301646119988943.png)
+
 ## 比赛介绍
 
 受疫情催化影响，近一年内全球电商及在线零售行业进入高速发展期。作为线上交易场景的重要购买入口，搜索行为背后是强烈的购买意愿，电商搜索质量的高低将直接决定最终的成交结果，因此在AI时代，如何通过构建智能搜索能力提升线上GMV转化成为了众多电商开发者的重要研究课题。**本次比赛由阿里云天池平台和问天引擎联合举办，诚邀社会各界开发者参与竞赛，共建AI未来。**
