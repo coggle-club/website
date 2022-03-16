@@ -186,6 +186,8 @@ $$MRR=\frac{1}{Q}\sum_1^{|Q|}\frac{1}{rank_i}$$
 
 ### 赛题解题思路
 
+部分开源地址：[datawhalechina-competition-baseline](https://github.com/datawhalechina/competition-baseline/tree/master/competition/%E9%98%BF%E9%87%8C%E7%81%B5%E6%9D%B0%E9%97%AE%E5%A4%A9%E5%BC%95%E6%93%8E%E7%94%B5%E5%95%86%E6%90%9C%E7%B4%A2%E7%AE%97%E6%B3%95%E8%B5%9B)
+
 - 思路1：使用关键词匹配，识别出query和corpus中关键词，使用关键词进行编码为向量。
 - 思路2：使用sentence-bert结合比赛标注数据进行训练
 - 思路3：使用simcse无监督对比学习训练
