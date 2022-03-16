@@ -107,7 +107,7 @@ graph LR
 
 选手上传数据格式：评测数据必须包括doc_embedding，query_embedding两个文件，文件名必须固定，文件打包为.tar.gz格式的压缩包
 
-如： tar zcvf foo.tar.gz doc_embedding query_embedding
+如： `tar zcvf foo.tar.gz doc_embedding query_embedding`
 
 注意：请严格遵守下面要求的文件内容和格式，才能顺利得到结果，提交前也可以使用比赛提供的数据校验脚本检查通过后再进行打包提交。
 脚本使用方式：将脚本data_check.py与待提交文件doc_embedding和query_embedding放在相同目录，执行python data_check.py
@@ -162,4 +162,12 @@ $$MRR=\frac{1}{Q}\sum_1^{|Q|}\frac{1}{rank_i}$$
 1. 初赛系统每天提供3次提交机会，系统进行实时评测并返回成绩，排行榜每小时进行更新，按照评测指标从高到低排序。排行榜将选择参赛队伍在本阶段的历史最优成绩进行排名展示。初赛排名前100名的参赛队伍将进入复赛，复赛名单将在4月15日18点前公布。
 2. 复赛系统每天提供3次提交机会，系统进行实时评测并返回成绩，排行榜每小时进行更新。复赛需要在线上进行训练和预测，限制深度学习框架TensorFlow1.12。
 
-## 相关资料
+## 赛题建模
+
+### 赛题数据分析
+
+### 赛题难点分析
+
+### 赛题解题思路
+
+### 赛题相关资料
