@@ -176,9 +176,16 @@ $$MRR=\frac{1}{Q}\sum_1^{|Q|}\frac{1}{rank_i}$$
 
 ### 赛题难点分析
 
-1. 赛题的query比较短，属于非对称语义搜索（Asymmetric Semantic Search）任务，有一个简短的查询，希望找到一个较长的段落来回答该查询。
-2. 赛题的query与corpus的文本可能存在并无重合单词的情况。
+赛题的query比较短，属于非对称语义搜索（Asymmetric Semantic Search）任务，有一个简短的查询，希望找到一个较长的段落来回答该查询。赛题的query与corpus的文本可能存在并无重合单词的情况。
 
 ### 赛题解题思路
 
+- 思路1：使用关键词匹配，识别出query和corpus中关键词，使用关键词进行编码为向量。
+- 思路2：使用sentence-bert结合比赛标注数据进行训练
+- 思路3：使用simcse无监督对比学习训练
+
 ### 赛题相关资料
+
+- [https://www.sbert.net/examples/training/data_augmentation/README.html](https://www.sbert.net/examples/training/data_augmentation/README.html)
+- [https://www.sbert.net/examples/applications/semantic-search/README.html](https://www.sbert.net/examples/applications/semantic-search/README.html)
+- [https://www.sbert.net/docs/pretrained-models/msmarco-v3.html](https://www.sbert.net/docs/pretrained-models/msmarco-v3.html)
