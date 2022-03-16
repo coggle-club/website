@@ -38,6 +38,8 @@ graph LR
 
 ## 比赛数据
 
+![](https://cdn.coggle.club/img/tianchi-open-search-data.png)
+
 ### corpus.tsv
 
 - 介绍：语料库，从淘宝商品搜索的标题数据随机抽取doc，量级约100万。
