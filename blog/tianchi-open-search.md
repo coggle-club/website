@@ -166,6 +166,8 @@ $$MRR=\frac{1}{Q}\sum_1^{|Q|}\frac{1}{rank_i}$$
 
 赛题是一个文本检索任务：给定一个搜索查询，我们首先使用一个检索系统来检索得结果。但检索系统可能会检索与搜索查询不相关的文档，整体的任务可以参考已有的`文本语义检索`。
 
+![](https://cdn.coggle.club/img/InformationRetrieval.png)
+
 ### 赛题数据分析
 
 - 文本长度分析
@@ -177,6 +179,8 @@ $$MRR=\frac{1}{Q}\sum_1^{|Q|}\frac{1}{rank_i}$$
 ### 赛题难点分析
 
 赛题的query比较短，属于非对称语义搜索（Asymmetric Semantic Search）任务，有一个简短的查询，希望找到一个较长的段落来回答该查询。赛题的query与corpus的文本可能存在并无重合单词的情况。
+
+![](https://cdn.coggle.club/img/SemanticSearch.png)
 
 ### 赛题解题思路
 
