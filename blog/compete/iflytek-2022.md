@@ -32,4 +32,8 @@
 
 本次竞赛的评价标准采用AUC指标，正样本为1。
 
+#### 比赛分享
+
+- [基础baseline](https://gitee.com/coggle/competition-baseline/blob/master/competition/%E7%A7%91%E5%A4%A7%E8%AE%AF%E9%A3%9EAI%E5%BC%80%E5%8F%91%E8%80%85%E5%A4%A7%E8%B5%9B2022/%E7%94%B5%E4%BF%A1%E5%AE%A2%E6%88%B7%E6%B5%81%E5%A4%B1%E9%A2%84%E6%B5%8B_baseline.ipynb)
+
 ---
