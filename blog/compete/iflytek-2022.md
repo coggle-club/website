@@ -8,7 +8,7 @@
 
 ### 电信客户流失预测挑战赛
 
-比赛报名地址：[https://challenge.xfyun.cn/topic/info?type=telecom-customer&option=ssgy](https://challenge.xfyun.cn/topic/info?type=telecom-customer&option=ssgy)
+比赛报名地址：[https://challenge.xfyun.cn/topic/info?type=telecom-customer&ch=ds22-dw-zs01](https://challenge.xfyun.cn/topic/info?type=telecom-customer&ch=ds22-dw-zs01)
 
 #### 赛事背景
 
