@@ -8,6 +8,8 @@
 
 ### 电信客户流失预测挑战赛
 
+比赛报名地址：![https://challenge.xfyun.cn/topic/info?type=telecom-customer&option=ssgy](https://challenge.xfyun.cn/topic/info?type=telecom-customer&option=ssgy)
+
 #### 赛事背景
 
 随着市场饱和度的上升，电信运营商的竞争也越来越激烈，电信运营商亟待解决减少用户流失，延长用户生命周期的问题。对于客户流失率而言，每增加5%，利润就可能随之降低25%-85%。因此，如何减少电信用户流失的分析与预测至关重要。
