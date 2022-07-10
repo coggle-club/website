@@ -5,6 +5,9 @@
 - 腾讯源：http://mirrors.cloud.tencent.com/pypi/simple
 - 阿里源：https://mirrors.aliyun.com/pypi/simple/
 
+```
+pip install -i http://pypi.douban.com/simple/ --trusted-host=pypi.douban.com/simple ipython
+```
 
 
 
