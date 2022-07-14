@@ -192,15 +192,17 @@ val_data = json.load(open('preliminary_a_data/preliminary_val.json'))
 testa_data = json.load(open('preliminary_a_data/preliminary_a_test_source.json'))
 ```
 
-- 任务2：pycorrector使用
+- 任务2：pycorrector基础思路
     - 步骤1：安装pycorrector，并阅读基础文档；
+    - 步骤2：使用pycorrector对验证集进行错误矫正，查看预测结果。
+    - 步骤3：使用pycorrector对测试集进行错误矫正，生成结果文件。
 
 ```shell
+# 安装方法，基础使用不需要GPU
 pip install -U pycorrector kenlm
 ```
 
-    - 步骤2：使用pycorrector对验证集进行错误矫正，查看预测结果。
-    - 步骤3：使用pycorrector对测试集进行错误矫正，生成结果文件。
+基础demo的纠错使用：
 
 ```python
 import pycorrector
@@ -208,6 +210,20 @@ import pycorrector
 corrected_sent, detail = pycorrector.correct('现在上学无非是之后能有咯好的机会拿到称心的工作赚到钱过的好。')
 print(corrected_sent, detail)
 # 现在上学无非是之后能有个好的机会拿到称心的工作赚到钱过的好。 [('咯', '个', 11, 12)]
+```
+
+生成结果提交文件，线上得分0.12左右：
+
+```python
+submit = []
+for ins in tqdm_notebook(testa_data[:]):
+    corrected_sent, detail = pycorrector.correct(ins['source'])
+    submit.append({
+        "inference": corrected_sent,
+        "id": ins['id']
+    })
+    idx += 1
+json.dump(submit, open('preliminary_test_inference.json', 'w', encoding='utf-8'), ensure_ascii=False, indent=4)
 ```
 
 
