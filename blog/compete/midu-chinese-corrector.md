@@ -134,6 +134,7 @@ $$F^{sentence level}_1 = 句子粒度错误纠正F1$$
 常见的错误类型一般包括三种，同音词错误、同形字错误以及语法错误。从处理难度上是处理难度上：字词错误 < 句法错误 < 语义错误。
 
 
+![](https://cdn.coggle.club/img/chinese-char-error-type.png)
 
 
 ### BERT 原理简述
