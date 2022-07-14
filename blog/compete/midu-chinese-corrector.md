@@ -88,9 +88,9 @@
 
 $$F^{final}_1 = 0.8*F^{token\_level}_1 + 0.2*F^{sentence\_level}_1$$
 
-$$F^{token_level}_1 = 0.8*字粒度错误检测F1 + 0.2*字粒度错误纠正F1$$
+$$F^{token\_level}_1 = 0.8*字粒度错误检测F1 + 0.2*字粒度错误纠正F1$$
 
-$$F^{sentence_level}_1 = 句子粒度错误纠正F1$$
+$$F^{sentence\_level}_1 = 句子粒度错误纠正F1$$
 
 ## 赛题奖项
 
