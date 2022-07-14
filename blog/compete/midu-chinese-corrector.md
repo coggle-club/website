@@ -77,7 +77,7 @@ $$F^{sentence level}_1 = 句子粒度错误纠正F1$$
 
 4. 数据示例与提交格式
 
-** 4.1. 设输入JSON文件格式示例：**
+4.1. 设输入JSON文件格式示例：
 
 ```
 [
@@ -92,7 +92,7 @@ $$F^{sentence level}_1 = 句子粒度错误纠正F1$$
 ]
 ```
 
-** 4.2. 提交JSON文件输出格式示例**:
+4.2. 提交JSON文件输出格式示例:
 
 - 初赛a榜提交JSON文件名为: preliminary_a_test_inference.json
 - 初赛b榜提交JSON文件名为: preliminary_b_test_inference.json
