@@ -75,7 +75,6 @@ $$F^{sentence level}_1 = 句子粒度错误纠正F1$$
 -   `type`: positive代表正样本， negative代表负样本
 -   `inference`: 预测文本（参赛队伍的校对系统针对source的预测文本）
 
-4. 数据示例与提交格式
 
 4.1. 设输入JSON文件格式示例：
 
