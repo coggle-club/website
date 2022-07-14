@@ -176,8 +176,49 @@ Masked Language Model (MLM)核心思想就是在 encoder 的输出层增加一�
 
 ## 打卡任务
 
+- 任务1：报名并读取数据
+    - 步骤1：报名比赛👉[报名链接](https://aistudio.baidu.com/aistudio/competition/detail/404/0/introduction)
+    - 步骤2：从比赛数据页面下载比赛数据；
+    - 步骤3：解压并读取数据
+
+```python
+import json
+import pandas as pd
+import numpy
+
+train_data = json.load(open('preliminary_a_data/preliminary_train.json'))
+exttrain_data = json.load(open('preliminary_a_data/preliminary_extend_train.json'))
+val_data = json.load(open('preliminary_a_data/preliminary_val.json'))
+testa_data = json.load(open('preliminary_a_data/preliminary_a_test_source.json'))
+```
+
+- 任务2：pycorrector使用
+    - 步骤1：安装pycorrector，并阅读基础文档；
+
+```shell
+pip install -U pycorrector kenlm
+```
+
+    - 步骤2：使用pycorrector对验证集进行错误矫正，查看预测结果。
+    - 步骤3：使用pycorrector对测试集进行错误矫正，生成结果文件。
+
+```python
+import pycorrector
+
+corrected_sent, detail = pycorrector.correct('现在上学无非是之后能有咯好的机会拿到称心的工作赚到钱过的好。')
+print(corrected_sent, detail)
+# 现在上学无非是之后能有个好的机会拿到称心的工作赚到钱过的好。 [('咯', '个', 11, 12)]
+```
+
+
 ## 相关资料
 
+### 相关工具
 - [https://github.com/shibing624/pycorrector](https://github.com/shibing624/pycorrector)
 - [百度大脑-文本纠错服务](https://ai.baidu.com/tech/nlp_apply/text_corrector)
 
+
+### 推荐博客
+- [文本校对算法的一些看法](https://zhuanlan.zhihu.com/p/358402360)
+- [策略算法工程师之路-Query纠错算法](https://zhuanlan.zhihu.com/p/145198390)
+- [医疗健康领域的短文本解析探索（三) ----文本纠错](https://www.toutiao.com/article/6835877270935044616/)
