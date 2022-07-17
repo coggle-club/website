@@ -1,4 +1,27 @@
+## Jax
 
+JAX is Autograd and XLA, brought together for high-performance machine learning research. With its updated version of Autograd, JAX can automatically differentiate native Python and NumPy functions. It can differentiate through loops, branches, recursion, and closures, and it can take derivatives of derivatives of derivatives. 
+
+```python
+import jax.numpy as jnp
+from jax import grad, jit, vmap
+
+def predict(params, inputs):
+  for W, b in params:
+    outputs = jnp.dot(inputs, W) + b
+    inputs = jnp.tanh(outputs)  # inputs to the next layer
+  return outputs                # no activation on last layer
+
+def loss(params, inputs, targets):
+  preds = predict(params, inputs)
+  return jnp.sum((preds - targets)**2)
+
+grad_loss = jit(grad(loss))  # compiled gradient evaluation function
+perex_grads = jit(vmap(grad_loss, in_axes=(None, 0, 0)))  # fast per-example grads
+```
+
+- [https://jax.readthedocs.io/en/latest/](https://jax.readthedocs.io/en/latest/)
+- [🤗 Hugging Face Models](https://huggingface.co/models?library=jax)
 
 --- 
 
