@@ -173,6 +173,16 @@ BERT 是一个预训练模型，首先对大量的无标注数据语料做无监
 
 Masked Language Model (MLM)核心思想就是在 encoder 的输出层增加一个分类层，首先利用嵌入矩阵与输出向量相乘将其转换为词汇相同的维度，然后再利用softmax 函数对词汇表中每个单词进行概率计算。简单的说就是随机 mask 掉句子中的一个单词，然后依照英语中完形填空的思想，让模型同时根据这个单词的前后上下文信息内容去对这个词进行预测。
 
+## 赛题分享
+
+> 直播录屏：「竞赛大神易显维：带你深度认知校对问题」
+
+<iframe src="//player.bilibili.com/player.html?aid=556092874&bvid=BV1fe4y1X7XW&cid=777658737&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="100%" height="430"> </iframe>
+
+- 【ERNIE baseline】[https://aistudio.baidu.com/aistudio/projectdetail/4337707](https://aistudio.baidu.com/aistudio/projectdetail/4337707)
+- 【ERNIE + T5 baseline】[https://aistudio.baidu.com/aistudio/projectdetail/4340298](https://aistudio.baidu.com/aistudio/projectdetail/4340298)
+- 【Pytorch BERT baseline】[https://github.com/bitallin/MiduCTC-competition](https://github.com/bitallin/MiduCTC-competition)
+
 
 ## 打卡任务
 
