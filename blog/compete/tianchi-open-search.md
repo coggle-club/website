@@ -190,6 +190,9 @@ $$MRR=\frac{1}{Q}\sum_1^{|Q|}\frac{1}{rank_i}$$
 - SimCSE/CoSENT: [https://github.com/muyuuuu/E-commerce-Search-Recall](https://github.com/muyuuuu/E-commerce-Search-Recall)
 - https://github.com/enze5088/WenTianSearch
 - https://github.com/jifei/simcse-tf2
+- 第二名分享：[https://zhuanlan.zhihu.com/p/533923570](https://zhuanlan.zhihu.com/p/533923570)
+- 第三名分享：[https://zhuanlan.zhihu.com/p/535910140](https://zhuanlan.zhihu.com/p/535910140)
+
 
 
 - 思路1：使用关键词匹配，识别出query和corpus中关键词，使用关键词进行编码为向量。
@@ -201,3 +204,4 @@ $$MRR=\frac{1}{Q}\sum_1^{|Q|}\frac{1}{rank_i}$$
 - [https://www.sbert.net/examples/training/data_augmentation/README.html](https://www.sbert.net/examples/training/data_augmentation/README.html)
 - [https://www.sbert.net/examples/applications/semantic-search/README.html](https://www.sbert.net/examples/applications/semantic-search/README.html)
 - [https://www.sbert.net/docs/pretrained-models/msmarco-v3.html](https://www.sbert.net/docs/pretrained-models/msmarco-v3.html)
+- [https://github.com/PaddlePaddle/PaddleNLP/tree/develop/applications](https://github.com/PaddlePaddle/PaddleNLP/tree/develop/applications)
