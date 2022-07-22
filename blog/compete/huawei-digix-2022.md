@@ -140,8 +140,11 @@
 $$
 \begin{gathered}
 \text { Precision }=\frac{\text { Count }(\text { correct predicted knowledge triples })}{\text { Count }(\text { predicted knowledge triples })} \\
+
 \text { Recall }=\frac{\text { Count }(\text { correct predicted knowledge triples })}{\text { Count }(\text { ground }-\text { truth knowledge triples })} \\
+
 F 1=\frac{2 * \text { Precision } * \text { Recall }}{\text { Precision }+\text { Recall }}
+
 \end{gathered}
 $$
 
@@ -323,20 +326,15 @@ imagename, defect_prob
 
 评估方式： 统计广告域的样本 CTR 预估值， 计算 GAUC 和 AUC
 
-评测指标： 本次比赛使用 GAUC 和 AUC 的加权求和作为评估指标， 具体公式如下：
-
-$$
-xAUC =  α*GAUC +  β*AUC
-$$
+评测指标： 本次比赛使用 GAUC 和 AUC 的加权求和作为评估指标， 具体公式如下：$xAUC = \alpha * GAUC + \beta * AUC$
 
 xAUC 越高，代表结果越优，排名越靠前。其中，AUC为全体样本的 AUC 统计， GAUC 为分组 AUC 的加权求和， 以用户为维度分组，分 组权值为分组内曝光量/总曝光)
 
 $$
-\mathrm{GAUC}=\frac{\sum_{k=i}^{n} A U U C_{i} * \text { Impression }_{i}}{\sum_{k=i}^{n} \text { Impression }_{i}}
+\mathrm{GAUC}= \frac{\sum_{k=i}^n AUC_{i} * Impression_{i} } {\sum_{k=i}^{n} \text { Impression }_{i}}
 $$
 
 初赛：α 为 0.7，𝛽为 0.3
-
 
 ### 提交方式
 
