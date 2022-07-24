@@ -206,6 +206,10 @@ $$
     "message":"对话语句"}
 ```
 
+### 比赛baseline
+
+- [https://github.com/timberding/Knowledge-driven-spoken-dialogue](https://github.com/timberding/Knowledge-driven-spoken-dialogue)
+
 ## 车道渲染数据智能质检
 
 在地图业务中，导航过程中所看到的背景道路界面是基于地图数据渲染生成。渲染过程中，部分数据会存在不同程度的问题，导致该部分数据渲染生成的道路存在缺陷，诸如缺边少角，异形道路等。为了更高效的检测这部分数据，降低人工成本，质检模型需要达到更高的准确度。根据问题数据所具有的共同模式建模，提高模型精度是降低成本的关键。希望通过本次比赛，挖掘计算机视觉方向人才，推动该领域发展。
@@ -237,6 +241,10 @@ imagename, defect_prob
 ```
 
 其中 imagename 对应测试图片的图片名，defect_prob 表示测试图片存在问题的概率。imagename, defect_prob 间采用英文逗号分隔。
+
+### 比赛baseline
+
+- [https://github.com/timberding/Intelligent-quality-inspection](https://github.com/timberding/Intelligent-quality-inspection-of-lane-rendering-data)
 
 ##  广告流跨域CTR预估
 广告推荐主要基于用户对广告的历史曝光、点击等行为进行建模，如果只是使用广告域数据，用户行为数据稀疏，行为类型相对单一。而引入同一媒体的跨域数据，可以获得同一广告用户在其他域的行为数据，深度挖掘用户兴趣，丰富用户行为特征。引入其他媒体的广告用户行为数据，也能丰富用户和广告特征。本赛题希望选手基于广告日志数据，用户基本信息和跨域数据优化广告ctr预估准确率。目标域为广告域，源域为信息流推荐域，通过获取用户在信息流域中曝光、点击信息流等行为数据，进行用户兴趣建模，帮助广告域ctr的精准预估。
@@ -351,3 +359,7 @@ log_id,pctr
 1, 0.002345
 2, 0.010456
 ```
+
+## 比赛baseline
+
+[https://github.com/timberding/CTR-prediction](https://github.com/timberding/CTR-prediction-through-cross-domain-data-from-ads-and-news-feeds)
