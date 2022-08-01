@@ -19,3 +19,4 @@ pip install -i http://pypi.douban.com/simple/ --trusted-host=pypi.douban.com/sim
 | 库名称          | 介绍 |
 | :----------------- | :------- |
 | [pyppeteer](https://github.com/pyppeteer/pyppeteer)| Unofficial Python port of puppeteer JavaScript (headless) chrome/chromium browser automation library. |
+| [psutil](https://github.com/giampaolo/psutil) |  Cross-platform lib for process and system monitoring in Python |
