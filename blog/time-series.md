@@ -49,6 +49,7 @@
 | banpei        |             |                 | ✅                 |              |           |
 | cesium        |             |                 |                   |              | ✅         |
 | darts         | ✅           |                 |                   |              |           |
+| PaddleTS      | ✅          |                 |                   |              | ✅          |
 
 - Kats，推荐指数：⭐⭐
     - 主页：[https://facebookresearch.github.io/Kats/](https://facebookresearch.github.io/Kats/)
@@ -126,5 +127,3 @@ Naive Baselines | ✅ | | |
 
 - [UCR Time Series Classification Archive](https://www.cs.ucr.edu/~eamonn/time_series_data_2018/)
 - [UEA & UCR Time Series Classification Repository](http://www.timeseriesclassification.com/index.php)
-
-## Part5 相关比赛
