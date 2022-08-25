@@ -10,6 +10,8 @@
 
 赛题任务：根据大赛组织方提供的用户在芒果TV产生的行为，视频特征，标签特征等数据，构建模型，预测用户在芒果TV下一个时刻观看的视频。
 
+比赛链接：[https://challenge.ai.mgtv.com/contest/detail/16](https://challenge.ai.mgtv.com/contest/detail/16)
+
 
 ## 赛题数据
 
