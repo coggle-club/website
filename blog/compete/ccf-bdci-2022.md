@@ -4,6 +4,70 @@
 <!-- <a target="_blank" href="https://www.zhihu.com/people/ashui233/">阿水</a>, <a target="_blank" href="https://www.zhihu.com/people/wang-he-13-93">鱼遇雨欲语与余</a>-->
 <!--  -->
 
+## 电磁信号调制方式识别
+
+[https://www.datafountain.cn/competitions/599/](https://www.datafountain.cn/competitions/599/)
+
+### 赛题任务
+
+通过软件无线电平台（GNU Radio）采集在不同信噪比下不同调制方式信号的IQ数据，利用深度学习等相关技术，建立稳健的信号调制方式识别模型，识别出未知信号的调制方式。
+
+### 数据简介
+
+通过GNU Radio采集真实信号构成IQ数据集，涵盖不同信噪比下多种数字调制信号和模拟调制信号的IQ数据。该类数据集广泛应用于基于深度学习模型的信号调制方式识别。
+
+### 数据说明
+
+| 文件类别 |     文件名     |         文件内容          |
+| :------: | :------------: | :-----------------------: |
+|  训练集  |   train.pkl    | 训练数据集，包含标签label |
+|  测试集  |    test.pkl    |    测试数据集，无标签     |
+| 提交样例 | submission.csv |     仅有1个字段Label      |
+
+**• 训练集train.pkl**
+
+第0列存放数据编号
+ 第1-1024列存放I路数据,第1025-2048列存放Q路数据
+ 第2049列存放调制方式标签
+
+**• 测试集test.pkl**
+
+第0列存放数据编号
+ 第1-1024列存放I路数据,第1025-2048列存放Q路数据
+ 第2049列存放AB榜标签(0为A榜，1为B榜)
+
+**• 调制方式种类的说明**
+
+目前数据集包含16qam,2ask,2fsk,2psk,32qam,4ask,4fsk,4psk,64qam,8fsk,8psk
+ 共11种调制方式数据，每条数据信噪比5dB-15dB（没有间隔），数据都是打乱放置的。
+
+### 提交要求
+
+参赛者以csv文件格式提交，平台进行在线评分，实时排名，submission.csv文件字段如下：
+
+| 字段名 | 类型 | 取值范围 | 字段解释 |
+| :----: | :--: | :------: | :------: |
+| Label  | Int  | {0,1，…} | 信号种类 |
+
+### 提交示例
+
+```
+Label
+1
+0
+```
+
+### 评测标准
+
+本赛题采用精确率作为评价标准，详细评分算法如下：
+
+$$\mathrm{TP}=\frac{T P}{T P+F P}$$
+
+其中，P是精确率，TP是真样例，FP是假样例，通过以上公式得到该类值。
+
+
+
+
 ## 返乡发展人群预测
 
 [https://www.datafountain.cn/competitions/581](https://www.datafountain.cn/competitions/581)
