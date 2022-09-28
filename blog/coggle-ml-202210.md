@@ -1,0 +1,115 @@
+<!-- Coggle 30 Days of ML（22年10月） -->
+<!-- 30天入门数据竞赛 -->
+<!-- 2022-09-24 -->
+<!-- <a target="_blank" href="https://www.zhihu.com/people/ashui233/">阿水</a>, <a target="_blank" href="https://www.zhihu.com/people/wang-he-13-93">鱼遇雨欲语与余</a>-->
+<!-- <a href="https://coggle.club/blog/30days-of-ml-202210">学习资料</a>##<a href="https://shimo.im/forms/bnWE5XKAHkQi6Ky4/fill">打卡链接</a> -->
+
+## Part1 内容介绍
+
+在给大家分享知识的过程中，发现很多入门同学在学习竞赛都存在较多的问题：
+
+- 不知道Kaggle如何登录、注册和提交
+- 不知道如何分析数据、可视化数据
+- 不知道如何使用模型、选择模型
+
+而上述问题都是一个合格算法工程师必备的，本月我们将组织一次推荐系统竞赛训练营活动，希望能够帮助大家入门数据竞赛。在活动中我们将布置具体竞赛任务，然后参与的同学们不断闯关完成，尽可能的帮助大家入门。
+
+10月份的竞赛活动将以Kaggle [Spaceship Titanic](https://www.kaggle.com/competitions/spaceship-titanic/overview)赛题展开。
+
+## Part2 活动安排
+
+* 活动是免费学习活动，不会收取任何费用。
+* **请各位同学添加下面微信，并回复【竞赛学习】，即可参与。**
+
+![](https://cdn.coggle.club/coggle666_qrcode.png)
+
+
+## Part3 积分说明和奖励
+
+为了激励各位同学完成的学习任务，将学习任务根据难度进行划分，并根据是否完成进行评分难度高中低的任务分别分数为3、2和1。在完成学习后（本次活动，截止10月31），将按照积分顺序进行评选 Top3 的学习者。
+
+打卡链接：[https://shimo.im/forms/iF1DJpH6GJAL8QGe/fill](https://shimo.im/forms/iF1DJpH6GJAL8QGe/fill)
+
+**打卡可以写在一个地址，每次有新完成的可以重复提交打卡！**
+
+Top1的学习者将获得以下**奖励**：
+* Coggle 竞赛专访机会
+* 《机器学习算法竞赛实战》
+
+Top2-3的学习者将获得以下**奖励**：
+* Coggle 周边福利
+* Coggle 竞赛专访机会
+
+历史活动打卡链接，可以参考如下格式：
+- [https://blog.csdn.net/weixin_42551154/article/details/125474519](https://blog.csdn.net/weixin_42551154/article/details/125474519)
+- [https://blog.csdn.net/weixin_42551154/article/details/125481695](https://blog.csdn.net/weixin_42551154/article/details/125481695)
+
+
+## Part4 Spaceship Titanic
+
+### 赛题介绍
+
+欢迎来到 2912 年，您需要数据科学技能来解决宇宙之谜。我们收到了四光年外的信号，情况看起来不太妙。宇宙飞船泰坦尼克号是一个月前发射的星际客轮。船上有近 13,000 名乘客，这艘船开始了处女航，将太阳系的移民运送到围绕附近恒星运行的三颗新可居住的系外行星。
+
+在绕过半人马座阿尔法星前往它的第一个目的地——炎热的巨蟹座 55 E 时，粗心的宇宙飞船泰坦尼克号与隐藏在尘埃云中的时空异常相撞。可悲的是，它遭遇了与 1000 年前同名的命运相似的命运。虽然船完好无损，但几乎有一半的乘客被运送到了异次元！
+
+为了帮助救援人员和找回丢失的乘客，您面临的挑战是使用从飞船损坏的计算机系统中恢复的记录来预测哪些乘客被异常运送。
+
+### 数据说明
+
+在本次比赛中，您的任务是预测在泰坦尼克号飞船与时空异常相撞期间是否有乘客被运送到另一个维度。为了帮助你做出这些预测，你会得到一组从船上受损的计算机系统中恢复的个人记录。
+
+文件说明：
+- train.csv - 大约三分之二 (~8700) 乘客的个人记录，用作训练数据。
+- test.csv - 剩余三分之一 (~4300) 乘客的个人记录，用作测试数据。您的任务是为该集合中的乘客预测已运输的值。
+- sample_submission.csv - 格式正确的提交文件。
+
+字段说明：
+- PassengerId - 每位乘客的唯一 ID。每个 Id 采用 gggg_pp 的形式，其中 gggg 表示乘客旅行的组，pp 是他们在组中的编号。群体中的人通常是家庭成员，但并非总是如此。
+- HomePlanet - 乘客离开的星球，通常是他们的永久居住星球。
+- CryoSleep - 指示乘客是否选择在航行期间进入假死状态。处于低温睡眠状态的乘客被限制在他们的客舱内。
+- Cabin - 乘客入住的客舱编号。采用deck/num/side 形式，其中side 可以是P 代表左舷或S 代表右舷。
+- Destination - 乘客将要去的星球。
+- Age - 乘客的年龄。
+- VIP - 乘客在航程中是否支付了特殊的 VIP 服务费用。
+- RoomService、FoodCourt、ShoppingMall、Spa、VRDeck - 乘客在泰坦尼克号宇宙飞船的众多豪华设施中所支付的金额。
+- Name - 乘客的名字和姓氏。
+- Transported - 乘客是否被运送到另一个维度。这是目标，您要预测的列。
+
+### 评估方式
+
+评估方式：提交的内容是根据其分类准确度、预测标签正确的百分比来评估的。
+
+### 提交方式
+
+比赛提交格式为csv文件，格式如下：
+
+```
+PassengerId,Transported
+0013_01,False
+0018_01,False
+0019_01,False
+0021_01,False
+etc.
+```
+
+### 学习打卡
+
+| 任务名称                       | 难度  |
+| :----------------------------- | :---- |
+| 任务1：比赛报名与尝试        | 低、1 |
+| 任务2：比赛数据分析        | 中、2 |
+| 任务3：验证集划分与树模型        | 中、2 |
+| 任务4：特征工程入门        | 中、2 |
+| 任务5：特征工程进阶        | 中、2 |
+| 任务6：深度推荐模型        | 中、2 |
+| 任务7：深度序列模型        | 中、2 |
+| 任务8：多折训练与集成        | 高、3 |
+
+- 任务1：报名比赛
+    - 步骤1：报名比赛[https://developer.huawei.com/consumer/cn/activity/digixActivity/digixdetail/101655281685926449?ha_source=co&ha_sourceId=89000234](https://developer.huawei.com/consumer/cn/activity/digixActivity/digixdetail/101655281685926449?ha_source=co&ha_sourceId=89000234)
+
+    - 步骤2：下载比赛数据（点击比赛页面的赛题数据）
+    - 步骤3：解压比赛数据，并使用pandas进行读取；
+    - 步骤4：使用逻辑回归模型完成建模并提交；
+
