@@ -227,15 +227,6 @@
 
 [https://github.com/lukemelas/EfficientNet-PyTorch](https://github.com/lukemelas/EfficientNet-PyTorch)
 
-- [efficientnet-b0-355c32eb.pth](http://mirror.coggle.club/models/EfficientNet-PyTorch/efficientnet-b0-355c32eb.pth)
-- [efficientnet-b1-f1951068.pth](http://mirror.coggle.club/models/EfficientNet-PyTorch/efficientnet-b1-f1951068.pth)
-- [efficientnet-b2-8bb594d6.pth](http://mirror.coggle.club/models/EfficientNet-PyTorch/efficientnet-b2-8bb594d6.pth)
-- [efficientnet-b3-5fb5a3c3.pth](http://mirror.coggle.club/models/EfficientNet-PyTorch/efficientnet-b3-5fb5a3c3.pth)
-- [efficientnet-b4-6ed6700e.pth](http://mirror.coggle.club/models/EfficientNet-PyTorch/efficientnet-b4-6ed6700e.pth)
-- [efficientnet-b5-b6417697.pth](http://mirror.coggle.club/models/EfficientNet-PyTorch/efficientnet-b5-b6417697.pth)
-- [efficientnet-b6-c76e70fd.pth](http://mirror.coggle.club/models/EfficientNet-PyTorch/efficientnet-b6-c76e70fd.pth)
-- [efficientnet-b7-dcc49843.pth](http://mirror.coggle.club/models/EfficientNet-PyTorch/efficientnet-b7-dcc49843.pth)
-
 ## tensorflow-models
 
 [https://github.com/tensorflow/models](https://github.com/tensorflow/models)
@@ -301,33 +292,13 @@
 
 ## bert
 
-[https://github.com/google-research/bert](https://github.com/google-research/bert)
-
-- [chinese_L-12_H-768_A-12.zip](http://mirror.coggle.club/models/bert/chinese_L-12_H-768_A-12.zip)
-
-[https://github.com/brightmart/roberta_zh](https://github.com/brightmart/roberta_zh)
-
----
-
-[https://github.com/ymcui/Chinese-BERT-wwm](https://github.com/ymcui/Chinese-BERT-wwm)
-
-- [chinese_bert_chinese_wwm_L-12_H-768_A-12.zip](http://mirror.coggle.club/models/Chinese-BERT-wwm/chinese_bert_chinese_wwm_L-12_H-768_A-12.zip)
-- [chinese_roberta_wwm_ext_L-12_H-768_A-12.zip](http://mirror.coggle.club/models/Chinese-BERT-wwm/chinese_roberta_wwm_ext_L-12_H-768_A-12.zip)
-- [chinese_wwm_ext_L-12_H-768_A-12.zip](http://mirror.coggle.club/models/Chinese-BERT-wwm/chinese_wwm_ext_L-12_H-768_A-12.zip)
-- [chinese_roberta_wwm_large_ext_L-24_H-1024_A-16.zip](http://mirror.coggle.club/models/Chinese-BERT-wwm/chinese_roberta_wwm_large_ext_L-24_H-1024_A-16.zip)
-
----
-
-[https://github.com/google-research/albert](https://github.com/google-research/albert)
-
-- [albert_base_zh.tar.gz](http://mirror.coggle.club/models/albert/albert_base_zh.tar.gz)
-- [albert_large_zh.tar.gz](http://mirror.coggle.club/models/albert/albert_large_zh.tar.gz)
-- [albert_xlarge_zh.tar.gz](http://mirror.coggle.club/models/albert/albert_xlarge_zh.tar.gz)
-- [albert_xxlarge_zh.tar.gz](http://mirror.coggle.club/models/albert/albert_xxlarge_zh.tar.gz)
-
----
-
-[https://github.com/dbiir/UER-py/](https://github.com/dbiir/UER-py/)
+- [https://github.com/google-research/bert](https://github.com/google-research/bert)
+- [https://github.com/brightmart/roberta_zh](https://github.com/brightmart/roberta_zh)
+- [https://github.com/ymcui/Chinese-BERT-wwm](https://github.com/ymcui/Chinese-BERT-wwm)
+- [https://github.com/google-research/albert](https://github.com/google-research/albert)
+- [https://github.com/lonePatient/NeZha_Chinese_PyTorch](https://github.com/lonePatient/NeZha_Chinese_PyTorch)
+- [https://github.com/allenai/scibert](https://github.com/allenai/scibert)
+- [https://github.com/dbiir/UER-py/](https://github.com/dbiir/UER-py/)
 
 ---
 
@@ -338,30 +309,3 @@
 - [百度停用词表, baidu_stopwords.txt](https://mirror.coggle.club/stopwords/baidu_stopwords.txt)
 - [四川大学机器智能实验室停用词库, scu_stopwords.txt](https://mirror.coggle.club/stopwords/scu_stopwords.txt)
 
----
-
-[https://github.com/lonePatient/NeZha_Chinese_PyTorch](https://github.com/lonePatient/NeZha_Chinese_PyTorch)
-
-- [NeZha_Chinese_Pytorch/nezha-base-wwm.zip](http://mirror.coggle.club/models/NeZha_Chinese_Pytorch/nezha-base-wwm.zip)
-- [NeZha_Chinese_Pytorch/nezha-cn-base.zip](http://mirror.coggle.club/models/NeZha_Chinese_Pytorch/nezha-cn-base.zip)
-- [NeZha_Chinese_Pytorch/nezha-large-wwm.zip](http://mirror.coggle.club/models/NeZha_Chinese_Pytorch/nezha-large-wwm.zip)
-- [NeZha_Chinese_Pytorch/nezha-large-zh.zip](http://mirror.coggle.club/models/NeZha_Chinese_Pytorch/nezha-large-zh.zip)
-
----
-
-[https://github.com/allenai/scibert](https://github.com/allenai/scibert)
-
-- Tensorflow Models
-    
-    - [scibert_basevocab_cased.tar.gz](http://mirror.coggle.club/models/scibert/tf/scibert_basevocab_cased.tar.gz)
-    - [scibert_basevocab_uncased.tar.gz](http://mirror.coggle.club/models/scibert/tf/scibert_basevocab_uncased.tar.gz)
-    - [scibert_scivocab_cased.tar.gz](http://mirror.coggle.club/models/scibert/tf/scibert_scivocab_cased.tar.gz)
-    - [scibert_scivocab_uncased.tar.gz (Recommended)](http://mirror.coggle.club/models/scibert/tf/scibert_scivocab_uncased.tar.gz)
-
-
-- PyTorch HuggingFace Models
-
-    - [scibert_basevocab_cased.tar](http://mirror.coggle.club/models/scibert/hf/scibert_basevocab_cased.tar)
-    - [scibert_basevocab_uncased.tar](http://mirror.coggle.club/models/scibert/hf/scibert_basevocab_uncased.tar)
-    - [scibert_scivocab_cased.tar](http://mirror.coggle.club/models/scibert/hf/scibert_scivocab_cased.tar)
-    - [scibert_scivocab_uncased.tar (Recommended)](http://mirror.coggle.club/models/scibert/hf/scibert_scivocab_uncased.tar)
