@@ -188,8 +188,8 @@ $$MRR=\frac{1}{Q}\sum_1^{|Q|}\frac{1}{rank_i}$$
 
 - 部分开源地址：[datawhalechina-competition-baseline](https://github.com/datawhalechina/competition-baseline/tree/master/competition/%E9%98%BF%E9%87%8C%E7%81%B5%E6%9D%B0%E9%97%AE%E5%A4%A9%E5%BC%95%E6%93%8E%E7%94%B5%E5%95%86%E6%90%9C%E7%B4%A2%E7%AE%97%E6%B3%95%E8%B5%9B)
 - SimCSE/CoSENT: [https://github.com/muyuuuu/E-commerce-Search-Recall](https://github.com/muyuuuu/E-commerce-Search-Recall)
-- https://github.com/enze5088/WenTianSearch
-- https://github.com/jifei/simcse-tf2
+- [https://github.com/enze5088/WenTianSearch](https://github.com/enze5088/WenTianSearch)
+- [https://github.com/jifei/simcse-tf2](https://github.com/jifei/simcse-tf2)
 - 第二名分享：[https://zhuanlan.zhihu.com/p/533923570](https://zhuanlan.zhihu.com/p/533923570)
 - 第三名分享：[https://zhuanlan.zhihu.com/p/535910140](https://zhuanlan.zhihu.com/p/535910140)
 
