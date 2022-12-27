@@ -18,6 +18,8 @@
 
 ### 推荐公开课
 
+- [ECIR2022最新《关键词提取》](https://keyphrasification.github.io/)
+
 ### 常见NLP库
 
 - [https://github.com/UKPLab/sentence-transformers](https://github.com/UKPLab/sentence-transformers)
