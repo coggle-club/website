@@ -23,6 +23,7 @@
 ### 常见NLP库
 
 - [https://github.com/UKPLab/sentence-transformers](https://github.com/UKPLab/sentence-transformers)
+- [https://github.com/dongrixinyu/JioNLP](https://github.com/dongrixinyu/JioNLP)
 
 ## Part2 任务数据集
 
