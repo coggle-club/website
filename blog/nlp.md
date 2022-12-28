@@ -113,6 +113,26 @@ Word Mover's Embedding，http://proceedings.mlr.press/v37/kusnerb15.pdf
 1. 对Word Embedding组成的句子词向量列表。
 2. 对Word Embedding进行聚类，然后对词向量列表进行VLAD编码。
 
-
 #### Supervised Sentence Embeddings
+
+### 关键词抽取（Keyword Extraction）
+
+#### 工具库
+
+https://github.com/boudinfl/pke
+
+#### 基于统计思路
+
+- RAKE
+
+RAKE算法使用标点符号（如半角的句号、问号、感叹号、逗号等）将一篇文档分成若干分句，然后对于每一个分句，使用停用词作为分隔符将分句分为若干短语，这些短语作为最终提取出的关键词的候选词。每个短语可以再通过空格分为若干个单词，可以通过给每个单词赋予一个得分，通过累加得到每个短语的得分。
+
+- 构建共现矩阵
+- 特征提取，词频freq、度deg
+- 定义score = deg/freq
+
+- YAKE
+
+https://liaad.github.io/yake/
+
 
