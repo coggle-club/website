@@ -54,7 +54,7 @@
 #### 数据集
 
 - 英文数据集：STS-B、STS-12、STS-13、STS-14、STS-15、STS-16和SICK-R
-- 中文数据集：ATEC、BQ、LCQMC、PAWSX和STS-B
+- 中文数据集：ATEC、BQ、LCQMC、PAWSX和STS-B、[SimCLUE(包含上述中文数据集)](https://github.com/CLUEbenchmark/SimCLUE)
 
 [数据集类型：](https://kexue.fm/archives/8541#%E5%88%86%E9%97%A8%E5%88%AB%E7%B1%BB)
 
