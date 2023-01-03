@@ -114,7 +114,7 @@
 - [时序资料汇总：模型和常见库对比](http://mp.weixin.qq.com/s?__biz=MzIwNDA5NDYzNA==&mid=2247499344&idx=1&sn=6aadb753d1f2b6fe41092e2eded13630&chksm=96c7d395a1b05a83ffd7102c80789d69758f612494061288ec7a85c8ddfaddf1692e9906b30b&scene=21#wechat_redirect)
 - [掌握Pytorch模型 压缩、裁剪与量化](http://mp.weixin.qq.com/s?__biz=MzIwNDA5NDYzNA==&mid=2247499315&idx=1&sn=5e8a5fe36d41c4e8dc1508a39d328bc3&chksm=96c7d3f6a1b05ae00d5e2ed87262301404da242bebea79b86b57383e5282661cfdd657dcb791&scene=21#wechat_redirect)
 - [基于GNN的不同变种及其应用](http://mp.weixin.qq.com/s?__biz=MzIwNDA5NDYzNA==&mid=2247498351&idx=1&sn=dd1de85d5ef6d78afef45c7649512e1e&chksm=96c7d7aaa1b05ebcf13318f9b08ae0c533c3900d168d2991b1989a638e8708dc20c3d8108015&scene=21#wechat_redirect)
-- [深入理解推荐系统：评价指标综述](http://mp.weixin.qq.com/s?__biz=MzIwNDA5NDYzNA==&mid=2247498212&idx=1&sn=d8c7c9f37f2927b80f8855ef29b11c4c&chksm=96c7d421a1b05d376e5db06e24976bf8477f71cf38b0e13fe5c49f12e603c25441e14658b16c&scene=21#wechat_redirect)
+
 - [nlpaug在手~ 10多种文本数据扩增 get！](http://mp.weixin.qq.com/s?__biz=MzIwNDA5NDYzNA==&mid=2247498020&idx=1&sn=8d987234e248f690533fab6f3e8ccf10&chksm=96c7d4e1a1b05df791a9525eba62dc2c97d6bd80d53a397e55db1251388c2e979b11c0a2f0da&scene=21#wechat_redirect)
 - [huggingface Transformers中文介绍](http://mp.weixin.qq.com/s?__biz=MzIwNDA5NDYzNA==&mid=2247497735&idx=1&sn=f11d2992375af9432bab175e341f14e2&chksm=96c7d5c2a1b05cd4d136f95c44a920beb72674890e4cdf028b18990f896bcbe05f9531d12519&scene=21#wechat_redirect)
 - [Hummingbird：将树模型转换Pytorch运行](http://mp.weixin.qq.com/s?__biz=MzIwNDA5NDYzNA==&mid=2247498013&idx=1&sn=b3a945081d0feefcf38ec7ae9250f91d&chksm=96c7d4d8a1b05dce1533f294c563c3a99a5d7b744c8da90290e96e4aec6f74872f7008c50d79&scene=21#wechat_redirect)
@@ -124,3 +124,20 @@
 - [使用 PyCaret 完成分类和回归任务](http://mp.weixin.qq.com/s?__biz=MzIwNDA5NDYzNA==&mid=2247498787&idx=1&sn=0d189994532090ea94c4d463bf0c049a&chksm=96c7d1e6a1b058f03c6cfdc4086f9b385218f3a9b9727f57b5d7aa399aafd2fd1587ab158c67&scene=21#wechat_redirect)
 - [Pandas知识点：内置的10种画图方法](http://mp.weixin.qq.com/s?__biz=MzIwNDA5NDYzNA==&mid=2247499603&idx=1&sn=0fe20a45d6ce2f0d42cc8884147fa232&chksm=96c7d296a1b05b80c2df05b996934749cd32ef047810d6d34885de5f55776d6bc05253086afe&scene=21#wechat_redirect)
 - [你应该知道的LightGBM各种操作！](http://mp.weixin.qq.com/s?__biz=MzIwNDA5NDYzNA==&mid=2247499962&idx=1&sn=37e97e8c1a98349e74d2e879d83b92a9&chksm=96c7ed7fa1b06469ff6193e99265b5fbc323d989fcdec7523cff08c103b981ee5f2054dfe743&scene=21#wechat_redirect)
+
+## 深入推荐系统
+
+-   [深入理解推荐系统：当用户行为序列遇见Transformer](http://mp.weixin.qq.com/s?__biz=MzIwNDA5NDYzNA==&mid=2247493141&idx=1&sn=c323bfdf5114607a37408b61bdbb0c89&chksm=96c7cbd0a1b042c6a332132820643d08eacdc193dc6971948df07efca7d70d8e2e3b66e879b6&scene=21#wechat_redirect)
+-   [深入理解推荐系统：大厂如何进行CTR增量训练](http://mp.weixin.qq.com/s?__biz=MzIwNDA5NDYzNA==&mid=2247492377&idx=1&sn=a7b15617b2218f95e78f70ac4fb900f5&chksm=96c7cedca1b047caa2eee7075a4b807293282527621ac1d5c4a788db1ee966627d46ae5b4b34&scene=21#wechat_redirect)
+-   [深入理解推荐系统：实时搜索排序中的Embedding技巧](http://mp.weixin.qq.com/s?__biz=MzIwNDA5NDYzNA==&mid=2247490953&idx=1&sn=b8fcd7f631fe0821eaf3f98b7e7cf320&chksm=96c4304ca1b3b95add3b5e7df0aabff0edd0434b680f22aba56e10d4a5b25b9f2deda776941b&scene=21#wechat_redirect)
+-   [深入理解推荐系统：多模态广告CTR预估](http://mp.weixin.qq.com/s?__biz=MzIwNDA5NDYzNA==&mid=2247490748&idx=1&sn=dfe22089c16240346475787d7aa25c77&chksm=96c43179a1b3b86f0e6a823a1c1ca2f0ade409ea3409e71a1c49950971471d303aabd8f007de&scene=21#wechat_redirect)
+-   [深入理解推荐系统：Youtube多目标排序模型](http://mp.weixin.qq.com/s?__biz=MzIwNDA5NDYzNA==&mid=2247490641&idx=1&sn=69b09d7358cc93de6a3ce038fe3d02a6&chksm=96c43194a1b3b882396a9ac7975b6adf154baba6cd7c5872ffcfafa5a4eb12f98710236204a9&scene=21#wechat_redirect)
+-   [深入理解推荐系统：阿里之深度会话兴趣网络DSIN](http://mp.weixin.qq.com/s?__biz=MzIwNDA5NDYzNA==&mid=2247490538&idx=1&sn=3ec9e1601032debabeced51f6c62fe0d&chksm=96c4362fa1b3bf3954ab625761eb2c9a178c8c8b874d3526a8421cdc03f4ded8e118fb4f4b1c&scene=21#wechat_redirect)
+-   [深入理解推荐系统：AutoInt自动高阶特征交叉](http://mp.weixin.qq.com/s?__biz=MzIwNDA5NDYzNA==&mid=2247490372&idx=1&sn=907a74fb600c417bb3831d33d5fc8553&chksm=96c43681a1b3bf979bfec5ccd7c82d54843e56f8fb5750aba008dc9ce2aedf212f3f54da15fb&scene=21#wechat_redirect)
+-   [深入理解推荐系统：十大序列化推荐算法梳理](http://mp.weixin.qq.com/s?__biz=MzIwNDA5NDYzNA==&mid=2247489962&idx=1&sn=4201dff21c21cea79bb6893ccbcf72fd&chksm=96c4346fa1b3bd7915ef0fbd90ff64ef851705344a527a28c26df1fe45b743504e29c4d1cf10&scene=21#wechat_redirect)
+-   [深入理解推荐系统：超长用户行为序列建模](http://mp.weixin.qq.com/s?__biz=MzIwNDA5NDYzNA==&mid=2247487448&idx=1&sn=65debdd1590bcc5fb36b99895d5720a4&chksm=96c4221da1b3ab0b1afd4b42d617192c0cb990e8a369c6f302317427f27ddb85286c414d567b&scene=21#wechat_redirect)
+-   [深入理解推荐系统：特征交叉组合模型演化简史](http://mp.weixin.qq.com/s?__biz=MzIwNDA5NDYzNA==&mid=2247486930&idx=1&sn=df8671025460e927d7e54d543e4fe807&chksm=96c42017a1b3a90124dbbf3064d2f951e7f0dc7531612bd4fac681f59734521acc6334d1e41b&scene=21#wechat_redirect)
+-   [深入理解推荐系统：推荐系统中的attention机制](http://mp.weixin.qq.com/s?__biz=MzIwNDA5NDYzNA==&mid=2247486585&idx=1&sn=04edb6d2c4eb1bb142024e7907cffdeb&chksm=96c421bca1b3a8aaf5e5cee68e0fe69c6eeb3191520708e79a1f51713329941daa12d9bf83c6&scene=21#wechat_redirect)
+-   [深入理解推荐系统：Fairness、Bias和Debias](http://mp.weixin.qq.com/s?__biz=MzIwNDA5NDYzNA==&mid=2247485791&idx=1&sn=6384c84823577e49fb161b1141392624&chksm=96c4249aa1b3ad8c6fd33f71fc0686f7f4899fb8a5dcd88c02833d76e3b647f8bfc594579317&scene=21#wechat_redirect)
+-   [深入理解YouTube推荐系统算法](http://mp.weixin.qq.com/s?__biz=MzIwNDA5NDYzNA==&mid=2247484208&idx=1&sn=2a3ec0d2e1d7c06083df1a76211a5bbf&chksm=96c42ef5a1b3a7e31ba5dc62814942e6677aed9125f0a35bd6c98dfeb7cd5e3c9075e77a0fa3&scene=21#wechat_redirect)
+- [深入理解推荐系统：评价指标综述](http://mp.weixin.qq.com/s?__biz=MzIwNDA5NDYzNA==&mid=2247498212&idx=1&sn=d8c7c9f37f2927b80f8855ef29b11c4c&chksm=96c7d421a1b05d376e5db06e24976bf8477f71cf38b0e13fe5c49f12e603c25441e14658b16c&scene=21#wechat_redirect)
