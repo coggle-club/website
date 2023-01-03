@@ -9,129 +9,38 @@
 ## 竞赛知识点
 
 - [Kaggle知识点：节约内存的四种方法](http://mp.weixin.qq.com/s?__biz=MzIwNDA5NDYzNA==&mid=2247497697&idx=1&sn=afb8cdbc6f62ec37ff97945554d05995&chksm=96c7da24a1b053323b0a71517cb8b49b2b943182234cc82ed55fba83f2d57ba32850a49cd949&scene=21#wechat_redirect)
-
 - [Kaggle知识点：入门到进阶的10个问题](http://mp.weixin.qq.com/s?__biz=MzIwNDA5NDYzNA==&mid=2247497880&idx=1&sn=6ac22c12725af8a9e0087b8b2106670c&chksm=96c7d55da1b05c4bb43e24291bca617afc7fc518a0b6d2aa8207c07db73c48cfb785e0ae94b6&scene=21#wechat_redirect)
-
 - [Kaggle知识点：树模型特征Embedding](http://mp.weixin.qq.com/s?__biz=MzIwNDA5NDYzNA==&mid=2247498029&idx=1&sn=d90f09e3c5d08c9db4618b643b5142e2&chksm=96c7d4e8a1b05dfeb0799dd98bc5466e61aa1992861a5b85dc275af187e2065dd0819fd26fc7&scene=21#wechat_redirect)
-
 - [Kaggle知识点：树模型无监督Embedding](http://mp.weixin.qq.com/s?__biz=MzIwNDA5NDYzNA==&mid=2247498068&idx=1&sn=b4e8333258e920d61f39ae4f9b1329cf&chksm=96c7d491a1b05d874bc45a01785e37b57a1149d84790020e8a0fc51ec46d9cb1091fe5293660&scene=21#wechat_redirect)
-
 - [Kaggle知识点：树模型无监督Embedding](http://mp.weixin.qq.com/s?__biz=MzIwNDA5NDYzNA==&mid=2247498068&idx=1&sn=b4e8333258e920d61f39ae4f9b1329cf&chksm=96c7d491a1b05d874bc45a01785e37b57a1149d84790020e8a0fc51ec46d9cb1091fe5293660&scene=21#wechat_redirect)
-
 - [Kaggle知识点：网格搜索ARIMA参数](http://mp.weixin.qq.com/s?__biz=MzIwNDA5NDYzNA==&mid=2247498146&idx=1&sn=49c4655b36b08f68a3e16310cfdfbf06&chksm=96c7d467a1b05d71575a59c5dd95d221b8dc520836215dbb21c523e2e768fa34aa1c4f5bbe2d&scene=21#wechat_redirect)
-
 - [Kaggle知识点：对比学习基础](http://mp.weixin.qq.com/s?__biz=MzIwNDA5NDYzNA==&mid=2247498255&idx=1&sn=3b6cffd4927987675cd7e0f98863ec9d&chksm=96c7d7caa1b05edca482258be298c8b49e6a40c189a04599c24d27f2eb89d85f5bacf3892ee9&scene=21#wechat_redirect)
-
 - [Kaggle知识点：数据抽样方式](http://mp.weixin.qq.com/s?__biz=MzIwNDA5NDYzNA==&mid=2247498284&idx=1&sn=60486afb99cb089570dd4139937da935&chksm=96c7d7e9a1b05eff5045d689b2f4e820612e68fd7519cfe5c1a01c8b6c2ad1871417755a10c0&scene=21#wechat_redirect)
-
 - [Kaggle知识点：seaborn数值分布分析](http://mp.weixin.qq.com/s?__biz=MzIwNDA5NDYzNA==&mid=2247498519&idx=1&sn=4c44889f002e1ede4dde85b51ad00ffc&chksm=96c7d6d2a1b05fc45a8bcba80447f9e70ee8e99f56f1c87265c51c42731a881e33ce3f524d2f&scene=21#wechat_redirect)
-
 - [Kaggle知识点：TFRecord使用教程](http://mp.weixin.qq.com/s?__biz=MzIwNDA5NDYzNA==&mid=2247498496&idx=1&sn=f3891f028426255c90c8c277193e30c4&chksm=96c7d6c5a1b05fd3601410826742f1ca46cd52a8bfc7e494c207f3ee589e86f77421b1114ba4&scene=21#wechat_redirect)
-
 - [Kaggle知识点：集成学习基础](http://mp.weixin.qq.com/s?__biz=MzIwNDA5NDYzNA==&mid=2247498456&idx=1&sn=7c1e308d5be1a5257cecbc330e999c3e&chksm=96c7d71da1b05e0b829c8901f344ebb946aab9889dc8e19e4d1a5ba11efb98b9b9195eccf473&scene=21#wechat_redirect)
-
 - [Kaggle知识点：Keras Debug指南](http://mp.weixin.qq.com/s?__biz=MzIwNDA5NDYzNA==&mid=2247498335&idx=1&sn=da3cd1b9805bb86a224a1a7449689de5&chksm=96c7d79aa1b05e8cee895cf0cd60176e78a13e83f38658861750cfa2499fea8b133ef09bc64e&scene=21#wechat_redirect)
-
 - [Kaggle知识点：使用BERT完成NLP任务](http://mp.weixin.qq.com/s?__biz=MzIwNDA5NDYzNA==&mid=2247498679&idx=1&sn=482b45d01c35f90b22cf98b827a82031&chksm=96c7d672a1b05f6451568f9066459eb7a5eb2bfd0a1388ac1e51eeaa91026292cbd6efaf1c39&scene=21#wechat_redirect)
-
 - [Kaggle知识点：排序赛中概率加权方法](http://mp.weixin.qq.com/s?__biz=MzIwNDA5NDYzNA==&mid=2247499187&idx=1&sn=9469b46dc4854603dc17bce9f67857ae&chksm=96c7d076a1b059609b94b2b86be579f44c63caca69887d643ae493c375ee857a335ea2a67243&scene=21#wechat_redirect)
-
 - [Kaggle知识点：时序预测基础知识](http://mp.weixin.qq.com/s?__biz=MzIwNDA5NDYzNA==&mid=2247499292&idx=1&sn=68b14f72b038c0c057f670fbcfbab97f&chksm=96c7d3d9a1b05acf05c672ce1bb0c81b5fbd3a355825eff61111e7d9295f3f90756beeb00e56&scene=21#wechat_redirect)
 - [Kaggle知识点：结构化竞赛中的深度模型](http://mp.weixin.qq.com/s?__biz=MzIwNDA5NDYzNA==&mid=2247499283&idx=1&sn=ad5a0aaa523c6bbabae854ea3af97a8c&chksm=96c7d3d6a1b05ac00ac19d4a38a74fbe5a6c1de123fd77d664fb81692bb4d42a8dd27efcfeb5&scene=21#wechat_redirect)
-
 - [Kaggle知识点：数值特征的缩放与编码](http://mp.weixin.qq.com/s?__biz=MzIwNDA5NDYzNA==&mid=2247499346&idx=1&sn=4f4ed05c51a883e33b9355710fb84c07&chksm=96c7d397a1b05a81b529711dd90fb47fdae0d6ea4bd28fc8a44cd4fb63c5273dfe1ae115cfcf&scene=21#wechat_redirect)
 - [Kaggle知识点：FastText中英文文本分类](http://mp.weixin.qq.com/s?__biz=MzIwNDA5NDYzNA==&mid=2247499417&idx=1&sn=22ad9d691eaf98d56e0a7f887230a86f&chksm=96c7d35ca1b05a4af4030dde66c2302ff452e8af24eb49d1178161612227a4132d845608c0a0&scene=21#wechat_redirect)
 - [Kaggle知识点：图像模型权重和精度统计](http://mp.weixin.qq.com/s?__biz=MzIwNDA5NDYzNA==&mid=2247499396&idx=1&sn=3394ad6143670aa80ec457ec89c0a124&chksm=96c7d341a1b05a5753bb00101721147cd9212499a9bf19f6e65f675c42b9a44f3e35a404d7fe&scene=21#wechat_redirect)
-
 - [Kaggle知识点：模型加权集成7种方法](http://mp.weixin.qq.com/s?__biz=MzIwNDA5NDYzNA==&mid=2247500059&idx=1&sn=cefb00a2b60d490868d5abb00844c418&chksm=96c7ecdea1b065c877252265d7a00d04fd439b4047118df7e1581df74c211a781086be92fd0b&scene=21#wechat_redirect)
 - [Kaggle知识点：列表的7种特征编码](http://mp.weixin.qq.com/s?__biz=MzIwNDA5NDYzNA==&mid=2247500378&idx=1&sn=8bd73d547bc5e57af9dd9671ed6ad5f4&chksm=96c7ef9fa1b0668920f0a838247df61a921010af3f0b403ea1f3b99e584eacd5226f5a0a7025&scene=21#wechat_redirect)
 - [Kaggle知识点：交叉验证常见的6个错误](http://mp.weixin.qq.com/s?__biz=MzIwNDA5NDYzNA==&mid=2247500099&idx=1&sn=d09489c5d781785c8fc1130eec4dc315&chksm=96c7ec86a1b0659091f9f3f44dc58d572f5f78d8e3d07e8ce69f4e07a4a4b6a9f59fdee9c83e&scene=21#wechat_redirect)
 - [Kaggle知识点：Sklearn异常检测方法](http://mp.weixin.qq.com/s?__biz=MzIwNDA5NDYzNA==&mid=2247500462&idx=1&sn=8201a70c9786f109798cac1196ad1149&chksm=96c7ef6ba1b0667d8f646d201459cb9cc3f26cb4fee4dafe2d0fb3033ad5a42f2664a29f70bb&scene=21#wechat_redirect)
-
 - [Kaggle知识点：BERT的五种Pooling方法](http://mp.weixin.qq.com/s?__biz=MzIwNDA5NDYzNA==&mid=2247500032&idx=1&sn=ec20115d5c1f2f393e599a0f719aad13&chksm=96c7ecc5a1b065d3aa391da2361163c8814202f0dcea04b6f46e8923327bdcbe1e862b5ab1cd&scene=21#wechat_redirect)
 - [Kaggle知识点：12种回归评价指标](http://mp.weixin.qq.com/s?__biz=MzIwNDA5NDYzNA==&mid=2247500010&idx=1&sn=455d96b79210c8cfd5cca469038f662c&chksm=96c7ed2fa1b06439617a79a2bd50e6425e6722266be4278feac4358c8ec27df61277711f8d03&scene=21#wechat_redirect)
-
 - [Kaggle知识点：四种超参数搜索方法](http://mp.weixin.qq.com/s?__biz=MzIwNDA5NDYzNA==&mid=2247499895&idx=1&sn=2d4a2e24dec180769173886d2ff79fda&chksm=96c7edb2a1b064a47eb5fb544b89a3454392a11b370a26462035e4a74358abfa587ad3ac4b52&scene=21#wechat_redirect)
 - [Kaggle知识点：sklearn模型迭代训练](http://mp.weixin.qq.com/s?__biz=MzIwNDA5NDYzNA==&mid=2247499935&idx=1&sn=7e680d65244fb1ff10c22fb800245a90&chksm=96c7ed5aa1b0644c8890bef38dc361f89d350453997e90b1a6655bf5c196a53790f985fa4b0e&scene=21#wechat_redirect)
 - [Kaggle知识点：Numba加速Pandas计算](http://mp.weixin.qq.com/s?__biz=MzIwNDA5NDYzNA==&mid=2247499910&idx=1&sn=1fde7b1806b82cfecb3ce1dccade14bb&chksm=96c7ed43a1b064557078cdde884334dcad727a874ced9777fbd4e714749fa0e3974a322c729a&scene=21#wechat_redirect)
-
 - [Kaggle知识点：自定义transformers数据集](http://mp.weixin.qq.com/s?__biz=MzIwNDA5NDYzNA==&mid=2247499784&idx=1&sn=13a3ba6b9ec763967ca9c43b64a526b6&chksm=96c7edcda1b064db202cf42c3c4ad60f9e22feb47a731cdc32e8b786f48cd692ba898c2c76c1&scene=21#wechat_redirect)
-
 - [Kaggle知识点：集成学习基础](http://mp.weixin.qq.com/s?__biz=MzIwNDA5NDYzNA==&mid=2247498456&idx=1&sn=7c1e308d5be1a5257cecbc330e999c3e&chksm=96c7d71da1b05e0b829c8901f344ebb946aab9889dc8e19e4d1a5ba11efb98b9b9195eccf473&scene=21#wechat_redirect)
 - [Kaggle知识点：类别特征处理](http://mp.weixin.qq.com/s?__biz=MzIwNDA5NDYzNA==&mid=2247499516&idx=1&sn=82c3cc20c9b4663515aa6bfc18867e4d&chksm=96c7d339a1b05a2f4c6db2ba3b45b259081d10c091e5ee0107ab2cf3d804e29ed16a5c488c13&scene=21#wechat_redirect)
-
 - [Kaggle知识点：竞赛中文本相似性](http://mp.weixin.qq.com/s?__biz=MzIwNDA5NDYzNA==&mid=2247498092&idx=1&sn=e3d1fc7a1601537ef499fccf8c24133a&chksm=96c7d4a9a1b05dbf30fbd29c7f754851046bf1efbbab4139b97a9f972b557c74bb07c6117dff&scene=21#wechat_redirect)
-
 - [Kaggle知识点：XGBoost迭代读取数据集](http://mp.weixin.qq.com/s?__biz=MzIwNDA5NDYzNA==&mid=2247498922&idx=1&sn=4d2a642d4a2fad909a5f61b663ee8a5a&chksm=96c7d16fa1b058793e830ea7fe7f697b3ed7d2cb0d9c3f1b16145adda532329c3a1c258ea1b3&scene=21#wechat_redirect)
-
-
-
-- [小白学NLP：基础的文本纠错方法](http://mp.weixin.qq.com/s?__biz=MzIwNDA5NDYzNA==&mid=2247498216&idx=1&sn=d85a9ef227806bf61b5634cd210526b6&chksm=96c7d42da1b05d3bec1d552673fb3c7e63e88397a2abe629c3437d0fb80624c706990124bc79&scene=21#wechat_redirect)
-
-- [小白学NLP：命名实体识别介绍](http://mp.weixin.qq.com/s?__biz=MzIwNDA5NDYzNA==&mid=2247498366&idx=1&sn=11ab3470d7fa04cbd6d14a93e03e2552&chksm=96c7d7bba1b05eada652eb4dbad34f6cb2e1759375f63e9c08b0b11d3a7a2f4625685882409b&scene=21#wechat_redirect)
-
-- [小白学NLP：必备库 spaCy使用指南](http://mp.weixin.qq.com/s?__biz=MzIwNDA5NDYzNA==&mid=2247498342&idx=1&sn=19a8d359ffc3fc786ca1924936c06034&chksm=96c7d7a3a1b05eb5c4a0c7af2abf014b63007b0f3996c20ae3963b9d57f034d1cab0ef91a825&scene=21#wechat_redirect)
-
-- [小白学NLP：BERT优化方向综述](http://mp.weixin.qq.com/s?__biz=MzIwNDA5NDYzNA==&mid=2247498455&idx=1&sn=1db42f1eae25545f12f2fe5bcc7b57c5&chksm=96c7d712a1b05e04c0216d0286c801e369b7fab2a2cd40e37c6f6a86c7b5dbfa491f21f226f9&scene=21#wechat_redirect)
-
-- [小白学聚类：聚类基础与聚类个数选择](http://mp.weixin.qq.com/s?__biz=MzIwNDA5NDYzNA==&mid=2247498547&idx=1&sn=385c5c7e610bd22b7d7b48a64a1806ba&chksm=96c7d6f6a1b05fe04cb2813c381c5a7fc58565134db55470fec3eb15b9e183d50657271001a4&scene=21#wechat_redirect)
-
-- [小白学NLP：意图识别基础](http://mp.weixin.qq.com/s?__biz=MzIwNDA5NDYzNA==&mid=2247498533&idx=1&sn=f546440f5d59275853049279f2df57ec&chksm=96c7d6e0a1b05ff64cc96c0b736803eb7e2685e31f1701551b979fa1cdcbec41aa95be84b7d2&scene=21#wechat_redirect)
-
-- [小白学NLP：BERT优化方向综述](http://mp.weixin.qq.com/s?__biz=MzIwNDA5NDYzNA==&mid=2247498455&idx=1&sn=1db42f1eae25545f12f2fe5bcc7b57c5&chksm=96c7d712a1b05e04c0216d0286c801e369b7fab2a2cd40e37c6f6a86c7b5dbfa491f21f226f9&scene=21#wechat_redirect)
-- [小白学NLP：自然语言生成综述](http://mp.weixin.qq.com/s?__biz=MzIwNDA5NDYzNA==&mid=2247498601&idx=1&sn=ec0bb310780cffa1adbd80247aca4792&chksm=96c7d6aca1b05fba788d690ae9da8210e9341987ec803025fe4a6acb7ee6ca9652366b9ef86c&scene=21#wechat_redirect)
-- [小白学NLP：实体关系抽取入门教程](http://mp.weixin.qq.com/s?__biz=MzIwNDA5NDYzNA==&mid=2247498666&idx=1&sn=78154a497e7bb8e8d788aeb555daa0b0&chksm=96c7d66fa1b05f795b5b57bf2851592a196289492ee6550236f41018912d7f46960eb0a1c451&scene=21#wechat_redirect)
-- [小白学Pandas：竞赛必备17个表格操作](http://mp.weixin.qq.com/s?__biz=MzIwNDA5NDYzNA==&mid=2247498656&idx=1&sn=f9ca48472bcea19768543beeda1b67c2&chksm=96c7d665a1b05f73ad10133b83f8c9e2aea7c5340d49ca9e8621edc62e2e5480e7a748b53ab4&scene=21#wechat_redirect)
-- [从0学习NLP：中文实体数据扩增方法](http://mp.weixin.qq.com/s?__biz=MzIwNDA5NDYzNA==&mid=2247499020&idx=1&sn=b283c7b6c8792958fae25008efd41651&chksm=96c7d0c9a1b059dfbcfff815eed3989a60e81ad20ae677755fd88f51ed00afc90971659e4c69&scene=21#wechat_redirect)
-
-- [从0学习NLP：论文摘要文本分类](http://mp.weixin.qq.com/s?__biz=MzIwNDA5NDYzNA==&mid=2247499095&idx=1&sn=d73d953295bcf8a9fbc5fc2acc2ab9e4&chksm=96c7d092a1b05984b69cf2f5715aecef4b6cb52224b472761a826c424ce461809987e8e423b0&scene=21#wechat_redirect)
-
-- [从0学CV：深度学习图像分类 模型综述](http://mp.weixin.qq.com/s?__biz=MzIwNDA5NDYzNA==&mid=2247499166&idx=1&sn=0c4cf2e31efc195666a7be7241af5e00&chksm=96c7d05ba1b0594dd0f0322e28d867be816d401ef27b7e464757170c99dfbe90a27de1459b9e&scene=21#wechat_redirect)
-
-- [小白学NLP：短文本自动生成技术](http://mp.weixin.qq.com/s?__biz=MzIwNDA5NDYzNA==&mid=2247499306&idx=1&sn=63e265f5c6d41ef3daaf39eb280d1506&chksm=96c7d3efa1b05af973ba79042830b2842ea924b232a3db79f2d80a831f60d2c3978076dc37ee&scene=21#wechat_redirect)
-
-- [小白学NLP：千言中文开源数据集](http://mp.weixin.qq.com/s?__biz=MzIwNDA5NDYzNA==&mid=2247499514&idx=1&sn=1d259747e2e8794e7297c6541d004b1c&chksm=96c7d33fa1b05a2980f7c0825ece161eb7725b28cc46d7867196e1997293a8a6f99b64f3d973&scene=21#wechat_redirect)
-- [小白学机器学习：树模型预剪枝和后剪枝](http://mp.weixin.qq.com/s?__biz=MzIwNDA5NDYzNA==&mid=2247499684&idx=1&sn=142a81409bfdedf0bcd7c12e41ca3dc3&chksm=96c7d261a1b05b77e0171f54fd9cbe0a7ffec3e45310438d335c70107653f1cf9c576befa4a6&scene=21#wechat_redirect)
-- [小白学Pandas：竞赛必备17个表格操作](http://mp.weixin.qq.com/s?__biz=MzIwNDA5NDYzNA==&mid=2247499670&idx=1&sn=c3ea16e07b44ab88f31c85ec829b00be&chksm=96c7d253a1b05b4500eab7e2bac5fa3c2384dcfd5dd49fa4ab5dbec96c4f8ad5440b3f02f231&scene=21#wechat_redirect)
-- [小白学语音识别：音乐信号特征处理](http://mp.weixin.qq.com/s?__biz=MzIwNDA5NDYzNA==&mid=2247499433&idx=1&sn=4f455a9386064bd1b6cc080207a605f5&chksm=96c7d36ca1b05a7a317cf0ee505b3e70767161e2003c14a618b8025cda712862257931f57c6f&scene=21#wechat_redirect)
-- [小白学CV：图像/视频质量评价](http://mp.weixin.qq.com/s?__biz=MzIwNDA5NDYzNA==&mid=2247499362&idx=1&sn=748dd478d219af3afa37128f84987866&chksm=96c7d3a7a1b05ab17df4391ec61ccbceadafdf007726423d7a243516a986e8fc504cd323cb93&scene=21#wechat_redirect)
-
-- [小白学深度学习：使用Captum可视化模型](http://mp.weixin.qq.com/s?__biz=MzIwNDA5NDYzNA==&mid=2247499958&idx=1&sn=d3dfb02d915a0d9ef55de6a4d87215e7&chksm=96c7ed73a1b064658e900a44ba369317d1c28f8d38636ff2e4fa40b741f1191dcb77385ebe99&scene=21#wechat_redirect)
-- [小白学NLP：PaddleNLP中文数据增强](http://mp.weixin.qq.com/s?__biz=MzIwNDA5NDYzNA==&mid=2247500075&idx=1&sn=fcf5458d2c81af61c48ff035a10149bf&chksm=96c7eceea1b065f81fc59c05eeac4213303727fa1901a5402d69a4f45121a15e36e36bff83c8&scene=21#wechat_redirect)
-
-- [小白学推荐系统：广告监测指标介绍](http://mp.weixin.qq.com/s?__biz=MzIwNDA5NDYzNA==&mid=2247498758&idx=1&sn=1f595f78cfc435cc3464870b6f21d450&chksm=96c7d1c3a1b058d56d4f97f2d839758e54bcedfd4d84570fdc903ec3c36295748c5e1d179aa7&scene=21#wechat_redirect)
-
-- [小白学时间序列：时序数据预处理](http://mp.weixin.qq.com/s?__biz=MzIwNDA5NDYzNA==&mid=2247499708&idx=1&sn=d50702b2eac37957f5752ef1fa36ed71&chksm=96c7d279a1b05b6fec933d42c80c5b07a591aafb90b8f68a487e826bdeb8e1594b5881126569&scene=21#wechat_redirect)
-- [小白学NLP：TextCNN中文文本分类](http://mp.weixin.qq.com/s?__biz=MzIwNDA5NDYzNA==&mid=2247499840&idx=1&sn=2f8c15363f66ef562cbd1fb924c22f10&chksm=96c7ed85a1b06493fb02b2ad483de9e60a6524290bdde95b4a0ea302e33810705e33ac9f6e9d&scene=21#wechat_redirect)
-- [小白学深度学习：7步搞定Pytorch基础](http://mp.weixin.qq.com/s?__biz=MzIwNDA5NDYzNA==&mid=2247499983&idx=1&sn=9365daaa4f3bd3db7824fd3d06ac83cd&chksm=96c7ed0aa1b0641cce3f816e89c485673b2663d61160fc077796b2ea942280a67086a8ee4442&scene=21#wechat_redirect)
-
-- [小白学深度学习：知识蒸馏研究综述](http://mp.weixin.qq.com/s?__biz=MzIwNDA5NDYzNA==&mid=2247498740&idx=1&sn=cffa2fcf146816413e6cb7ebfbff673d&chksm=96c7d631a1b05f274408b12409401fc0eff08d800ba8a830cbd32dfe34ec25a8a349770b9211&scene=21#wechat_redirect)
-
-- [时序人必备：时间序列任务介绍](http://mp.weixin.qq.com/s?__biz=MzIwNDA5NDYzNA==&mid=2247498234&idx=1&sn=cfde7284c77340cc4deaf9c4b43ae00e&chksm=96c7d43fa1b05d29ff60f04fc8fb29b0639346b25bb3daf1efdd61e0201894f32943eb126b15&scene=21#wechat_redirect)
-
-
-
-- [Kaggle时序建模案例：预测水资源可用性](http://mp.weixin.qq.com/s?__biz=MzIwNDA5NDYzNA==&mid=2247498123&idx=1&sn=96e6a03377df09f0d731b4fd05b723bb&chksm=96c7d44ea1b05d58b75131865b0331b85ed468eb94992a518c831dc1eb3dfcaad01f36c3ce51&scene=21#wechat_redirect)
-
-- [Kaggle American Express：优化内存方法](http://mp.weixin.qq.com/s?__biz=MzIwNDA5NDYzNA==&mid=2247498765&idx=1&sn=1e7b11fb40018a31150b1db21b2c3c7e&chksm=96c7d1c8a1b058def08bf0ce0957c0015bf57625bcb055732c7359401fbafbbc58f4f555906c&scene=21#wechat_redirect)
-
-- [时序教程六部曲~ Kaggle时间序列教程](http://mp.weixin.qq.com/s?__biz=MzIwNDA5NDYzNA==&mid=2247497790&idx=1&sn=88d7dffdfd776994aeee537a88ab5031&chksm=96c7d5fba1b05ced42c477462e74471c002f1153a8a3f18b229dd4e0ece6b3af12b969ecb256&scene=21#wechat_redirect)
-
-- [NLP进阶：文本排序中的对抗数据增强](http://mp.weixin.qq.com/s?__biz=MzIwNDA5NDYzNA==&mid=2247498293&idx=1&sn=d88b1a9c596d99fa3c4471a324a0b52d&chksm=96c7d7f0a1b05ee6987d16f5f756231adfa485a430bc8f8a3b87a73f31554d2f9cc96a5d5d07&scene=21#wechat_redirect)
-
-- [时序预测竞赛之异常检测算法综述](http://mp.weixin.qq.com/s?__biz=MzIwNDA5NDYzNA==&mid=2247498677&idx=1&sn=1b70678797904db2e093e2b871d7cfdd&chksm=96c7d670a1b05f664f3ef7cbace4bf815d5856fd8afc55f614667ea0badbff4553ca8fdfadb4&scene=21#wechat_redirect)
-
-- [5招教你搞定Kaggle文本分类比赛](http://mp.weixin.qq.com/s?__biz=MzIwNDA5NDYzNA==&mid=2247499976&idx=1&sn=d6a7c439b9dcbb2dce84c6468d5a6c68&chksm=96c7ed0da1b0641b716c6f0650930f55c4094b40e3b6a35ddddb7470a9fcf9c645fd96831fcd&scene=21#wechat_redirect)
-
-
-
-- [算法模型自动超参数优化方法](http://mp.weixin.qq.com/s?__biz=MzIwNDA5NDYzNA==&mid=2247497715&idx=1&sn=e060afcc4dc5167ba1d98b9203bbd6c1&chksm=96c7da36a1b053207400ecab094ea48549fb76ed01854728968d963ea437a4c83bbcff18b8ab&scene=21#wechat_redirect)
-
-- [Python知识点：调试和优化代码](http://mp.weixin.qq.com/s?__biz=MzIwNDA5NDYzNA==&mid=2247499525&idx=1&sn=a0d8b5b6e5f43bf66bb0523c7411c99b&chksm=96c7d2c0a1b05bd63ed9c6afc57f5df543b0b8edbf9cc9df3acbde01181b454a0622b20dbf4e&scene=21#wechat_redirect)
-
-- [各种机器学习算法选择思路](http://mp.weixin.qq.com/s?__biz=MzIwNDA5NDYzNA==&mid=2247497880&idx=2&sn=7f9b25ea886bbf1accfda0bbf525fd43&chksm=96c7d55da1b05c4b4ddcf3b1fb78f31969b5bccf1095931c1ef90d25014ae72e87ccd813e315&scene=21#wechat_redirect)
-
-- [60种特征工程操作：使用自定义聚合函数](http://mp.weixin.qq.com/s?__biz=MzIwNDA5NDYzNA==&mid=2247499074&idx=1&sn=a3c0a758e7a6a8a2d30b6200fd26fe61&chksm=96c7d087a1b0599136f524b0bd5e2fa2f7bd250343f0c07fc45d4de0ea7dc65b693fd8f3e615&scene=21#wechat_redirect)
 
 ## 竞赛总结
 
@@ -156,3 +65,62 @@
 - [盘点Kaggle平台的金融量化比赛](http://mp.weixin.qq.com/s?__biz=MzIwNDA5NDYzNA==&mid=2247497902&idx=1&sn=054b584347c93134eea1c736f749dadd&chksm=96c7d56ba1b05c7de5048128258e859343df46fe30716060471ca53d428de61b312fcc01fa3c&scene=21#wechat_redirect)
 - [Kaggle Jigsaw有毒识别总结（Top 2%）](http://mp.weixin.qq.com/s?__biz=MzIwNDA5NDYzNA==&mid=2247498200&idx=1&sn=7d1b9aeb1780a47f2939b55a7a736995&chksm=96c7d41da1b05d0bfcc1c7819cc58552d2e0a703578f7a903f14f14e52b15c6b267ef9692cde&scene=21#wechat_redirect)
 - [WSDM-爱奇艺：用户留存预测经验与代码分享-TOP1](http://mp.weixin.qq.com/s?__biz=MzIwNDA5NDYzNA==&mid=2247497981&idx=1&sn=0af265485b99beff1df0fa3e7438b739&chksm=96c7d538a1b05c2efa739385b8d740a126cdad5620dd4522878747b9d696e2d2848fc00e371a&scene=21#wechat_redirect)
+
+## 基础知识点
+
+- [小白学NLP：基础的文本纠错方法](http://mp.weixin.qq.com/s?__biz=MzIwNDA5NDYzNA==&mid=2247498216&idx=1&sn=d85a9ef227806bf61b5634cd210526b6&chksm=96c7d42da1b05d3bec1d552673fb3c7e63e88397a2abe629c3437d0fb80624c706990124bc79&scene=21#wechat_redirect)
+- [小白学NLP：命名实体识别介绍](http://mp.weixin.qq.com/s?__biz=MzIwNDA5NDYzNA==&mid=2247498366&idx=1&sn=11ab3470d7fa04cbd6d14a93e03e2552&chksm=96c7d7bba1b05eada652eb4dbad34f6cb2e1759375f63e9c08b0b11d3a7a2f4625685882409b&scene=21#wechat_redirect)
+- [小白学NLP：必备库 spaCy使用指南](http://mp.weixin.qq.com/s?__biz=MzIwNDA5NDYzNA==&mid=2247498342&idx=1&sn=19a8d359ffc3fc786ca1924936c06034&chksm=96c7d7a3a1b05eb5c4a0c7af2abf014b63007b0f3996c20ae3963b9d57f034d1cab0ef91a825&scene=21#wechat_redirect)
+- [小白学NLP：BERT优化方向综述](http://mp.weixin.qq.com/s?__biz=MzIwNDA5NDYzNA==&mid=2247498455&idx=1&sn=1db42f1eae25545f12f2fe5bcc7b57c5&chksm=96c7d712a1b05e04c0216d0286c801e369b7fab2a2cd40e37c6f6a86c7b5dbfa491f21f226f9&scene=21#wechat_redirect)
+- [小白学聚类：聚类基础与聚类个数选择](http://mp.weixin.qq.com/s?__biz=MzIwNDA5NDYzNA==&mid=2247498547&idx=1&sn=385c5c7e610bd22b7d7b48a64a1806ba&chksm=96c7d6f6a1b05fe04cb2813c381c5a7fc58565134db55470fec3eb15b9e183d50657271001a4&scene=21#wechat_redirect)
+- [小白学NLP：意图识别基础](http://mp.weixin.qq.com/s?__biz=MzIwNDA5NDYzNA==&mid=2247498533&idx=1&sn=f546440f5d59275853049279f2df57ec&chksm=96c7d6e0a1b05ff64cc96c0b736803eb7e2685e31f1701551b979fa1cdcbec41aa95be84b7d2&scene=21#wechat_redirect)
+- [小白学NLP：BERT优化方向综述](http://mp.weixin.qq.com/s?__biz=MzIwNDA5NDYzNA==&mid=2247498455&idx=1&sn=1db42f1eae25545f12f2fe5bcc7b57c5&chksm=96c7d712a1b05e04c0216d0286c801e369b7fab2a2cd40e37c6f6a86c7b5dbfa491f21f226f9&scene=21#wechat_redirect)
+- [小白学NLP：自然语言生成综述](http://mp.weixin.qq.com/s?__biz=MzIwNDA5NDYzNA==&mid=2247498601&idx=1&sn=ec0bb310780cffa1adbd80247aca4792&chksm=96c7d6aca1b05fba788d690ae9da8210e9341987ec803025fe4a6acb7ee6ca9652366b9ef86c&scene=21#wechat_redirect)
+- [小白学NLP：实体关系抽取入门教程](http://mp.weixin.qq.com/s?__biz=MzIwNDA5NDYzNA==&mid=2247498666&idx=1&sn=78154a497e7bb8e8d788aeb555daa0b0&chksm=96c7d66fa1b05f795b5b57bf2851592a196289492ee6550236f41018912d7f46960eb0a1c451&scene=21#wechat_redirect)
+- [小白学Pandas：竞赛必备17个表格操作](http://mp.weixin.qq.com/s?__biz=MzIwNDA5NDYzNA==&mid=2247498656&idx=1&sn=f9ca48472bcea19768543beeda1b67c2&chksm=96c7d665a1b05f73ad10133b83f8c9e2aea7c5340d49ca9e8621edc62e2e5480e7a748b53ab4&scene=21#wechat_redirect)
+- [从0学习NLP：中文实体数据扩增方法](http://mp.weixin.qq.com/s?__biz=MzIwNDA5NDYzNA==&mid=2247499020&idx=1&sn=b283c7b6c8792958fae25008efd41651&chksm=96c7d0c9a1b059dfbcfff815eed3989a60e81ad20ae677755fd88f51ed00afc90971659e4c69&scene=21#wechat_redirect)
+- [从0学习NLP：论文摘要文本分类](http://mp.weixin.qq.com/s?__biz=MzIwNDA5NDYzNA==&mid=2247499095&idx=1&sn=d73d953295bcf8a9fbc5fc2acc2ab9e4&chksm=96c7d092a1b05984b69cf2f5715aecef4b6cb52224b472761a826c424ce461809987e8e423b0&scene=21#wechat_redirect)
+- [从0学CV：深度学习图像分类 模型综述](http://mp.weixin.qq.com/s?__biz=MzIwNDA5NDYzNA==&mid=2247499166&idx=1&sn=0c4cf2e31efc195666a7be7241af5e00&chksm=96c7d05ba1b0594dd0f0322e28d867be816d401ef27b7e464757170c99dfbe90a27de1459b9e&scene=21#wechat_redirect)
+- [小白学NLP：短文本自动生成技术](http://mp.weixin.qq.com/s?__biz=MzIwNDA5NDYzNA==&mid=2247499306&idx=1&sn=63e265f5c6d41ef3daaf39eb280d1506&chksm=96c7d3efa1b05af973ba79042830b2842ea924b232a3db79f2d80a831f60d2c3978076dc37ee&scene=21#wechat_redirect)
+- [小白学NLP：千言中文开源数据集](http://mp.weixin.qq.com/s?__biz=MzIwNDA5NDYzNA==&mid=2247499514&idx=1&sn=1d259747e2e8794e7297c6541d004b1c&chksm=96c7d33fa1b05a2980f7c0825ece161eb7725b28cc46d7867196e1997293a8a6f99b64f3d973&scene=21#wechat_redirect)
+- [小白学机器学习：树模型预剪枝和后剪枝](http://mp.weixin.qq.com/s?__biz=MzIwNDA5NDYzNA==&mid=2247499684&idx=1&sn=142a81409bfdedf0bcd7c12e41ca3dc3&chksm=96c7d261a1b05b77e0171f54fd9cbe0a7ffec3e45310438d335c70107653f1cf9c576befa4a6&scene=21#wechat_redirect)
+- [小白学Pandas：竞赛必备17个表格操作](http://mp.weixin.qq.com/s?__biz=MzIwNDA5NDYzNA==&mid=2247499670&idx=1&sn=c3ea16e07b44ab88f31c85ec829b00be&chksm=96c7d253a1b05b4500eab7e2bac5fa3c2384dcfd5dd49fa4ab5dbec96c4f8ad5440b3f02f231&scene=21#wechat_redirect)
+- [小白学语音识别：音乐信号特征处理](http://mp.weixin.qq.com/s?__biz=MzIwNDA5NDYzNA==&mid=2247499433&idx=1&sn=4f455a9386064bd1b6cc080207a605f5&chksm=96c7d36ca1b05a7a317cf0ee505b3e70767161e2003c14a618b8025cda712862257931f57c6f&scene=21#wechat_redirect)
+- [小白学CV：图像/视频质量评价](http://mp.weixin.qq.com/s?__biz=MzIwNDA5NDYzNA==&mid=2247499362&idx=1&sn=748dd478d219af3afa37128f84987866&chksm=96c7d3a7a1b05ab17df4391ec61ccbceadafdf007726423d7a243516a986e8fc504cd323cb93&scene=21#wechat_redirect)
+- [小白学深度学习：使用Captum可视化模型](http://mp.weixin.qq.com/s?__biz=MzIwNDA5NDYzNA==&mid=2247499958&idx=1&sn=d3dfb02d915a0d9ef55de6a4d87215e7&chksm=96c7ed73a1b064658e900a44ba369317d1c28f8d38636ff2e4fa40b741f1191dcb77385ebe99&scene=21#wechat_redirect)
+- [小白学NLP：PaddleNLP中文数据增强](http://mp.weixin.qq.com/s?__biz=MzIwNDA5NDYzNA==&mid=2247500075&idx=1&sn=fcf5458d2c81af61c48ff035a10149bf&chksm=96c7eceea1b065f81fc59c05eeac4213303727fa1901a5402d69a4f45121a15e36e36bff83c8&scene=21#wechat_redirect)
+- [小白学推荐系统：广告监测指标介绍](http://mp.weixin.qq.com/s?__biz=MzIwNDA5NDYzNA==&mid=2247498758&idx=1&sn=1f595f78cfc435cc3464870b6f21d450&chksm=96c7d1c3a1b058d56d4f97f2d839758e54bcedfd4d84570fdc903ec3c36295748c5e1d179aa7&scene=21#wechat_redirect)
+- [小白学时间序列：时序数据预处理](http://mp.weixin.qq.com/s?__biz=MzIwNDA5NDYzNA==&mid=2247499708&idx=1&sn=d50702b2eac37957f5752ef1fa36ed71&chksm=96c7d279a1b05b6fec933d42c80c5b07a591aafb90b8f68a487e826bdeb8e1594b5881126569&scene=21#wechat_redirect)
+- [小白学NLP：TextCNN中文文本分类](http://mp.weixin.qq.com/s?__biz=MzIwNDA5NDYzNA==&mid=2247499840&idx=1&sn=2f8c15363f66ef562cbd1fb924c22f10&chksm=96c7ed85a1b06493fb02b2ad483de9e60a6524290bdde95b4a0ea302e33810705e33ac9f6e9d&scene=21#wechat_redirect)
+- [小白学深度学习：7步搞定Pytorch基础](http://mp.weixin.qq.com/s?__biz=MzIwNDA5NDYzNA==&mid=2247499983&idx=1&sn=9365daaa4f3bd3db7824fd3d06ac83cd&chksm=96c7ed0aa1b0641cce3f816e89c485673b2663d61160fc077796b2ea942280a67086a8ee4442&scene=21#wechat_redirect)
+- [小白学深度学习：知识蒸馏研究综述](http://mp.weixin.qq.com/s?__biz=MzIwNDA5NDYzNA==&mid=2247498740&idx=1&sn=cffa2fcf146816413e6cb7ebfbff673d&chksm=96c7d631a1b05f274408b12409401fc0eff08d800ba8a830cbd32dfe34ec25a8a349770b9211&scene=21#wechat_redirect)
+- [时序人必备：时间序列任务介绍](http://mp.weixin.qq.com/s?__biz=MzIwNDA5NDYzNA==&mid=2247498234&idx=1&sn=cfde7284c77340cc4deaf9c4b43ae00e&chksm=96c7d43fa1b05d29ff60f04fc8fb29b0639346b25bb3daf1efdd61e0201894f32943eb126b15&scene=21#wechat_redirect)
+- [Kaggle时序建模案例：预测水资源可用性](http://mp.weixin.qq.com/s?__biz=MzIwNDA5NDYzNA==&mid=2247498123&idx=1&sn=96e6a03377df09f0d731b4fd05b723bb&chksm=96c7d44ea1b05d58b75131865b0331b85ed468eb94992a518c831dc1eb3dfcaad01f36c3ce51&scene=21#wechat_redirect)
+- [Kaggle American Express：优化内存方法](http://mp.weixin.qq.com/s?__biz=MzIwNDA5NDYzNA==&mid=2247498765&idx=1&sn=1e7b11fb40018a31150b1db21b2c3c7e&chksm=96c7d1c8a1b058def08bf0ce0957c0015bf57625bcb055732c7359401fbafbbc58f4f555906c&scene=21#wechat_redirect)
+- [时序教程六部曲~ Kaggle时间序列教程](http://mp.weixin.qq.com/s?__biz=MzIwNDA5NDYzNA==&mid=2247497790&idx=1&sn=88d7dffdfd776994aeee537a88ab5031&chksm=96c7d5fba1b05ced42c477462e74471c002f1153a8a3f18b229dd4e0ece6b3af12b969ecb256&scene=21#wechat_redirect)
+- [NLP进阶：文本排序中的对抗数据增强](http://mp.weixin.qq.com/s?__biz=MzIwNDA5NDYzNA==&mid=2247498293&idx=1&sn=d88b1a9c596d99fa3c4471a324a0b52d&chksm=96c7d7f0a1b05ee6987d16f5f756231adfa485a430bc8f8a3b87a73f31554d2f9cc96a5d5d07&scene=21#wechat_redirect)
+- [时序预测竞赛之异常检测算法综述](http://mp.weixin.qq.com/s?__biz=MzIwNDA5NDYzNA==&mid=2247498677&idx=1&sn=1b70678797904db2e093e2b871d7cfdd&chksm=96c7d670a1b05f664f3ef7cbace4bf815d5856fd8afc55f614667ea0badbff4553ca8fdfadb4&scene=21#wechat_redirect)
+- [5招教你搞定Kaggle文本分类比赛](http://mp.weixin.qq.com/s?__biz=MzIwNDA5NDYzNA==&mid=2247499976&idx=1&sn=d6a7c439b9dcbb2dce84c6468d5a6c68&chksm=96c7ed0da1b0641b716c6f0650930f55c4094b40e3b6a35ddddb7470a9fcf9c645fd96831fcd&scene=21#wechat_redirect)
+- [算法模型自动超参数优化方法](http://mp.weixin.qq.com/s?__biz=MzIwNDA5NDYzNA==&mid=2247497715&idx=1&sn=e060afcc4dc5167ba1d98b9203bbd6c1&chksm=96c7da36a1b053207400ecab094ea48549fb76ed01854728968d963ea437a4c83bbcff18b8ab&scene=21#wechat_redirect)
+- [Python知识点：调试和优化代码](http://mp.weixin.qq.com/s?__biz=MzIwNDA5NDYzNA==&mid=2247499525&idx=1&sn=a0d8b5b6e5f43bf66bb0523c7411c99b&chksm=96c7d2c0a1b05bd63ed9c6afc57f5df543b0b8edbf9cc9df3acbde01181b454a0622b20dbf4e&scene=21#wechat_redirect)
+- [各种机器学习算法选择思路](http://mp.weixin.qq.com/s?__biz=MzIwNDA5NDYzNA==&mid=2247497880&idx=2&sn=7f9b25ea886bbf1accfda0bbf525fd43&chksm=96c7d55da1b05c4b4ddcf3b1fb78f31969b5bccf1095931c1ef90d25014ae72e87ccd813e315&scene=21#wechat_redirect)
+- [60种特征工程操作：使用自定义聚合函数](http://mp.weixin.qq.com/s?__biz=MzIwNDA5NDYzNA==&mid=2247499074&idx=1&sn=a3c0a758e7a6a8a2d30b6200fd26fe61&chksm=96c7d087a1b0599136f524b0bd5e2fa2f7bd250343f0c07fc45d4de0ea7dc65b693fd8f3e615&scene=21#wechat_redirect)
+
+## 工具库教程
+
+- [一文读懂：图卷积GNN原理、应用和库](http://mp.weixin.qq.com/s?__biz=MzIwNDA5NDYzNA==&mid=2247500482&idx=1&sn=91ec9e3d8f5c82a0f3931055f72fb516&chksm=96c7ef07a1b0661106f93f1ff6d16c23f5a9f9f3a2cf2ca65483dabe18ab399c6206ba098bed&scene=21#wechat_redirect)
+- [内积运算加速方法对比：C++ Numpy GPU](http://mp.weixin.qq.com/s?__biz=MzIwNDA5NDYzNA==&mid=2247500499&idx=1&sn=2c9dae7d528937f89d7e14a28ff39488&chksm=96c7ef16a1b066003f7f123db7690220f8501e6b6b1351a1a38bdb8d3dcecf4d492d72cb3452&scene=21#wechat_redirect)
+- [Graph Embedding实战系列：Node2vec原理与代码实战](http://mp.weixin.qq.com/s?__biz=MzIwNDA5NDYzNA==&mid=2247497761&idx=1&sn=4860602e5a67a6277674bdd0fa3e0c74&chksm=96c7d5e4a1b05cf2897aa1a1c4753b98fb7d0ffe855a03ea526037916e52c7ef2aaf44066521&scene=21#wechat_redirect)
+- [时序资料汇总：模型和常见库对比](http://mp.weixin.qq.com/s?__biz=MzIwNDA5NDYzNA==&mid=2247499344&idx=1&sn=6aadb753d1f2b6fe41092e2eded13630&chksm=96c7d395a1b05a83ffd7102c80789d69758f612494061288ec7a85c8ddfaddf1692e9906b30b&scene=21#wechat_redirect)
+- [掌握Pytorch模型 压缩、裁剪与量化](http://mp.weixin.qq.com/s?__biz=MzIwNDA5NDYzNA==&mid=2247499315&idx=1&sn=5e8a5fe36d41c4e8dc1508a39d328bc3&chksm=96c7d3f6a1b05ae00d5e2ed87262301404da242bebea79b86b57383e5282661cfdd657dcb791&scene=21#wechat_redirect)
+- [基于GNN的不同变种及其应用](http://mp.weixin.qq.com/s?__biz=MzIwNDA5NDYzNA==&mid=2247498351&idx=1&sn=dd1de85d5ef6d78afef45c7649512e1e&chksm=96c7d7aaa1b05ebcf13318f9b08ae0c533c3900d168d2991b1989a638e8708dc20c3d8108015&scene=21#wechat_redirect)
+- [深入理解推荐系统：评价指标综述](http://mp.weixin.qq.com/s?__biz=MzIwNDA5NDYzNA==&mid=2247498212&idx=1&sn=d8c7c9f37f2927b80f8855ef29b11c4c&chksm=96c7d421a1b05d376e5db06e24976bf8477f71cf38b0e13fe5c49f12e603c25441e14658b16c&scene=21#wechat_redirect)
+- [nlpaug在手~ 10多种文本数据扩增 get！](http://mp.weixin.qq.com/s?__biz=MzIwNDA5NDYzNA==&mid=2247498020&idx=1&sn=8d987234e248f690533fab6f3e8ccf10&chksm=96c7d4e1a1b05df791a9525eba62dc2c97d6bd80d53a397e55db1251388c2e979b11c0a2f0da&scene=21#wechat_redirect)
+- [huggingface Transformers中文介绍](http://mp.weixin.qq.com/s?__biz=MzIwNDA5NDYzNA==&mid=2247497735&idx=1&sn=f11d2992375af9432bab175e341f14e2&chksm=96c7d5c2a1b05cd4d136f95c44a920beb72674890e4cdf028b18990f896bcbe05f9531d12519&scene=21#wechat_redirect)
+- [Hummingbird：将树模型转换Pytorch运行](http://mp.weixin.qq.com/s?__biz=MzIwNDA5NDYzNA==&mid=2247498013&idx=1&sn=b3a945081d0feefcf38ec7ae9250f91d&chksm=96c7d4d8a1b05dce1533f294c563c3a99a5d7b744c8da90290e96e4aec6f74872f7008c50d79&scene=21#wechat_redirect)
+- [用AutoGluon打数据竞赛：结构化/CV/NLP](http://mp.weixin.qq.com/s?__biz=MzIwNDA5NDYzNA==&mid=2247498729&idx=1&sn=4141eada0269aa678d7f1019bc7a57d2&chksm=96c7d62ca1b05f3a75662e76864ba95cf0713d4f33ecce65021a5618d48a0e7b2bcbaee1d5c8&scene=21#wechat_redirect)
+- [torchmetrics：支持80+任务评价指标](http://mp.weixin.qq.com/s?__biz=MzIwNDA5NDYzNA==&mid=2247498729&idx=1&sn=4141eada0269aa678d7f1019bc7a57d2&chksm=96c7d62ca1b05f3a75662e76864ba95cf0713d4f33ecce65021a5618d48a0e7b2bcbaee1d5c8&scene=21#wechat_redirect)
+- [薅羊毛 Colab使用外部数据的7种方法！](http://mp.weixin.qq.com/s?__biz=MzIwNDA5NDYzNA==&mid=2247498708&idx=1&sn=77a9cb7ef21166ee3126d58e4f25aba9&chksm=96c7d611a1b05f0719f957988aa2ef772e486b30c3e048cbc5fb02f369f9de9b35bcfce47c17&scene=21#wechat_redirect)
+- [使用 PyCaret 完成分类和回归任务](http://mp.weixin.qq.com/s?__biz=MzIwNDA5NDYzNA==&mid=2247498787&idx=1&sn=0d189994532090ea94c4d463bf0c049a&chksm=96c7d1e6a1b058f03c6cfdc4086f9b385218f3a9b9727f57b5d7aa399aafd2fd1587ab158c67&scene=21#wechat_redirect)
+- [Pandas知识点：内置的10种画图方法](http://mp.weixin.qq.com/s?__biz=MzIwNDA5NDYzNA==&mid=2247499603&idx=1&sn=0fe20a45d6ce2f0d42cc8884147fa232&chksm=96c7d296a1b05b80c2df05b996934749cd32ef047810d6d34885de5f55776d6bc05253086afe&scene=21#wechat_redirect)
+- [你应该知道的LightGBM各种操作！](http://mp.weixin.qq.com/s?__biz=MzIwNDA5NDYzNA==&mid=2247499962&idx=1&sn=37e97e8c1a98349e74d2e879d83b92a9&chksm=96c7ed7fa1b06469ff6193e99265b5fbc323d989fcdec7523cff08c103b981ee5f2054dfe743&scene=21#wechat_redirect)
