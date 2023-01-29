@@ -2,6 +2,8 @@
 
 本项目为Coggle数据科学官网内容：https://coggle.club/
 
+国内项目镜像：https://gitee.com/coggle/website
+
 ## 文章模板
 
 在`.md`文件的开头写入如下信息：
