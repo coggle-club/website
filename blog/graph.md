@@ -1,4 +1,4 @@
-<!-- 知识图谱 -->
+<!-- 图与知识图谱 -->
 <!-- 图任务、图工具和领域应用案例 -->
 <!-- 2023-01-29 -->
 <!-- <a target="_blank" href="https://www.zhihu.com/people/ashui233/">阿水</a>, <a target="_blank" href="https://www.zhihu.com/people/wang-he-13-93">鱼遇雨欲语与余</a>-->
@@ -10,8 +10,10 @@
 
 ### 常见任务
 
+![](https://cdn.coggle.club/img/graph-application.jpeg?imageView2/0/w/700)
+
 - 图嵌入：将原始图数据转换到低维空间并保 留关键信息，从而提升节点分类、链接预测、节点聚类等下游任务的性能；
-- 节点分类：
+- 节点分类：对图中某些节点对应的类别，从而预测出生于没有标签的节点属于哪一个类别，该任务也被称为半监督节点分类。
 - 节点聚类：
 - 节点中心性：
 - 链接预测：
@@ -35,8 +37,30 @@
 ### 推荐公开课
 
 - 坦福大学的CS224W课程：http://web.stanford.edu/class/cs224w/
-
+-  Graph Neural Networks Foundations, Frontiers, and Applications：https://graph-neural-networks.github.io/index.html
 ### 常见库
+
+- **igraph**
+
+https://igraph.readthedocs.io/en/stable/
+
+igraph 是网络分析工具的集合，强调效率、便携性和易用性。 igraph 是开源且免费的。 igraph 可以用 R、Python、Mathematica 和 C/C++ 进行编程。
+
+- **Neo4j**
+
+https://neo4j.com/
+
+- **StellarGraph**
+
+https://stellargraph.readthedocs.io/en/stable/index.html
+
+StellarGraph 库为图机器学习提供最先进的算法，使发现模式和回答有关图结构数据的问题变得容易。
+
+- **PyG**
+
+https://github.com/pyg-team/pytorch_geometric
+
+PyG（PyTorch Geometric）是一个建立在 PyTorch 之上的库，可以轻松编写和训练图形神经网络（GNN），用于与结构化数据相关的广泛应用。
 
 - **PyTorch Geometric**
 
@@ -138,3 +162,8 @@ https://stellargraph.readthedocs.io/
 - **Watch Your Step: Learning Node Embeddings via Graph Attention (NIPS'18).** [[Paper]](https://arxiv.org/pdf/1710.09599.pdf)
 
 - **Deep Graph Infomax (ICLR'19).** [[Paper]](https://arxiv.org/pdf/1809.10341.pdf) [[OpenReview]](https://openreview.net/forum?id=rklz9iAcKQ)
+
+### 节点分类
+
+- [Node classification by Harmonic function](https://networkx.org/documentation/stable/reference/algorithms/generated/networkx.algorithms.node_classification.harmonic_function.html)
+- [Node classification by Local and Global Consistency](https://networkx.org/documentation/stable/reference/algorithms/generated/networkx.algorithms.node_classification.local_and_global_consistency.html)
