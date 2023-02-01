@@ -38,7 +38,20 @@
 
 - 坦福大学的CS224W课程：http://web.stanford.edu/class/cs224w/
 -  Graph Neural Networks Foundations, Frontiers, and Applications：https://graph-neural-networks.github.io/index.html
+
 ### 常见库
+
+---
+
+#### 图数据库
+
+图数据库本质也是一个存储系统，它和常见的 KV 存储系统、MySQL 存储系统的相比主要区别在于目标数据的逻辑关系不同和访问模式不同，对于数据内在关系是图模型以及在图上游走类和模式匹配类的查询，比如社交关系查询，图数据库会有更大的性能优势和更加简洁高效的接口。
+
+- Neo4j, [https://neo4j.com/](https://neo4j.com/)
+- HugeGraph, [https://hugegraph.apache.org/](https://hugegraph.apache.org/)
+- JanusGraph, [https://docs.janusgraph.org/](https://docs.janusgraph.org/)
+- NebulaGraph, [https://www.nebula-graph.io/](https://www.nebula-graph.io/)
+---
 
 - **igraph**
 
@@ -46,9 +59,7 @@ https://igraph.readthedocs.io/en/stable/
 
 igraph 是网络分析工具的集合，强调效率、便携性和易用性。 igraph 是开源且免费的。 igraph 可以用 R、Python、Mathematica 和 C/C++ 进行编程。
 
-- **Neo4j**
-
-https://neo4j.com/
+- https://karateclub.readthedocs.io/en/latest/index.html
 
 - **StellarGraph**
 
