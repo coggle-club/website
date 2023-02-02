@@ -103,6 +103,10 @@ Spektral 是一个基于 Keras API 和 TensorFlow 2 的开源 Python  图深度�
 
 https://stellargraph.readthedocs.io/
 
+- OpenNE: An open source toolkit for Network Embedding
+
+https://github.com/thunlp/OpenNE
+
 ## Part2 任务数据集
 
 - Plain Graphs
