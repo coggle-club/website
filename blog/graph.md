@@ -37,7 +37,7 @@
 ### 推荐公开课
 
 - 坦福大学的CS224W课程：http://web.stanford.edu/class/cs224w/
--  Graph Neural Networks Foundations, Frontiers, and Applications：https://graph-neural-networks.github.io/index.html
+- Graph Neural Networks Foundations, Frontiers, and Applications：https://graph-neural-networks.github.io/index.html
 
 ### 常见库
 
@@ -106,6 +106,10 @@ https://stellargraph.readthedocs.io/
 - OpenNE: An open source toolkit for Network Embedding
 
 https://github.com/thunlp/OpenNE
+
+- PyTorch-BigGraph
+
+https://github.com/facebookresearch/PyTorch-BigGraph
 
 ## Part2 任务数据集
 
