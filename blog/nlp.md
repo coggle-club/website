@@ -120,23 +120,72 @@ Word Mover's Embedding，http://proceedings.mlr.press/v37/kusnerb15.pdf
 
 ### 关键词抽取（Keyword Extraction）
 
+
+
 #### 工具库
 
 [https://github.com/boudinfl/pke](https://github.com/boudinfl/pke)：支持了基础的关键词统计、图关键词统计
 
 #### 基于统计思路
 
-【RAKE】
+- TF-IDF
+
+- FirstPhrases：对句子中'NOUN', 'PROPN', 'ADJ'抽取，然后选择字符长度最长的单词
+
+- KPMiner
+
+keyphrase candidates are sequences of words that do not contain punctuation marks or stopwords4. Candidates that appear less than three times or that first occur beyond a certain position are removed. Candidates are then weighted using a modified TF×IDF formula that account for document length.
+
+- 【YAKE，2018】，https://liaad.github.io/yake/
+
+
+#### 基于图思路
+
+- TextRank
+
+- RAKE
 
 1. 使用标点符号（如半角的句号、问号、感叹号、逗号等）将一篇文档分成若干分句
 2. 构建共现矩阵
 3. 特征提取，词频freq、度deg
 4. 定义score = deg/freq
 
-【YAKE，2018】，https://liaad.github.io/yake/
+- SingleRank
 
+SingleRank (Wan and Xiao, 2008): keyphrase candidates are the sequences of adjacent nouns and adjectives. Candidates are ranked by the sum of their words scores, computed using TextRank (Mihalcea and Tarau, 2004) on a word-based graph representation of the document.
 
-#### 基于图思路
+- TopicRank
+
+improves SingleRank by grouping lexically similar candidates into topics and directly ranking topics. Keyphrases are produced byextracting the first occurring candidate of the highest ranked topics.
+
+- Position Rank
+
+- Multipartite
 
 [【FRAKE，2021】](https://arxiv.org/pdf/2104.04830.pdf)
 
+- Textstar
+
+#### 基于嵌入思路
+
+- RVA
+
+uses the average of all the candidate phrases embeddings trained on individual files with GloVe as the reference vector, and then the similarity between the embeddings of candidate keyphrase and the reference vector is calculated and used as the score to rank
+
+- EmbedRank
+
+uses the cosine similarity between the embeddings of candidate keyphrase and the sentence embeddings of the document
+
+- KeyBERT
+
+First, document embeddings are extracted with BERT to get a document-level representation. Then, word embeddings are extracted for N-gram words/phrases. Finally, we use cosine similarity to find the words/phrases that are the most similar to the document. The most similar words could then be identified as the words that best describe the entire document.
+
+- SIFRank: A New Baseline for Unsupervised Keyphrase Extraction Based on Pre-Trained Language Model，https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8954611
+
+- KeyGames
+
+- JointModeling
+
+- MDERank
+
+- AGRank
