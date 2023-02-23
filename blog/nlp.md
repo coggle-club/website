@@ -49,6 +49,34 @@
 
 ## Part3 领域模型介绍
 
+### 新词发现
+
+https://aclanthology.org/2020.coling-main.572/
+
+### 文本纠错
+
+https://github.com/destwang/CTCResources
+
+#### 相关模型
+
+- 基于规则的文本纠错
+
+传统的纠错方法一般是基于规则的方法，语言专家首先总结出来一些常见的错误规则，来判断文本是否发生了错误，然后再制定一些规则，将错误文本按照实现总结好的规则加以改正，实现纠错功能。
+
+- N-gram文本纠错算法
+
+在N-gram 模型中句子T的出现概率是由组成T的N个同现的连续字符出现概率组成，假定后一个字符出现的概率仅仅和前一个或者多个字符有关。使用 N-gram 算法计算文本的得分。句子得分越高，越可能是对的，句子得分越低，越有可能是错误。
+
+将文本中的同音字或者同型字用分别用两种词表进行替换，如果替换后的结果比替换前高，说明替换的文本的位置有可能是错误的字符，而后按照句子得分将得分最高的那句话中替换的字符作为候选项提供给用户作为修改选项。
+
+- LSTM-CRF纠错算法
+
+利用 encoder-decoder 结构解决错误文本到正确文本的转换过程，左侧是编码端，右侧是解码端，编码端和解码端都采用LSTM结构。编码端在循环迭代之后生成整个句子的语义向量 ，解码端将生成的向量解码成相应文字，完成错误文本到正确文本的转换。
+
+- BERT MLM纠错算法
+
+BERT/ELECTRA/ERNIE/MacBERT等预训练模型强大的语言表征能力，基于其MASK掩码的特征，可以简单改造预训练模型用于纠错，加上fine-tune，效果轻松达到最优。
+
 ### Sentence Embeddings
 
 #### 数据集
@@ -418,6 +446,54 @@ Word Mover's Embedding，http://proceedings.mlr.press/v37/kusnerb15.pdf
     <td></td>
   </tr>
   <tr>
+    <td>LSTM-NER<br></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>BERT-NER<br></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>BART<br></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>T5<br></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
     <td>GPT2</td>
     <td></td>
     <td></td>
@@ -450,6 +526,11 @@ https://github.com/boudinfl/duc-2001-pre
 
 https://github.com/LIAAD/KeywordExtractor-Datasets
 
+- https://github.com/ydli-ai/CSL
+
+CSL 数据获取自 国家科技资源共享服务工程技术研究中心， 包含 2010-2020 年发表的期刊论文元信息（标题、摘要和关键词）。根据中文核心期刊目录进行筛选， 并标注学科和门类标签，分为 13 个门类（一级标签）和 67 个学科（二级标签）。
+
+为了推动中文科学文献 NLP 研究，本项目提供一系列测评基准任务。 测评任务数据集从 CSL 中抽样 10,000 条，按照 0.8 : 0.1 : 0.1的比例划分训练、验证和测试集。 为了提供公平的多任务学习设置，各任务使用相同的训练、验证和测试集。 任务数据集以 text2text 的形式提供，可以直接在基线模型（例如 T5）上进行多任务训练。
 
 #### 工具库
 
