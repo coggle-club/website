@@ -8,6 +8,9 @@
 
 ## 赛题1：研报类型识别挑战赛
 
+- 赛题类型：自然语言处理、文本分类
+- 赛题难度：中等
+
 ### 赛题背景
 
 在投资管理业务的研究过程中，研究人员需要阅读和分析各个券商机构制作的研究分析报告。他们需要从这些报告中提取出有价值的关键信息，包括研报分析的个股、当前评级、目标价和盈利预测数据等。这部分研究工作较为繁琐，会耗费研究人员大量的时间和精力。
@@ -43,3 +46,10 @@
 
 baseline链接：[https://github.com/datawhalechina/competition-baseline/tree/master/competition/AIWIN2023](https://github.com/datawhalechina/competition-baseline/tree/master/competition/AIWIN2023)
 
+### 改进方法
+在baseline中给出的基础的BERT分类思路，可以获得0.94左右的分析，还有很大的上分空间：
+
+- 多折交叉验证
+- BERT模型预训练
+- 增加输入长度
+- 修改预训练模型
