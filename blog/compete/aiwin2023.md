@@ -1,6 +1,6 @@
 <!-- 世界人工智能创新大赛AIWIN -->
 <!-- AI+视觉特征编码赛题笔记 -->
-<!-- 2021-12-28 -->
+<!-- 2023-04-24 -->
 <!-- <a target="_blank" href="https://www.zhihu.com/people/ashui233/">阿水</a>, <a target="_blank" href="https://www.zhihu.com/people/wang-he-13-93">鱼遇雨欲语与余</a>-->
 <!--  -->
 
@@ -11,6 +11,7 @@
 
 - 赛题类型：自然语言处理、实体识别
 - 赛题难度：中等偏难
+- 赛题地址：[http://ailab.aiwin.org.cn/competitions/86](http://ailab.aiwin.org.cn/competitions/86)
 
 ### 赛事背景
 RPA（Robotic Process Automation），即机器人流程自动化。通过模仿人的方式在电脑上执行一系列操作，可以实现人在电脑上的所有操作行为，如复制、粘贴、数据录入、网页导航、打开、关闭等，并且可以按照一定的规则持续不断地重复操作。
@@ -66,6 +67,7 @@ baseline链接：[https://github.com/datawhalechina/competition-baseline/tree/ma
 
 - 赛题类型：自然语言处理、文本分类
 - 赛题难度：中等
+- 赛题地址：[http://ailab.aiwin.org.cn/competitions/87](http://ailab.aiwin.org.cn/competitions/87)
 
 ### 赛题背景
 
