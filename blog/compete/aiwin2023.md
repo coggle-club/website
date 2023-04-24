@@ -1,5 +1,5 @@
 <!-- 世界人工智能创新大赛AIWIN -->
-<!-- AI+视觉特征编码赛题笔记 -->
+<!-- 赛题介绍与比赛方案 -->
 <!-- 2023-04-24 -->
 <!-- <a target="_blank" href="https://www.zhihu.com/people/ashui233/">阿水</a>, <a target="_blank" href="https://www.zhihu.com/people/wang-he-13-93">鱼遇雨欲语与余</a>-->
 <!--  -->
