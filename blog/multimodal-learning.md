@@ -18,3 +18,12 @@
 
 ### 领域模型
 
+[https://huggingface.co/models?pipeline_tag=image-to-text](https://huggingface.co/models?pipeline_tag=image-to-text)
+
+#### Show, Attend, and Tell
+
+[https://github.com/sgrvinod/a-PyTorch-Tutorial-to-Image-Captioning](https://github.com/sgrvinod/a-PyTorch-Tutorial-to-Image-Captioning)
+
+#### Image Captioning with PyTorch and Transformers 💻💥
+
+[https://github.com/senadkurtisi/pytorch-image-captioning](https://github.com/senadkurtisi/pytorch-image-captioning)
