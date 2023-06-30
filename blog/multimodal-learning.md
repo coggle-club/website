@@ -27,3 +27,14 @@
 #### Image Captioning with PyTorch and Transformers 💻💥
 
 [https://github.com/senadkurtisi/pytorch-image-captioning](https://github.com/senadkurtisi/pytorch-image-captioning)
+
+
+#### 其他论文
+
+- [Fine-grained Image Captioning with CLIP Reward](https://arxiv.org/pdf/2205.13115.pdf)
+
+传统模型通常使用文本相似性目标进行训练，但是由于公共数据集中的参考字幕通常只描述最显著的常见对象，使用文本相似性目标的模型往往会忽略图像中具体和详细的方面，这些方面使图像从其他图像中区分开来。本文提出了一种使用CLIP作为奖励函数的多模态相似性计算方法，以实现更具描述性和区分度的字幕生成，并提出了一种简单的CLIP文本编码器微调策略来改善语法，无需额外的文本注释。
+
+- [Unsupervised Image Captioning](https://openaccess.thecvf.com/content_CVPR_2019/papers/Feng_Unsupervised_Image_Captioning_CVPR_2019_paper.pdf)
+
+在无监督的情况下训练图像字幕Image Captioning。传统模型通常需要大量成对的图像和句子数据进行训练，这种数据集的获取非常昂贵。本文提出了一种新的方法，只需要一个图像集、一个句子语料库和一个现有的视觉概念检测器，就可以训练出一个图像字幕生成模型。
