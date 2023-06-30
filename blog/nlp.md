@@ -57,8 +57,6 @@ https://aclanthology.org/2020.coling-main.572/
 
 https://github.com/destwang/CTCResources
 
-#### 相关模型
-
 - 基于规则的文本纠错
 
 传统的纠错方法一般是基于规则的方法，语言专家首先总结出来一些常见的错误规则，来判断文本是否发生了错误，然后再制定一些规则，将错误文本按照实现总结好的规则加以改正，实现纠错功能。
@@ -76,6 +74,11 @@ https://github.com/destwang/CTCResources
 - BERT MLM纠错算法
 
 BERT/ELECTRA/ERNIE/MacBERT等预训练模型强大的语言表征能力，基于其MASK掩码的特征，可以简单改造预训练模型用于纠错，加上fine-tune，效果轻松达到最优。
+
+### Aspect Category Sentiment Analysis
+
+[https://github.com/Meituan-Dianping/asap](https://github.com/Meituan-Dianping/asap)
+
 
 ### Sentence Embeddings
 

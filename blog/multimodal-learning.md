@@ -38,3 +38,25 @@
 - [Unsupervised Image Captioning](https://openaccess.thecvf.com/content_CVPR_2019/papers/Feng_Unsupervised_Image_Captioning_CVPR_2019_paper.pdf)
 
 在无监督的情况下训练图像字幕Image Captioning。传统模型通常需要大量成对的图像和句子数据进行训练，这种数据集的获取非常昂贵。本文提出了一种新的方法，只需要一个图像集、一个句子语料库和一个现有的视觉概念检测器，就可以训练出一个图像字幕生成模型。
+
+## Mathematical Expression Recognition
+
+### 领域模型
+
+- ICDAR 2021, Handwritten Mathematical Expression Recognition with Bidirectionally Trained Transformer
+- CVPR 2022, Syntax-Aware Network for Handwritten Mathematical Expression Recognition
+
+[https://github.com/whywhs/Pytorch-Handwritten-Mathematical-Expression-Recognition](https://github.com/whywhs/Pytorch-Handwritten-Mathematical-Expression-Recognition)
+
+
+### 数据集
+
+- [IM2LATEX-100K](https://www.kaggle.com/datasets/shahrukhkhan/im2latex100k)
+
+A prebuilt dataset for OpenAI's task for image-2-latex system. Includes total of ~100k formulas and images splitted into train, validation and test sets. 
+
+- [K-12 手写体（HME100K）](https://ai.100tal.com/dataset)
+
+The HME100K dataset provides 99,109 images (74,502 for training and 24,607 for testing) with 245 kinds of symbol classes. The data size is increased tenfold compared to the CRHOME datasets. HME100K acquires the expressions from an Internet application. Therefore, we may assume that the expressions are written by tens of thousands of writers. 
+
+- [CROHME](https://github.com/JianshuZhang/WAP/tree/master/data)
