@@ -47,11 +47,18 @@
     - 主页：[https://tianchi.aliyun.com/cblue](https://tianchi.aliyun.com/cblue)
     - Github：[https://github.com/CBLUEbenchmark/CBLUE](https://github.com/CBLUEbenchmark/CBLUE)
 
+
+https://github.com/LIAAD/KeywordExtractor-Datasets
+
+This repository contains 20 annotated datasets of Automatic Keyphrase Extraction made available by the research community.
+
 ## Part3 领域模型介绍
 
 ### 新词发现
 
 https://aclanthology.org/2020.coling-main.572/
+
+
 
 ### 文本纠错
 
