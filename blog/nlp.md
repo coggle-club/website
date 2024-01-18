@@ -52,13 +52,27 @@ https://github.com/LIAAD/KeywordExtractor-Datasets
 
 This repository contains 20 annotated datasets of Automatic Keyphrase Extraction made available by the research community.
 
-## Part3 领域模型介绍
+## Part3 领域任务方案
+
+### Query检索/召回/匹配
+
+搜索、广告、推荐（搜广推）主要就是通过对内容/商品的召回和排序，来优化Query-Doc的匹配结果。
+- Doc的理解：现在的候选Doc/Item是各种模态的，比如视频、商品、图片、文本，但不管哪种形式，文本都是其中的重要一种，可以利用阅读理解、信息抽取、文本匹配打标签等技术加深对内容的理解
+- Query的理解：在搜索、广告中输入都是真实的Query，可以基于NLP进行意图、分词、NER等各种解析，而推荐中则是把User当作Query，这时可以把用户历史消费的内容作为用户兴趣，这件又回归到了Doc理解
+- Query-Doc相关性：通过用户行为、用户信息、时空信息、上述的Query和Doc理解等海量特征来找出符合用户需求的结果。搜索和广告是命题作文，其中文本层面的Query-Doc很重要，而推荐中内容信息则可以解决用户、物品冷启动问题，也起着不可或缺的作用
+
+
+传统的query结构化理解是通过分词、NER、query tagging等方式将query转换为结构化信息。query中长尾query占比99.9%，中长尾query中供给不足和算法理解问题是影响其效率的关键。
+
+
+Query相关的算法：理解、匹配（Trie树）、改写、纠错
+
+
+## Part4 领域模型介绍
 
 ### 新词发现
 
 https://aclanthology.org/2020.coling-main.572/
-
-
 
 ### 文本纠错
 
