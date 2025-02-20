@@ -4,17 +4,40 @@
 <!-- <a target="_blank" href="https://www.zhihu.com/people/ashui233/">阿水</a>, <a target="_blank" href="https://www.zhihu.com/people/wang-he-13-93">鱼遇雨欲语与余</a>-->
 <!--  -->
 
-## Part1 NLP介绍
+## Part1 RAG介绍
 
-### 常见任务
+## Part2 RAG步骤
 
-- 文本分类：
-- 文本匹配：
-- 序列标注：
-- 文本生成：
-- 语言模型：
+### 文档划分（Text Splitter / Chunksize）
 
-### Part2 相关论文
+https://js.langchain.com/docs/concepts/text_splitters
+
+### 文本编码（Text Embedding）
+
+https://huggingface.co/spaces/mteb/leaderboard
+
+https://chunkviz.up.railway.app/
+
+https://github.com/FlagOpen/FlagEmbedding
+
+### 评价指标
+
+
+
+## Part3 RAG框架
+
+
+https://huggingface.co/datasets/neo4j/text2cypher-2024v1
+
+https://neo4j.com/developer-blog/introducing-neo4j-text2cypher-dataset/
+
+https://microsoft.github.io/graphrag/
+
+## Part4 RAG论文
+
+- CRAG - Comprehensive RAG Benchmark
+
+> https://arxiv.org/pdf/2406.04744v1
 
 - Beyond Benchmarks: Evaluating Embedding Model Similarity for Retrieval Augmented Generation Systems, ACM SIGIR Workshop on Information Retrieval’s Role in RAG Systems, July 18, 2024
 
