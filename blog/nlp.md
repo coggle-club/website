@@ -52,7 +52,7 @@ https://github.com/LIAAD/KeywordExtractor-Datasets
 
 This repository contains 20 annotated datasets of Automatic Keyphrase Extraction made available by the research community.
 
-## Part3 领域任务方案
+## Part3 领域方案
 
 ### Query检索/召回/匹配
 
@@ -68,7 +68,7 @@ This repository contains 20 annotated datasets of Automatic Keyphrase Extraction
 Query相关的算法：理解、匹配（Trie树）、改写、纠错
 
 
-## Part4 领域模型介绍
+## Part4 领域模型
 
 ### 新词发现
 
