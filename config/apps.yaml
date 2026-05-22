@@ -6,6 +6,7 @@
   tags:
     - 可视化
     - 实时数据
+  hidden: true
 
 - slug: coggle-ai-assistant
   name: Coggle AI 助手
@@ -26,3 +27,4 @@
   tags:
     - 内容创作
     - 博客
+  hidden: true

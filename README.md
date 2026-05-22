@@ -197,6 +197,9 @@ npm run build
 
 # 运行测试
 npm run test
+
+# 启动
+npm run start -- -p 8080
 ```
 
 ### 文档索引
