@@ -41,7 +41,6 @@ from .arena import (
     SubmissionStatus,
 )
 from .app_launcher import (
-    AppHealthStatus,
     AppInfo,
     AppListResponse,
 )
@@ -86,7 +85,6 @@ __all__ = [
     "SubmissionResponse",
     "SubmissionStatus",
     # 应用启动器
-    "AppHealthStatus",
     "AppInfo",
     "AppListResponse",
 ]

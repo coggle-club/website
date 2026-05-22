@@ -10,5 +10,5 @@ router = APIRouter(prefix="/api/apps", tags=["应用"])
 
 @router.get("", response_model=AppListResponse)
 def list_apps():
-    """获取按分类分组的应用列表。"""
+    """获取应用列表。"""
     return get_apps()

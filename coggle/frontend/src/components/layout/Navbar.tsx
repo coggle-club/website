@@ -13,6 +13,7 @@ const mainLinks = [
   { href: "/tutorials", label: "教程" },
   { href: "/competitions", label: "竞赛" },
   { href: "/models", label: "模型" },
+  { href: "/apps", label: "应用" },
 ];
 
 const dropdownLinks = [
@@ -104,7 +105,7 @@ export default function Navbar() {
             </button>
 
             {dropdownOpen && (
-              <div className="absolute right-0 top-full mt-1 w-44 overflow-hidden rounded-lg border border-gray-200 bg-white py-1 shadow-lg dark:border-gray-700 dark:bg-gray-900">
+              <div className="absolute right-0 top-full w-44 overflow-hidden rounded-lg border border-gray-200 bg-white py-1 shadow-lg dark:border-gray-700 dark:bg-gray-900">
                 {dropdownLinks.map((link) => (
                   <Link
                     key={link.href}

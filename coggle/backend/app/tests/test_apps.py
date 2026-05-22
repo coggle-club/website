@@ -1,33 +1,34 @@
-"""托管应用数据测试。"""
+"""应用数据测试。"""
 
 from app.schemas import AppInfo, AppListResponse
 
 
 class TestApps:
-    """验证 config/apps.json 数据完整性。"""
+    """验证 config/apps.yaml 数据完整性。"""
 
     def test_load(self, apps_data):
         """应能解析为 AppListResponse。"""
-        categories = {}
-        for app in apps_data:
-            cat = app["category"]
-            categories.setdefault(cat, []).append(AppInfo(**app))
-
-        resp = AppListResponse(categories=categories, total=len(apps_data))
+        apps = [AppInfo(**app) for app in apps_data]
+        resp = AppListResponse(apps=apps, total=len(apps))
         assert resp.total > 0
 
-    def test_framework_valid(self, apps_data):
-        """framework 必须为 streamlit / gradio / custom 之一。"""
-        valid = {"streamlit", "gradio", "custom"}
+    def test_required_fields(self, apps_data):
+        """每个应用必须有 slug / name / frontend_url / backend_url。"""
         for app in apps_data:
-            assert app["framework"] in valid, f"{app['slug']} framework 不合法"
+            assert app.get("slug"), "slug 不能为空"
+            assert app.get("name"), "name 不能为空"
+            assert app.get("frontend_url"), "frontend_url 不能为空"
+            assert app.get("backend_url"), "backend_url 不能为空"
 
-    def test_health_check_present(self, apps_data):
-        """每个应用必须有健康检查数据。"""
+    def test_urls_valid(self, apps_data):
+        """frontend_url 和 backend_url 必须是有效 URL。"""
         for app in apps_data:
-            assert "health" in app and app["health"] is not None
+            info = AppInfo(**app)
+            assert str(info.frontend_url).startswith("https://")
+            assert str(info.backend_url).startswith("https://")
 
-    def test_all_frameworks_represented(self, apps_data):
-        """至少包含两种不同框架。"""
-        frameworks = {app["framework"] for app in apps_data}
-        assert len(frameworks) >= 2
+    def test_tags_list(self, apps_data):
+        """每个应用必须有 tags 列表。"""
+        for app in apps_data:
+            info = AppInfo(**app)
+            assert isinstance(info.tags, list)

@@ -1,36 +1,27 @@
-- slug: visualization-dashboard
+- slug: coggle-dashboard
   name: Coggle 数据看板
+  frontend_url: https://coggle.com/dashboard
+  backend_url: https://api.coggle.com
   description: 社区数据实时可视化大屏，展示竞赛排名与内容趋势
-  url: https://apps.coggle.com/visualization-dashboard
-  framework: streamlit
-  category: visualization
-  cover: null
-  mobile_friendly: true
-  health:
-    status: healthy
-    last_ping: '2026-05-21T08:00:00Z'
-    response_time_ms: 234
-- slug: model-inference-demo
-  name: BERT 文本分类 Demo
-  description: 基于 BERT 的中文文本分类交互演示
-  url: https://apps.coggle.com/bert-demo
-  framework: gradio
-  category: model-demo
-  cover: null
-  mobile_friendly: false
-  health:
-    status: healthy
-    last_ping: '2026-05-21T08:01:00Z'
-    response_time_ms: 1567
-- slug: data-assistant
-  name: 数据科学 AI 助手
+  tags:
+    - 可视化
+    - 实时数据
+
+- slug: coggle-ai-assistant
+  name: Coggle AI 助手
+  frontend_url: https://coggle.com/ai
+  backend_url: https://ai-api.coggle.com
   description: 基于 LLM 的数据分析智能助手，支持自然语言查询
-  url: https://apps.coggle.com/data-assistant
-  framework: custom
-  category: agent
-  cover: null
-  mobile_friendly: true
-  health:
-    status: degraded
-    last_ping: '2026-05-21T07:55:00Z'
-    response_time_ms: 3200
+  tags:
+    - AI
+    - 数据分析
+    - 智能助手
+
+- slug: coggle-blog-platform
+  name: Coggle 博客平台
+  frontend_url: https://coggle.com/blog
+  backend_url: https://api.coggle.com/blog
+  description: 数据科学内容创作与分享平台
+  tags:
+    - 内容创作
+    - 博客
