@@ -9,9 +9,9 @@ import ThemeToggle from "@/components/common/ThemeToggle";
 
 const mainLinks = [
   { href: "/", label: "首页" },
+  { href: "/competitions", label: "竞赛" },
   { href: "/blog", label: "博客" },
   { href: "/tutorials", label: "教程" },
-  { href: "/competitions", label: "竞赛" },
   { href: "/models", label: "模型" },
   { href: "/apps", label: "应用" },
 ];

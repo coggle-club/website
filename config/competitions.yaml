@@ -1,15 +1,13 @@
-- slug: kaggle-llm-science
-  title: LLM Science Exam
-  platform: Kaggle
-  url: https://kaggle.com/competitions/llm-science-exam
+- slug: xinye-turn-prediction-challenge
+  title: 第十一届信也科技杯全球AI算法大赛
+  platform: 拍拍贷
+  url: https://ai.ppdai.com/mirror/goToMirrorDetailSix?mirrorId=43
   date: '2026-04-01'
-  end_date: '2026-07-01'
-  status: ongoing
+  end_date: '2026-06-16'
   tags:
   - LLM
-  - NLP
-  - 问答
-  description: 使用 LLM 回答科学考试题目的竞赛，测试大语言模型的科学知识推理能力。
-  award: 银牌
-  team: Coggle_Team
+  - 语音对话
+  description: 第十一届信也科技杯全球AI算法大赛聚焦汉语多方言对话的轮次交互建模：基于双方对话历史音频，预测窗口内是否出现相关语音事件，让AI在较短时延下判断用户意图，避免咄咄逼人或对话冷场。我们诚邀全球技术精英探索多模态信号，让AI习得得体「社交直觉」，实现自然流畅的人机交互。
+  award: null
+  team: null
   draft: false

@@ -41,7 +41,13 @@
       "Bash(PYTHONPATH=coggle/backend python -c \"\nfrom fastapi.testclient import TestClient\nfrom app.main import app\nclient = TestClient\\(app\\)\nresp = client.get\\('/api/health'\\)\nprint\\(f'Health: {resp.status_code} {resp.json\\(\\)}'\\)\nresp = client.get\\('/api/blog'\\)\nprint\\(f'Blog: {resp.status_code}'\\)\nresp = client.get\\('/api/search?q=test'\\)\nprint\\(f'Search: {resp.status_code}'\\)\n\" 2>&1)",
       "Bash(curl:*)",
       "Bash(chmod:*)",
-      "Bash(./start_before.sh 2>&1)"
+      "Bash(./start_before.sh 2>&1)",
+      "Bash(git checkout:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git push:*)",
+      "Bash(lsof:*)",
+      "Bash(npx eslint:*)"
     ]
   }
 }

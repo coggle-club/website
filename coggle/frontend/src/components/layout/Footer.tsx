@@ -4,10 +4,10 @@ const footerLinks = [
   {
     title: "内容",
     links: [
+      { href: "/competitions", label: "竞赛" },
       { href: "/blog", label: "博客" },
       { href: "/tutorials", label: "教程" },
-      { href: "/competitions", label: "竞赛" },
-      { href: "/models", label: "模型库" },
+      { href: "/models", label: "模型" },
     ],
   },
   {

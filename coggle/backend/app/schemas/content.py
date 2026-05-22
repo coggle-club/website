@@ -124,8 +124,7 @@ class CompetitionSummary(BaseModel):
     date: datetime.date = Field(..., description="开始日期")
     end_date: Optional[datetime.date] = Field(None, description="结束日期")
     status: str = Field(
-        ..., pattern=r"^(ongoing|ended)$",
-        description="竞赛状态：ongoing / ended",
+        "ongoing", description="竞赛状态：ongoing / ended（自动计算）"
     )
     tags: list[str] = Field(default_factory=list, description="标签列表")
     description: str = Field(..., description="竞赛简介")

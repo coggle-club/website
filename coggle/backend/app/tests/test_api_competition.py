@@ -34,18 +34,18 @@ class TestApiCompetition:
 
     def test_list_platform_filter(self):
         """按平台筛选应返回正确结果。"""
-        resp = client.get("/api/competitions?platform=Kaggle")
+        resp = client.get("/api/competitions?platform=拍拍贷")
         assert resp.status_code == 200
         data = resp.json()
         for item in data["items"]:
-            assert item["platform"] == "Kaggle"
+            assert item["platform"] == "拍拍贷"
 
     def test_detail_returns_200(self):
         """竞赛详情应返回 200。"""
-        resp = client.get("/api/competitions/kaggle-llm-science")
+        resp = client.get("/api/competitions/xinye-turn-prediction-challenge")
         assert resp.status_code == 200
         data = resp.json()
-        assert data["slug"] == "kaggle-llm-science"
+        assert data["slug"] == "xinye-turn-prediction-challenge"
         assert data["title"]
         assert data["content"]
 
@@ -57,13 +57,13 @@ class TestApiCompetition:
 
     def test_detail_contains_related(self):
         """竞赛详情应包含相关推荐。"""
-        resp = client.get("/api/competitions/kaggle-llm-science")
+        resp = client.get("/api/competitions/xinye-turn-prediction-challenge")
         data = resp.json()
         assert "related" in data
         for rel in data["related"]:
             assert rel["slug"]
             assert rel["title"]
-            assert rel["slug"] != "kaggle-llm-science"
+            assert rel["slug"] != "xinye-turn-prediction-challenge"
 
     def test_list_empty_tag_filter_returns_empty(self):
         """不存在的标签筛选应返回空列表。"""

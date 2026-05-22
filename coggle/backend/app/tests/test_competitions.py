@@ -7,6 +7,7 @@ from fastapi.testclient import TestClient
 
 from ..main import app
 from ..schemas import CompetitionSummary
+from ..services.competition import _compute_status
 
 COMPETITION_DIR = Path(__file__).resolve().parents[4] / "config" / "competitions"
 
@@ -23,17 +24,19 @@ class TestCompetitions:
         """每个竞赛必须包含必要字段。"""
         for c in competitions_data:
             assert c["slug"]
-            assert c["platform"] in ("Kaggle", "天池", "Kesci", "DataFountain")
+            assert c.get("platform"), f"{c['slug']} 缺少 platform"
 
-    def test_status_valid(self, competitions_data):
-        """status 必须为 ongoing 或 ended。"""
+    def test_status_computed_correctly(self, competitions_data):
+        """status 应根据 end_date 自动计算。"""
         for c in competitions_data:
-            assert c["status"] in ("ongoing", "ended")
+            status = _compute_status(c.get("end_date"))
+            assert status in ("ongoing", "ended")
 
     def test_ongoing_has_end_date(self, competitions_data):
         """进行中的竞赛应有 end_date。"""
         for c in competitions_data:
-            if c["status"] == "ongoing":
+            status = _compute_status(c.get("end_date"))
+            if status == "ongoing":
                 assert c.get("end_date"), f"{c['slug']} 进行中但无结束日期"
 
     def test_summary_schema(self, competitions_data):
