@@ -1,0 +1,16 @@
+# Coggle Backend Dependencies
+# Python 3.12+
+
+# Web framework
+fastapi>=0.115.0
+uvicorn[standard]>=0.34.0
+
+# Data validation & serialization
+pydantic>=2.10.0
+
+# YAML data source
+PyYAML>=6.0.2
+
+# Testing
+pytest>=8.0.0
+httpx>=0.28.0
