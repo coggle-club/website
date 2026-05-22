@@ -171,7 +171,7 @@ python -m pytest coggle/backend/app/tests/ -v
 
 ```bash
 # 后端默认端口 8000
-PYTHONPATH=coggle/backend uvicorn app.main:app --reload --port 8000
+nohup env PYTHONPATH=coggle/backend uvicorn app.main:app --port 8000 &
 
 # Swagger UI: http://localhost:8000/docs
 # API 端点示例:
@@ -199,7 +199,7 @@ npm run build
 npm run test
 
 # 启动
-npm run start -- -p 8080
+nohup npm run start -- -p 8080 &
 ```
 
 ### 文档索引

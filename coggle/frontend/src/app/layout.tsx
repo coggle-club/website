@@ -45,6 +45,12 @@ export default function RootLayout({
             `,
           }}
         />
+        <script charSet="UTF-8" id="LA_COLLECT" src="//sdk.51.la/js-sdk-pro.min.js" />
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `LA.init({id:"3Q0xhijgV7mWFe4G",ck:"3Q0xhijgV7mWFe4G"})`,
+          }}
+        />
       </head>
       <body className="flex min-h-screen flex-col bg-white text-gray-900 dark:bg-gray-950 dark:text-gray-100" suppressHydrationWarning>
         <PageViewTracker />
