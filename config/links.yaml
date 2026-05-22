@@ -1,0 +1,72 @@
+- category: 数据科学社区
+  items:
+  - name: Kaggle
+    url: https://kaggle.com
+    description: 全球最大数据科学竞赛平台
+  - name: 天池
+    url: https://tianchi.aliyun.com
+    description: 阿里云数据科学竞赛平台
+  - name: DataFountain
+    url: https://datafountain.cn
+    description: 中国数据科学竞赛平台
+  - name: Kesci
+    url: https://www.kesci.com
+    description: 科赛网数据科学社区
+  - name: DrivenData
+    url: https://drivendata.org
+    description: 社会公益导向的数据科学竞赛
+  - name: Zindi
+    url: https://zindi.africa
+    description: 非洲数据科学竞赛社区
+- category: 学习资源
+  items:
+  - name: Scikit-learn 文档
+    url: https://scikit-learn.org
+    description: 经典 ML 库官方文档
+  - name: PyTorch 教程
+    url: https://pytorch.org/tutorials
+    description: PyTorch 官方教程
+  - name: fast.ai
+    url: https://fast.ai
+    description: 面向程序员的深度学习课程
+  - name: 李沐动手学深度学习
+    url: https://d2l.ai
+    description: 深度学习入门教材
+  - name: Coursera – Andrew Ng
+    url: https://coursera.org/learn/machine-learning
+    description: 经典机器学习课程
+  - name: CS229 讲义
+    url: https://cs229.stanford.edu
+    description: 斯坦福机器学习课程资料
+
+- category: 工具平台
+  items:
+  - name: Hugging Face
+    url: https://huggingface.co
+    description: AI 模型与数据集托管
+  - name: GitHub
+    url: https://github.com
+    description: 代码托管与协作平台
+  - name: Weights & Biases
+    url: https://wandb.ai
+    description: 实验跟踪与模型可视化
+  - name: DVC
+    url: https://dvc.org
+    description: 数据与模型版本控制
+  - name: Streamlit
+    url: https://streamlit.io
+    description: 快速构建 ML 应用界面
+- category: 数据源
+  items:
+  - name: Papers with Code
+    url: https://paperswithcode.com
+    description: 论文 + 代码 + 数据集
+  - name: UCI 数据集库
+    url: https://archive.ics.uci.edu/ml
+    description: 经典机器学习数据集
+  - name: AWS Open Data
+    url: https://registry.opendata.aws
+    description: 亚马逊开放数据
+  - name: Google Dataset Search
+    url: https://datasetsearch.research.google.com
+    description: 数据集搜索引擎

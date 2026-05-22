@@ -1,0 +1,55 @@
+# --- Node.js / Next.js ---
+node_modules/
+.next/
+out/
+dist/
+
+# --- Environment ---
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# --- Python / Backend ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+.venv/
+env/
+
+# --- IDE / Editor ---
+.idea/
+*.swp
+*.swo
+*~
+.vscode/
+
+# --- OS ---
+.DS_Store
+Thumbs.db
+*.DS_Store
+
+# --- Build artifacts ---
+*.tgz
+*.gz
+*.log
+*.pyc
+.eslintcache
+
+# --- Next.js specific ---
+.next/
+build/
+
+# --- Test coverage ---
+coverage/
+.nyc_output/
+
+# --- Misc ---
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*

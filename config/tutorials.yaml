@@ -1,0 +1,93 @@
+- slug: pytorch-basics-1
+  title: PyTorch 深度学习入门教程（一）：张量与自动求导
+  date: '2026-04-01'
+  author: Coggle 团队
+  difficulty: beginner
+  tags:
+  - PyTorch
+  - 深度学习
+  - 入门教程
+  description: 从零开始学习 PyTorch 的核心概念：张量操作与自动求导机制。
+  cover: https://cdn.coggle.com/images/tutorials/pytorch-basics/cover.png
+  series:
+    name: PyTorch 系列教程
+    order: 1
+    total: 5
+  draft: false
+- slug: pytorch-basics-2
+  title: PyTorch 深度学习入门教程（二）：数据加载与模型构建
+  date: '2026-04-08'
+  author: Coggle 团队
+  difficulty: beginner
+  tags:
+  - PyTorch
+  - 深度学习
+  - 入门教程
+  description: 学习 PyTorch 的数据加载管道（DataLoader）和 nn.Module 模型构建方式。
+  cover: null
+  series:
+    name: PyTorch 系列教程
+    order: 2
+    total: 5
+  draft: false
+- slug: pytorch-basics-3
+  title: PyTorch 深度学习入门教程（三）：训练循环与优化器
+  date: '2026-04-15'
+  author: Coggle 团队
+  difficulty: beginner
+  tags:
+  - PyTorch
+  - 深度学习
+  - 入门教程
+  description: 实现完整的训练循环，理解损失函数、优化器和反向传播的协作流程。
+  cover: null
+  series:
+    name: PyTorch 系列教程
+    order: 3
+    total: 5
+  draft: false
+- slug: pytorch-basics-4
+  title: PyTorch 深度学习入门教程（四）：迁移学习
+  date: '2026-05-10'
+  author: Coggle 团队
+  difficulty: intermediate
+  tags:
+  - PyTorch
+  - 深度学习
+  - 迁移学习
+  description: 使用预训练模型进行迁移学习，在自定义数据集上微调。
+  cover: null
+  series:
+    name: PyTorch 系列教程
+    order: 4
+    total: 5
+  draft: false
+- slug: pytorch-basics-5
+  title: PyTorch 深度学习入门教程（五）：模型部署
+  date: '2026-05-18'
+  author: Coggle 团队
+  difficulty: intermediate
+  tags:
+  - PyTorch
+  - 深度学习
+  - 模型部署
+  description: 将 PyTorch 模型导出为 TorchScript 并部署到生产环境。
+  cover: null
+  series:
+    name: PyTorch 系列教程
+    order: 5
+    total: 5
+  draft: false
+- slug: ml-interpretability
+  title: 机器学习可解释性入门
+  date: '2026-03-10'
+  author: Coggle 团队
+  difficulty: intermediate
+  tags:
+  - 机器学习
+  - 可解释性
+  - SHAP
+  description: 介绍 SHAP、LIME 等可解释性方法，帮助你理解模型决策过程。
+  cover: null
+  series: null
+  draft: false

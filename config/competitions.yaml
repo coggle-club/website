@@ -1,0 +1,15 @@
+- slug: kaggle-llm-science
+  title: LLM Science Exam
+  platform: Kaggle
+  url: https://kaggle.com/competitions/llm-science-exam
+  date: '2026-04-01'
+  end_date: '2026-07-01'
+  status: ongoing
+  tags:
+  - LLM
+  - NLP
+  - 问答
+  description: 使用 LLM 回答科学考试题目的竞赛，测试大语言模型的科学知识推理能力。
+  award: 银牌
+  team: Coggle_Team
+  draft: false

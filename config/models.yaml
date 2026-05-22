@@ -1,0 +1,132 @@
+- slug: deepseek-r1
+  name: DeepSeek-R1
+  description: DeepSeek 推出的推理增强大语言模型，通过强化学习训练，在数学、编程和推理任务上表现优异。
+  category: 大语言模型
+  publisher: DeepSeek
+  date: '2025-01-20'
+  tags:
+  - LLM
+  - 推理
+  - 开源
+  paper_url: https://arxiv.org/abs/2501.12948
+  github_url: https://github.com/deepseek-ai/DeepSeek-R1
+  official_url: https://chat.deepseek.com/
+  draft: false
+  relations:
+    - target: qwen2.5
+      type: inspired_by
+      label: 同期竞争
+- slug: qwen2.5
+  name: Qwen2.5
+  description: 阿里云通义千问 Qwen2.5 系列模型，包含多种尺寸的基座模型和指令微调模型，支持多语言和长上下文。
+  category: 大语言模型
+  publisher: 阿里云
+  date: '2024-09-19'
+  tags:
+  - LLM
+  - 多语言
+  - 开源
+  paper_url: https://arxiv.org/abs/2501.12948
+  github_url: https://github.com/QwenLM/Qwen2.5
+  official_url: https://tongyi.aliyun.com/
+  draft: false
+  relations:
+    - target: deepseek-r1
+      type: inspired_by
+      label: 同期竞争
+- slug: llama-3
+  name: Llama 3
+  description: Meta 发布的开源大语言模型系列，以卓越的性能和开放性成为开源 LLM 的重要标杆。
+  category: 大语言模型
+  publisher: Meta
+  date: '2024-04-18'
+  tags:
+  - LLM
+  - 开源
+  - Meta
+  paper_url: https://arxiv.org/abs/2407.21783
+  github_url: https://github.com/meta-llama/llama3
+  official_url: https://llama.meta.com/
+  draft: false
+  relations:
+    - target: deepseek-r1
+      type: inspired_by
+      label: 同期竞争
+- slug: resnet-50
+  name: ResNet-50
+  description: 深度残差网络，通过引入残差连接解决了深层网络退化问题，是计算机视觉领域的里程碑式模型。
+  category: 计算机视觉
+  publisher: Microsoft Research
+  date: '2015-12-10'
+  tags:
+  - CV
+  - 图像分类
+  - 残差网络
+  paper_url: https://arxiv.org/abs/1512.03385
+  github_url: https://github.com/KaimingHe/deep-residual-networks
+  official_url: null
+  draft: false
+  relations:
+    - target: vit
+      type: inspired_by
+      label: 基础架构
+- slug: vit
+  name: Vision Transformer (ViT)
+  description: 将 Transformer 架构应用于图像分类，展示了纯注意力机制在视觉任务上的强大能力。
+  category: 计算机视觉
+  publisher: Google Research
+  date: '2020-10-22'
+  tags:
+  - CV
+  - Transformer
+  - 图像分类
+  paper_url: https://arxiv.org/abs/2010.11929
+  github_url: https://github.com/google-research/vision_transformer
+  official_url: null
+  draft: false
+- slug: bert-base
+  name: BERT-Base
+  description: Google 提出的预训练语言表示模型，通过双向 Transformer 在大量无标注文本上进行预训练。
+  category: 自然语言处理
+  publisher: Google
+  date: '2018-10-11'
+  tags:
+  - NLP
+  - 预训练
+  - Transformer
+  paper_url: https://arxiv.org/abs/1810.04805
+  github_url: https://github.com/google-research/bert
+  official_url: null
+  draft: false
+  relations:
+    - target: vit
+      type: inspired_by
+      label: Transformer 视觉化
+- slug: whisper-large
+  name: Whisper Large
+  description: OpenAI 开源的通用语音识别模型，支持多语言语音识别、翻译和语言识别。
+  category: 语音识别
+  publisher: OpenAI
+  date: '2022-12-06'
+  tags:
+  - 语音
+  - 识别
+  - 多语言
+  paper_url: https://arxiv.org/abs/2212.04356
+  github_url: https://github.com/openai/whisper
+  official_url: null
+  draft: false
+- slug: stable-diffusion-3
+  name: Stable Diffusion 3
+  description: Stability AI 发布的文本到图像生成模型，采用扩散 Transformer 架构，生成质量显著提升。
+  category: 多模态
+  publisher: Stability AI
+  date: '2024-06-12'
+  tags:
+  - 多模态
+  - 图像生成
+  - 扩散模型
+  paper_url: https://arxiv.org/abs/2403.03206
+  github_url: https://github.com/Stability-AI/generative-models
+  official_url: https://stability.ai/
+  draft: false
