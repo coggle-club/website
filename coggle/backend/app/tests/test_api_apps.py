@@ -1,4 +1,4 @@
-"""API 应用托管接口测试。"""
+"""API 应用接口测试。"""
 
 from fastapi.testclient import TestClient
 
@@ -16,29 +16,21 @@ class TestApiApps:
         assert resp.status_code == 200
 
     def test_apps_shape(self):
-        """响应应包含 categories、total、updated_at。"""
+        """响应应包含 apps 和 total。"""
         resp = client.get("/api/apps")
         data = resp.json()
-        assert "categories" in data
+        assert "apps" in data
         assert "total" in data
-        assert "updated_at" in data
         assert data["total"] > 0
 
-    def test_apps_categories(self):
-        """分类应包含已知的类别。"""
-        resp = client.get("/api/apps")
-        data = resp.json()
-        categories = data["categories"]
-        known_categories = {"visualization", "model-demo", "agent"}
-        assert known_categories.issubset(categories.keys())
-
     def test_apps_items_have_required_fields(self):
-        """每个应用应包含 slug/name/url/framework。"""
+        """每个应用应包含 slug / name / frontend_url / backend_url / description / tags。"""
         resp = client.get("/api/apps")
         data = resp.json()
-        for items in data["categories"].values():
-            for item in items:
-                assert item["slug"]
-                assert item["name"]
-                assert item["url"]
-                assert item["framework"] in ("streamlit", "gradio", "custom")
+        for item in data["apps"]:
+            assert item["slug"]
+            assert item["name"]
+            assert item["frontend_url"]
+            assert item["backend_url"]
+            assert "description" in item
+            assert isinstance(item["tags"], list)

@@ -172,6 +172,22 @@ export interface SearchResponse extends PaginatedResponse<SearchResult> {
   took_ms: number;
 }
 
+// ─── 应用 ───────────────────────────────────────────────
+
+export interface AppInfo {
+  slug: string;
+  name: string;
+  frontend_url: string;
+  backend_url: string;
+  description: string;
+  tags: string[];
+}
+
+export interface AppListResponse {
+  apps: AppInfo[];
+  total: number;
+}
+
 // ─── 通用页面 ───────────────────────────────────────────
 
 export interface PageContent {

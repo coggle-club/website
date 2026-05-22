@@ -15,6 +15,7 @@ const footerLinks = [
     links: [
       { href: "/links", label: "常见链接" },
       { href: "/tools", label: "工具" },
+      { href: "/apps", label: "应用" },
     ],
   },
   {
