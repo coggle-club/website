@@ -78,16 +78,3 @@
     order: 5
     total: 5
   draft: false
-- slug: ml-interpretability
-  title: 机器学习可解释性入门
-  date: '2026-03-10'
-  author: Coggle 团队
-  difficulty: intermediate
-  tags:
-  - 机器学习
-  - 可解释性
-  - SHAP
-  description: 介绍 SHAP、LIME 等可解释性方法，帮助你理解模型决策过程。
-  cover: null
-  series: null
-  draft: false

@@ -1,9 +1,33 @@
 """竞赛服务：加载 YAML → Pydantic 模型，支持筛选与分页。"""
 
+import datetime
 from math import ceil
 
 from app.schemas import CompetitionDetail, CompetitionSummary, PaginatedResponse
 from app.core.config import load_yaml, load_competition_content
+
+
+def _parse_date(value: datetime.date | str | None) -> datetime.date | None:
+    """将 date / str / None 统一转换为 date 或 None。"""
+    if value is None:
+        return None
+    if isinstance(value, datetime.date):
+        return value
+    return datetime.date.fromisoformat(value)
+
+
+def _compute_status(end_date: datetime.date | str | None) -> str:
+    """根据结束日期自动计算竞赛状态。"""
+    parsed = _parse_date(end_date)
+    if parsed is None:
+        return "ongoing"
+    today = datetime.date.today()
+    return "ended" if parsed < today else "ongoing"
+
+
+def _enrich(meta: dict) -> dict:
+    """注入自动计算的字段（status）。"""
+    return {**meta, "status": _compute_status(meta.get("end_date"))}
 
 
 def _merge_detail(slug: str, meta: dict) -> dict | None:
@@ -33,7 +57,7 @@ def _get_related(slug: str, tags: list[str]) -> list[CompetitionSummary]:
             candidates.append((overlap, c))
     candidates.sort(key=lambda x: (-x[0], x[1].get("date", "")), reverse=False)
     candidates.sort(key=lambda x: -x[0])
-    return [CompetitionSummary(**c) for _, c in candidates[:4]]
+    return [CompetitionSummary(**_enrich(c)) for _, c in candidates[:4]]
 
 
 def get_competition_by_slug(slug: str) -> CompetitionDetail | None:
@@ -64,7 +88,7 @@ def filter_competitions(
     if platform:
         competitions = [c for c in competitions if c.get("platform") == platform]
     if status:
-        competitions = [c for c in competitions if c.get("status") == status]
+        competitions = [c for c in competitions if _compute_status(c.get("end_date")) == status]
 
     competitions.sort(key=lambda c: c.get("date", ""), reverse=True)
 
@@ -72,7 +96,7 @@ def filter_competitions(
     total_pages = max(1, ceil(total / page_size))
     start = (page - 1) * page_size
     end = start + page_size
-    items = [CompetitionSummary(**c) for c in competitions[start:end]]
+    items = [CompetitionSummary(**_enrich(c)) for c in competitions[start:end]]
 
     return PaginatedResponse(
         total=total,

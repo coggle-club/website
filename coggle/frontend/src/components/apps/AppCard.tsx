@@ -10,9 +10,14 @@ interface AppCardProps {
 
 export default function AppCard({ app }: AppCardProps) {
   return (
-    <Card>
+    <Card className={app.hidden ? "opacity-60" : ""}>
       <article>
         <div className="mb-3 flex flex-wrap items-center gap-2">
+          {app.hidden && (
+            <span className="inline-flex items-center rounded-full bg-yellow-100 px-2 py-0.5 text-xs font-medium text-yellow-800 dark:bg-yellow-900/30 dark:text-yellow-300">
+              内部
+            </span>
+          )}
           {app.tags.map((tag) => (
             <Tag key={tag} tag={tag} />
           ))}

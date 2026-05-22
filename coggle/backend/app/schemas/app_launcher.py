@@ -1,5 +1,7 @@
 """应用信息 Schema。"""
 
+from typing import Optional
+
 from pydantic import BaseModel, ConfigDict, Field, HttpUrl
 
 
@@ -14,6 +16,7 @@ class AppInfo(BaseModel):
     backend_url: HttpUrl = Field(..., description="后端地址")
     description: str = Field("", description="应用简介")
     tags: list[str] = Field(default_factory=list, description="标签列表")
+    hidden: bool = Field(False, description="是否隐藏（内部/开发中应用）")
 
 
 class AppListResponse(BaseModel):

@@ -3,6 +3,7 @@
 from fastapi.testclient import TestClient
 
 from app.main import app
+from app.services.app import get_apps
 
 client = TestClient(app)
 
@@ -34,3 +35,41 @@ class TestApiApps:
             assert item["backend_url"]
             assert "description" in item
             assert isinstance(item["tags"], list)
+
+    # ─── 隐藏应用测试 ───────────────────────────────────
+
+    def test_default_excludes_hidden(self):
+        """默认应排除 hidden=True 的应用。"""
+        resp = client.get("/api/apps")
+        data = resp.json()
+        for item in data["apps"]:
+            assert item["hidden"] is False, (
+                f"Hidden app '{item['slug']}' should not appear by default"
+            )
+
+    def test_show_hidden_includes_all(self):
+        """?show_hidden=true 应返回全部应用（含隐藏）。"""
+        # 获取全部应用（含隐藏）
+        all_resp = client.get("/api/apps?show_hidden=true")
+        all_data = all_resp.json()
+
+        # 获取默认（不含隐藏）
+        default_resp = client.get("/api/apps")
+        default_data = default_resp.json()
+
+        # show_hidden=true 应返回更多或相等数量的应用
+        assert all_data["total"] >= default_data["total"]
+
+        # 验证隐藏应用确实出现在结果中
+        hidden_apps = [a for a in all_data["apps"] if a["hidden"] is True]
+        assert len(hidden_apps) >= 1, (
+            "Expected at least one hidden app when show_hidden=true"
+        )
+
+    def test_hidden_field_present(self):
+        """每个应用响应中应包含 hidden 字段。"""
+        resp = client.get("/api/apps?show_hidden=true")
+        data = resp.json()
+        for item in data["apps"]:
+            assert "hidden" in item
+            assert isinstance(item["hidden"], bool)

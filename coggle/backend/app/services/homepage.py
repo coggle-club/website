@@ -2,6 +2,7 @@
 
 from app.schemas import BlogPostSummary, HomepageResponse, TutorialSummary, CompetitionSummary
 from app.core.config import load_yaml
+from app.services.competition import _compute_status
 
 
 def get_homepage() -> HomepageResponse:
@@ -22,7 +23,10 @@ def get_homepage() -> HomepageResponse:
     competitions = load_yaml("competitions") or []
     assert isinstance(competitions, list), "competitions.yaml must contain a list"
     competitions.sort(key=lambda c: c.get("date", ""), reverse=True)
-    recent_competitions = [CompetitionSummary(**c) for c in competitions[:4]]
+    recent_competitions = [
+        CompetitionSummary(**{**c, "status": _compute_status(c.get("end_date"))})
+        for c in competitions[:4]
+    ]
 
     return HomepageResponse(
         recent_posts=recent_posts,

@@ -32,3 +32,16 @@ class TestApps:
         for app in apps_data:
             info = AppInfo(**app)
             assert isinstance(info.tags, list)
+
+    def test_hidden_defaults_to_false(self, apps_data):
+        """未指定 hidden 的应用默认应为 False。"""
+        for item in apps_data:
+            app = AppInfo(**item)
+            if "hidden" not in item:
+                assert app.hidden is False
+
+    def test_hidden_apps_exist(self, apps_data):
+        """至少有一个 hidden=True 的应用用于测试。"""
+        apps = [AppInfo(**item) for item in apps_data]
+        hidden = [a for a in apps if a.hidden]
+        assert len(hidden) >= 1, "No hidden apps found in YAML; add one for testing"

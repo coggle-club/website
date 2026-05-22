@@ -37,6 +37,27 @@ export default async function HomePage() {
       <HeroSection />
 
       <div className="mx-auto max-w-6xl px-4 py-12 sm:px-6">
+        {/* Recent competitions */}
+        <section className="mb-12">
+          <div className="mb-6 flex items-center justify-between">
+            <h2 className="text-2xl font-bold text-gray-900">竞赛动态</h2>
+            <Link
+              href="/competitions"
+              className="text-sm text-primary-600 hover:text-primary-700"
+            >
+              查看全部 &rarr;
+            </Link>
+          </div>
+          <div className="grid gap-6 sm:grid-cols-2">
+            {data.recent_competitions.map((competition) => (
+              <CompetitionCard
+                key={competition.slug}
+                competition={competition}
+              />
+            ))}
+          </div>
+        </section>
+
         {/* Recent blog posts */}
         <section className="mb-12">
           <div className="mb-6 flex items-center justify-between">
@@ -56,7 +77,7 @@ export default async function HomePage() {
         </section>
 
         {/* Featured tutorials */}
-        <section className="mb-12">
+        <section>
           <div className="mb-6 flex items-center justify-between">
             <h2 className="text-2xl font-bold text-gray-900">精选教程</h2>
             <Link
@@ -67,27 +88,6 @@ export default async function HomePage() {
             </Link>
           </div>
           <TutorialList tutorials={allTutorials} showSeriesProgress={true} />
-        </section>
-
-        {/* Recent competitions */}
-        <section>
-          <div className="mb-6 flex items-center justify-between">
-            <h2 className="text-2xl font-bold text-gray-900">竞赛动态</h2>
-            <Link
-              href="/competitions"
-              className="text-sm text-primary-600 hover:text-primary-700"
-            >
-              查看全部 &rarr;
-            </Link>
-          </div>
-          <div className="grid gap-6 sm:grid-cols-2">
-            {data.recent_competitions.map((competition) => (
-              <CompetitionCard
-                key={competition.slug}
-                competition={competition}
-              />
-            ))}
-          </div>
         </section>
       </div>
     </>

@@ -198,3 +198,20 @@ export interface PageContent {
   date: string;
   updated?: string | null;
 }
+
+// ─── 应用 ───────────────────────────────────────────────
+
+export interface AppInfo {
+  slug: string;
+  name: string;
+  frontend_url: string;
+  backend_url: string;
+  description: string;
+  tags: string[];
+  hidden: boolean;
+}
+
+export interface AppListResponse {
+  apps: AppInfo[];
+  total: number;
+}
