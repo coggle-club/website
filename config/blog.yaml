@@ -6,7 +6,7 @@
   tags:
   - LLM
   - Harness Engineer
-  description: 系统介绍时序预测的经典方法和深度学习方案，附带完整代码示例。
+  description: 在特定任务上，一个“懂规则的小模型 + 代码安全带”可以战胜一个“懂很多但经常犯规的大模型”。
   cover: null
 - slug: time-series
   draft: false
