@@ -1,3 +1,13 @@
+- slug: iclr2026-autoharness
+  draft: false
+  title: ICLR 2026 | AutoHarness：使用高代码为 LLM Agent 增加强反馈
+  date: '2026-05-25'
+  author: Coggle 阿水
+  tags:
+  - LLM
+  - Harness Engineer
+  description: 系统介绍时序预测的经典方法和深度学习方案，附带完整代码示例。
+  cover: null
 - slug: time-series
   draft: false
   title: 时序预测任务
