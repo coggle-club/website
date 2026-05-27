@@ -42,6 +42,7 @@
   date: '2021-12-06'
   author: Coggle 阿水
   tags:
+  - Data Centric
   description: 详解 AutoML原理和组成
   cover: null
 - slug: metrics
@@ -104,6 +105,7 @@
   date: '2022-07-01'
   author: Coggle 阿水
   tags:
+  - CDN
   description: 常用预训练模型、数据集和工具的 CDN 下载链接汇总，支持 wget 直接下载。
   cover: null
 - slug: sklearn-batch-trainning
@@ -112,6 +114,7 @@
   date: '2022-08-01'
   author: Coggle 阿水
   tags:
+  - Sklearn
   description: 解决数据量太大导致内存不足的问题，介绍增量训练、分块加载等批量训练方法。
   cover: null
 - slug: sklearn-parameter-search
