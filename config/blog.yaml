@@ -1,3 +1,13 @@
+- slug: 2026-LLMs-as-Noisy-Channels
+  draft: false
+  title: 暴力堆砌的终结：字节Seed用香农定理重新划定大模型 Scaling Law
+  date: '2026-05-26'
+  author: Coggle 阿水
+  tags:
+  - LLM
+  - Scaling Law
+  description: 将大语言模型（LLM）彻底重构为通信系统中的“有噪信道”，并借用信息论的基石——香农-哈特利定理（Shannon-Hartley Theorem），推导出了全新的“香农缩放定律”（Shannon Scaling Law）。
+  cover: null
 - slug: iclr2026-autoharness
   draft: false
   title: ICLR 2026 | AutoHarness：使用高代码为 LLM Agent 增加强反馈
@@ -15,19 +25,7 @@
   author: Coggle 阿水
   tags:
   - 时序预测
-  - NLP
-  - 深度学习
   description: 系统介绍时序预测的经典方法和深度学习方案，附带完整代码示例。
-  cover: null
-- slug: automl
-  draft: false
-  title: 自动机器学习
-  date: '2022-05-06'
-  author: Coggle 阿水
-  tags:
-  - Kaggle
-  - 机器学习
-  description: 详解 AutoML原理和组成
   cover: null
 - slug: bert-pooling
   draft: false
@@ -36,7 +34,6 @@
   author: Coggle 阿水
   tags:
   - BERT
-  - 特征工程
   description: 详解 AutoML原理和组成
   cover: null
 - slug: data-centric
@@ -45,8 +42,6 @@
   date: '2021-12-06'
   author: Coggle 阿水
   tags:
-  - BERT
-  - 特征工程
   description: 详解 AutoML原理和组成
   cover: null
 - slug: metrics
@@ -55,8 +50,7 @@
   date: '2021-12-06'
   author: Coggle 阿水
   tags:
-  - BERT
-  - 特征工程
+  - 评价指标
   description: 详解 AutoML原理和组成
   cover: null
 - slug: glossary
@@ -65,8 +59,7 @@
   date: '2022-03-01'
   author: Coggle 阿水
   tags:
-  - 机器学习
-  - 基础
+  - 术语表
   description: 机器学习常用术语与概念速查表，涵盖评估指标、模型类型等核心概念。
   cover: null
 - slug: graph
@@ -76,7 +69,6 @@
   author: Coggle 阿水
   tags:
   - 图神经网络
-  - 深度学习
   description: 图的基本概念、常见任务与图神经网络的系统介绍，包含节点分类与链接预测等内容。
   cover: null
 - slug: nlp
@@ -86,7 +78,6 @@
   author: Coggle 阿水
   tags:
   - NLP
-  - 基础
   description: 自然语言处理常见任务概览，涵盖文本分类、序列标注、关系抽取等核心 NLP 任务。
   cover: null
 - slug: normalization
@@ -95,8 +86,7 @@
   date: '2022-05-01'
   author: Coggle 阿水
   tags:
-  - 特征工程
-  - 数据预处理
+  - NLP
   description: 数据归一化的原理与常见方法，涵盖 Min-Max、Z-Score 等归一化技术及其在模型训练中的作用。
   cover: null
 - slug: numba-and-pandas
@@ -105,8 +95,7 @@
   date: '2022-06-01'
   author: Coggle 阿水
   tags:
-  - Python
-  - 性能优化
+  - 归一化
   description: 使用 Numba 加速 Python 计算代码，并探讨 Pandas 与 Numba 的配合使用技巧与替代方案。
   cover: null
 - slug: pretrained-models-cdn
@@ -115,8 +104,6 @@
   date: '2022-07-01'
   author: Coggle 阿水
   tags:
-  - 资源
-  - 预训练模型
   description: 常用预训练模型、数据集和工具的 CDN 下载链接汇总，支持 wget 直接下载。
   cover: null
 - slug: sklearn-batch-trainning
@@ -125,8 +112,6 @@
   date: '2022-08-01'
   author: Coggle 阿水
   tags:
-  - sklearn
-  - 机器学习
   description: 解决数据量太大导致内存不足的问题，介绍增量训练、分块加载等批量训练方法。
   cover: null
 - slug: sklearn-parameter-search
@@ -135,9 +120,7 @@
   date: '2022-09-01'
   author: Coggle 阿水
   tags:
-  - sklearn
-  - 机器学习
-  - 调参
+  - 超参数
   description: 详解 Sklearn 中四种超参数搜索方法：GridSearch、RandomizedSearch 等，附完整代码示例。
   cover: null
 - slug: tabular-deep-learning
@@ -147,6 +130,6 @@
   author: Coggle 阿水
   tags:
   - 深度学习
-  - 表格数据
+  - 表格建模
   description: 深度学习在表格数据上的应用挑战与最新进展，对比 GBDT 等经典方法的优劣势。
   cover: null
