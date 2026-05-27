@@ -1,3 +1,100 @@
+- category: 大模型开发框架
+  items:
+  - name: LangChain
+    url: https://github.com/langchain-ai/langchain
+    description: 全球最流行的 AI 应用开发框架，支持连接大模型、提示词与外部 API 工具。
+  - name: LangGraph
+    url: https://github.com/langchain-ai/langgraph
+    description: 专注于循环和状态管理的大模型框架，是目前构建复杂多智能体（Multi-Agent）系统的首选。
+  - name: openai-agents
+    url: https://github.com/openai/openai-agents-python
+    description: OpenAI 官方推出的 Agents SDK（支持 Python/TS），提供极简轻量级接口来构建可控制、支持沙箱和多智能体协同的系统。
+  - name: LlamaIndex
+    url: https://github.com/run-llama/llama_index
+    description: 专注于 RAG（检索增强生成）的数据连接框架，擅长让大模型高效读取与检索私有知识库。
+  - name: Dify
+    url: https://github.com/langgenius/dify
+    description: 开源的低代码大模型应用开发与运维平台（LLMOps），支持可视化工作流编排。
+- category: 大模型微调
+  items:
+  - name: LLaMA-Factory
+    url: https://github.com/hiyouga/LLaMA-Factory
+    description: 一站式大模型微调训练框架，支持 WebUI 可视化操作，支持全量、LoRA 等多种微调与对齐算法。
+  - name: DeepSpeed
+    url: https://github.com/microsoft/DeepSpeed
+    description: 微软开源的分布式深度学习训练加速库，通过 ZeRO 内存优化技术，极大降低了超大模型微调的显存门槛。
+  - name: Unsloth
+    url: https://github.com/unslothai/unsloth
+    description: 专注于大模型轻量化微调（LoRA/QLoRA）的加速框架，微调速度比原生 PyTorch 快 2-5 倍，且显著减少显存占用。
+  - name: PEFT (Hugging Face)
+    url: https://github.com/huggingface/peft
+    description: Hugging Face 官方的高效参数微调库，集成了 LoRA、Prefix Tuning、P-Tuning 等主流算法，支持仅训练极少参数即可适配下游任务。
+  - name: Megatron-LM
+    url: https://github.com/NVIDIA/Megatron-LM
+    description: NVIDIA 开发的大规模分布式大模型训练框架，针对千亿参数模型的预训练和全参数微调进行了极致的算力优化。
+- category: 大模型部署工具
+  items:
+  - name: vLLM
+    url: https://github.com/vllm-project/vllm
+    description: 业界最主流的开源大模型推理与 Serving 引擎，独创 PagedAttention 显存管理技术，极大地提升了企业级高并发场景下的吞吐量。
+  - name: SGLang
+    url: https://github.com/sgl-project/sglang
+    description: 专为大模型和多模态模型设计的高性能服务框架，凭借 RadixAttention 前缀缓存和激进的优化技术，在低延迟与超高吞吐推理上表现优异。
+  - name: Ollama
+    url: https://github.com/ollama/ollama
+    description: 个人开发者本地运行大模型的最佳工具，支持像 Docker 一样一键下载和运行开源模型，并自动暴露 OpenAI 兼容的 API 接口。
+  - name: TensorRT-LLM
+    url: https://github.com/NVIDIA/TensorRT-LLM
+    description: NVIDIA 官方出品的大模型极致加速推理库，针对自家 GPU（如 H100、Blackwell 等）进行了底层硬件级的极致算力优化。
+  - name: Triton Inference Server
+    url: https://github.com/triton-inference-server/server
+    description: NVIDIA 开发的企业级多模型推理服务器，支持跨框架（PyTorch, TensorRT）部署，具备高可用、动态批处理（Dynamic Batching）等生产级特性。
+  - name: LM Studio
+    url: https://lmstudio.ai/
+    description: 一款跨平台的桌面端图形化大模型运行工具，支持一键搜索、下载并运行本地的 GGUF 格式模型，自带开箱即用的聊天 UI 界面。
+  - name: TGI (Text Generation Inference)
+    url: https://github.com/huggingface/text-generation-inference
+    description: Hugging Face 官方推出的大模型文本生成与服务框架，在生产环境中具有极高的稳定性和全面的大模型架构支持。
+  - name: Llama.cpp
+    url: https://github.com/ggerganov/llama.cpp
+    description: 大模型本地量化部署的基石工具，纯 C/C++ 实现，无任何重大依赖，能够让大模型在 Mac M系列芯片、普通消费级 CPU 和轻量设备上流畅运行。
+- category: 常见中间件
+  items:
+  - name: Redis
+    url: https://redis.io
+    description: 极高性能的内存键值数据库。在大模型场景中，常用于缓存大模型的历史对话上下文（Memory 缓存）、存储临时状态（Session）以及作为轻量级的向量数据库。
+  - name: Apache Kafka
+    url: https://kafka.apache.org
+    description: 高吞吐量的分布式流处理平台。在企业级 AI 应用中，主要作为高并发消息队列，用于异步处理大模型推理请求、日志审计以及海量非结构化数据的摄取。
+  - name: RabbitMQ
+    url: https://www.rabbitmq.com
+    description: 经典且高可靠的开源消息队列中间件。常用于大模型异步微调任务调度、AI Agent 的步骤排队以及轻量级系统间的解耦与消息分发。
+  - name: ElasticSearch
+    url: https://www.elastic.co
+    description: 强大的分布式搜索与分析引擎。在 RAG（检索增强生成）系统里，它常与向量检索结合，提供极其关键的“传统文本关键词 + 向量相似度”的混合检索（Hybrid Search）能力。
+  - name: Celery
+    url: https://docs.celeryq.dev
+    description: 基于 Python 的分布式任务队列框架。在大模型开发中（如 Dify 的底层），极其常用于处理耗时较长的异步任务，例如大批量文档切片、长文本模型训练及微调任务调度。
+  - name: PostgreSQL (with pgvector)
+    url: https://www.postgresql.org
+    description: 关系型数据库的行业标准。通过安装 pgvector 插件后，不仅能处理传统的企业结构化业务数据，还能顺便存储和检索大模型所需的向量嵌入，是全栈 AI 应用最爱的单体数据库中间件。
+- category: 向量数据库
+  items:
+  - name: Milvus
+    url: https://github.com/milvus-io/milvus
+    description: 专为海量向量数据打造的开源分布式向量数据库，具备极高的扩展性和百亿级数据的高并发检索能力，是企业级 RAG 系统的核心选择。
+  - name: Pinecone
+    url: https://www.pinecone.io
+    description: 行业领先的完全托管型全云端（SaaS）向量数据库，免去运维烦恼，提供开箱即用的实时向量检索服务，海外生态集成度极高。
+  - name: Chroma
+    url: https://github.com/chroma-core/chroma
+    description: 专为 AI 开发者设计的轻量级、开源嵌入数据库（Embedding Database），支持在本地或 Python 脚本中一键内存运行，是 LangChain 开发原型的首选。
+  - name: Qdrant
+    url: https://github.com/qdrant/qdrant
+    description: 使用 Rust 语言编写的高性能向量搜索引擎，内存和 CPU 效率极高，不仅支持快速的向量相似度检索，还内置了强大的结构化过滤功能。
+  - name: Weaviate
+    url: https://github.com/weaviate/weaviate
+    description: 开源的云原生向量数据库，支持同时存储向量嵌入和原始对象（如文本、图片），并自带强大的混合检索（BM25 + 向量）与模块化 AI 管道。
 - category: 数据科学社区
   items:
   - name: Kaggle
@@ -38,7 +135,6 @@
   - name: CS229 讲义
     url: https://cs229.stanford.edu
     description: 斯坦福机器学习课程资料
-
 - category: 工具平台
   items:
   - name: Hugging Face
