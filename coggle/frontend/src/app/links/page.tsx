@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   description: "Coggle 社区推荐的数据科学资源与友情链接",
 };
 
-export const revalidate = 3600;
+export const dynamic = "force-dynamic";
 
 const categoryColors: Record<string, { badge: string; dot: string; border: string }> = {
   "竞赛平台": { badge: "bg-blue-100 text-blue-700 dark:bg-blue-900/40 dark:text-blue-300", dot: "bg-blue-500", border: "border-blue-200 dark:border-blue-800" },

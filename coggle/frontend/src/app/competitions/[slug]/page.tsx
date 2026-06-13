@@ -14,16 +14,7 @@ interface CompetitionDetailProps {
   params: Promise<{ slug: string }>;
 }
 
-export async function generateStaticParams() {
-  try {
-    const data = await fetchApi<{ items: { slug: string }[] }>(
-      "/competitions?page_size=100",
-    );
-    return data.items.map((c) => ({ slug: c.slug }));
-  } catch {
-    return [];
-  }
-}
+export const dynamic = "force-dynamic";
 
 export async function generateMetadata({
   params,
@@ -41,8 +32,6 @@ export async function generateMetadata({
     return { title: "竞赛未找到" };
   }
 }
-
-export const revalidate = 3600;
 
 export default async function CompetitionDetailPage({
   params,

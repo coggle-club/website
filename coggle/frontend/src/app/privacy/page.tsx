@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   description: "Coggle 社区隐私政策",
 };
 
-export const revalidate = 3600;
+export const dynamic = "force-dynamic";
 
 export default async function PrivacyPage() {
   let page: PageContent;

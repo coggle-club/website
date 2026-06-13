@@ -11,3 +11,19 @@
   award: null
   team: null
   draft: false
+- slug: afac-2026
+  title: AFAC2026金融智能创新大赛
+  platform: 蚂蚁集团
+  url: https://afac.alipay.com/
+  date: '2026-06-08'
+  end_date: '2026-07-24'
+  tags:
+  - LLM
+  - Agent
+  - 多模态
+  - 金融科技
+  - 智能体
+  description: AFAC2026金融智能创新大赛在上海市科学技术委员会指导下，由国内外30多家顶尖高校、学术机构和金融科技企业联合发起，设立挑战组（算法赛）与初创组（应用赛）双组别。挑战组围绕市场参与者交易行为识别、复杂金融文档还原、稀疏反馈下的自动化实验、金融长文本 Agent 动态记忆压缩四大方向设立百万奖金池；初创组面向金融科技创业团队与种子企业，聚焦智能财富管理、智能保险、普惠金融与前沿技术。
+  award: 一等奖 50,000 CNY / 二等奖 30,000 CNY / 三等奖 10,000 CNY（单赛道）
+  team: null
+  draft: false

@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   description: "Coggle 模型库，涵盖大语言模型、计算机视觉、自然语言处理等方向的经典模型介绍",
 };
 
-export const revalidate = 3600;
+export const dynamic = "force-dynamic";
 
 export default async function ModelsPage() {
   let categories: Record<string, ModelSummary[]>;

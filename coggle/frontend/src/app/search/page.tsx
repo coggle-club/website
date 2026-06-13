@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   description: "搜索 Coggle 社区内容",
 };
 
-export const revalidate = 0; // Search should always be fresh
+export const dynamic = "force-dynamic";
 
 interface SearchPageProps {
   searchParams: Promise<{ q?: string; page?: string }>;

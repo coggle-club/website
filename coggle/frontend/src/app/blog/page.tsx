@@ -18,7 +18,7 @@ export const metadata: Metadata = {
   description: "Coggle 社区博客文章，涵盖 Kaggle 竞赛、机器学习、深度学习等内容",
 };
 
-export const revalidate = 3600;
+export const dynamic = "force-dynamic";
 
 interface BlogPageProps {
   searchParams: Promise<{ page?: string; tag?: string; author?: string }>;

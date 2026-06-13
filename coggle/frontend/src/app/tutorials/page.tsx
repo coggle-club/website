@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   description: "Coggle 社区数据科学与机器学习教程，从入门到进阶",
 };
 
-export const revalidate = 3600;
+export const dynamic = "force-dynamic";
 
 interface TutorialsPageProps {
   searchParams: Promise<{

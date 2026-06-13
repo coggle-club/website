@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   description: "了解 Coggle 数据科学社区",
 };
 
-export const revalidate = 3600;
+export const dynamic = "force-dynamic";
 
 export default async function AboutPage() {
   let page: PageContent;

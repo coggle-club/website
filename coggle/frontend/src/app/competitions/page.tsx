@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   description: "Coggle 社区参与的 Kaggle、天池等数据科学竞赛记录",
 };
 
-export const revalidate = 3600;
+export const dynamic = "force-dynamic";
 
 interface CompetitionsPageProps {
   searchParams: Promise<{

@@ -13,20 +13,7 @@ interface ModelDetailProps {
   params: Promise<{ slug: string }>;
 }
 
-export async function generateStaticParams() {
-  try {
-    const categories = await fetchApi<Record<string, { slug: string }[]>>("/models");
-    const slugs: { slug: string }[] = [];
-    for (const models of Object.values(categories)) {
-      for (const m of models) {
-        slugs.push({ slug: m.slug });
-      }
-    }
-    return slugs;
-  } catch {
-    return [];
-  }
-}
+export const dynamic = "force-dynamic";
 
 export async function generateMetadata({
   params,
@@ -42,8 +29,6 @@ export async function generateMetadata({
     return { title: "模型未找到" };
   }
 }
-
-export const revalidate = 3600;
 
 export default async function ModelDetailPage({ params }: ModelDetailProps) {
   const { slug } = await params;
