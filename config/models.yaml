@@ -130,3 +130,27 @@
   github_url: https://github.com/Stability-AI/generative-models
   official_url: https://stability.ai/
   draft: false
+- slug: deepseek-v4
+  name: DeepSeek-V4
+  description: DeepSeek 的旗舰 MoE 大语言模型系列，围绕超长上下文 + Agent + 推理效率做架构升级，支持 1M token 上下文和原生视觉理解。
+  category: 大语言模型
+  publisher: DeepSeek
+  date: '2026-09-10'
+  tags:
+  - LLM
+  - MoE
+  - 推理
+  - Agent
+  - 开源
+  - 多模态
+  paper_url: https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro/blob/main/README.md
+  github_url: https://github.com/deepseek-ai/DeepSeek-V4
+  official_url: https://www.deepseek.com/
+  draft: false
+  relations:
+    - target: deepseek-r1
+      type: successor
+      label: 后续演进
+    - target: qwen2.5
+      type: competitor
+      label: 同期竞争
