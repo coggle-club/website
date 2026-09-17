@@ -9,35 +9,9 @@ DeepSeek-V4 是 DeepSeek 于 2026 年推出的旗舰 MoE 大语言模型系列�
 - **原生多模态**：V4.1-Flash 首次支持图像输入
 - **完全开源**：采用 MIT License 开放权重
 
-## 版本演进
-
-| 版本 | 发布时间 | 总参数 | 激活参数 | 亮点 |
-| --- | --- | --- | --- | --- |
-| V4-Preview | 2026-04-24 | 284B (Flash) / 1.6T (Pro) | 13B / 49B | 初代发布，1M 上下文 |
-| V4-Flash | 2026-07-31 | 284B | 13B | 加强 Agent Coding |
-| V4-Pro | 2026-08-13 | 1.6T | 49B | 更强的 Tool Call / Agent |
-| V4.1-Flash | 2026-09-10 | 552B | 输入 8B / 输出 16B | 新 Causal Encoder–Decoder 架构、原生视觉 |
-
 ## 性能表现
 
-V4-Pro 在 Think Max 模式下部分 Benchmark 成绩：
-
-| Benchmark | GPQA Diamond | LiveCodeBench | Terminal-Bench 2.1 | SWE Verified |
-| --- | --- | --- | --- | --- |
-| V4-Pro-Max | 90.1 | 93.5 | 87.9 | 80.6 |
-
 V4.1-Flash 官方报告成绩：GPQA Diamond **90.9**、LiveCodeBench 参考 Codeforces Rating **3471**、Terminal-Bench 2.1 **90.6**、HLE with tools **63.9**。
-
-## API 使用
-
-当前推荐使用以下模型名称：
-
-| API Key | 对应模型 | 说明 |
-| --- | --- | --- |
-| `deepseek-flash` | DeepSeek-V4.1-Flash | Flash 主力，当前推荐 |
-| `deepseek-v4-pro` | DeepSeek-V4-Pro-0813 | Pro 版仍提供，计费不变 |
-
-两者均支持 1M context、最大 384K 输出、Tool Calls、JSON Output 和 Responses API。V4.1-Flash 额外支持图像输入。
 
 ## 部署提示
 
