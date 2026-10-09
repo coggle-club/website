@@ -136,3 +136,13 @@
   - 表格建模
   description: 深度学习在表格数据上的应用挑战与最新进展，对比 GBDT 等经典方法的优劣势。
   cover: null
+- slug: kb-construct
+  draft: false
+  title: 从 RAG 到知识编译：FAQ / LLMWiki / Graph / PageIndex / Skill 数10种知识库形态对比
+  date: '2026-10-09'
+  author: Coggle 阿水
+  tags:
+  - 大模型
+  - 知识库
+  description: 本文围绕十种常见且易于理解的知识组织与呈现方式展开讨论：RAG、FAQ、Wiki、Graph、Tree、PageIndex、MindMap、Timeline、Skills 和 PageCard。其核心目标是让同一批资料能够根据内容特点和使用场景，形成多种具有不同组织结构的知识产物。
+  cover: null

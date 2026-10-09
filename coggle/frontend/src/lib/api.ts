@@ -3,7 +3,14 @@
  * Uses fetch with the base URL from environment variables.
  */
 
-const API_BASE = process.env.NEXT_PUBLIC_API_BASE || "http://localhost:8000/api";
+/**
+ * Backend API base URL.
+ * NEXT_PUBLIC_* values are injected by Next.js at build time, so production
+ * deployments must provide NEXT_PUBLIC_API_BASE before running `next build`.
+ */
+export const API_BASE = (
+  process.env.NEXT_PUBLIC_API_BASE || "http://localhost:8000/api"
+).replace(/\/+$/, "");
 
 export class ApiError extends Error {
   constructor(

@@ -11,7 +11,7 @@ CONFIG_DIR = ROOT / "config"
 
 
 def _load(name: str):
-    with open(CONFIG_DIR / f"{name}.yaml") as f:
+    with open(CONFIG_DIR / f"{name}.yaml", encoding="utf-8") as f:
         return yaml.safe_load(f)
 
 

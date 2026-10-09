@@ -157,6 +157,38 @@ coggle/
 - Python >= 3.12
 - Node.js >= 20
 
+### 环境变量
+
+前端通过环境变量配置后端 API 地址。复制环境变量模板为本地配置文件：
+
+```bash
+cd coggle/frontend
+cp .env.example .env.local
+```
+
+Windows PowerShell 可使用：
+
+```powershell
+Copy-Item .env.example .env.local
+```
+
+根据部署环境修改 `coggle/frontend/.env.local`：
+
+```env
+# 后端 API 基础地址，必须包含 /api 前缀
+NEXT_PUBLIC_API_BASE=http://localhost:8000/api
+
+# 前端站点地址，用于 sitemap.xml 和 robots.txt
+NEXT_PUBLIC_SITE_URL=http://localhost:8001
+
+# CDN 基础地址
+NEXT_PUBLIC_CDN_BASE=https://cdn.coggle.com
+```
+
+`NEXT_PUBLIC_API_BASE` 必须是浏览器可以访问的地址；当前端与后端部署在不同域名时，后端还需要允许对应的 CORS 来源。
+
+注意：`NEXT_PUBLIC_*` 变量会在 `next build` 时注入前端代码。生产环境修改后端地址后，需要重新构建前端；开发环境修改 `.env.local` 后需要重启 Next.js 开发服务器。
+
 ### 后端测试
 
 ```bash
@@ -189,7 +221,10 @@ cd coggle/frontend
 # 安装依赖
 npm install
 
-# 启动开发服务器（需要后端 API 在 8000 端口运行）
+# 配置后端 API（首次使用时执行，详细说明见上文）
+cp .env.example .env.local
+
+# 启动开发服务器（默认端口 8001，需要后端 API 正常运行）
 npm run dev -- --port 8001
 
 # 生产构建

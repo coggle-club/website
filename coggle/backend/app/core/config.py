@@ -43,7 +43,7 @@ def load_yaml(filename: str) -> Any:
     if cached is not None:
         return cached
     filepath = CONFIG_DIR / f"{filename}.yaml"
-    with open(filepath) as f:
+    with open(filepath, encoding="utf-8") as f:
         data = yaml.safe_load(f)
     _cache_set(key, data)
     return data
